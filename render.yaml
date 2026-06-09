@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: macro-regime-dashboard
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    disk:
+      name: macro-regime-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: APP_TIMEZONE
+        value: Asia/Shanghai
+      - key: DATA_DIR
+        value: /var/data
+      - key: POLL_INTERVAL_MINUTES
+        value: 0
+
+  - type: cron
+    name: macro-regime-dashboard-refresh
+    env: node
+    plan: starter
+    schedule: "0 23 * * *"
+    buildCommand: npm install
+    startCommand: node scripts/render-refresh.mjs
+    envVars:
+      - key: REFRESH_URL
+        value: https://macro-regime-dashboard.onrender.com/api/refresh
+      - key: REFRESH_TIMEOUT_MS
+        value: 120000
