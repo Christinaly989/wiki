@@ -3,8 +3,8 @@ services:
     name: macro-regime-dashboard
     env: node
     plan: starter
-    buildCommand: npm install
-    startCommand: npm start
+    buildCommand: node scripts/restore-source.mjs && npm install && npm --prefix client install && npm run build
+    startCommand: node scripts/restore-source.mjs && npm start
     disk:
       name: macro-regime-data
       mountPath: /var/data
