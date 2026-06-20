@@ -1,0 +1,6282 @@
+{
+  "generatedAt": "2026-06-20T05:16:39.654Z",
+  "generatedAtLocal": "2026/06/20 13:16",
+  "timeZone": "Asia/Shanghai",
+  "headline": {
+    "title": "最近 24 小时没有新的数据卡片 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
+    "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。 当前更值得盯住的是 24 小时内的新数据与官方表态是否在强化这条主线。"
+  },
+  "strategy": {
+    "regimeCall": {
+      "title": "当前判断：Reflation",
+      "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。 信用利差仍低，风险偏好没有被信用端主动打断。",
+      "bullets": [
+        "非农月增 172K",
+        "失业率 4.3%",
+        "初请 225K",
+        "CPI 同比 4.47%",
+        "Growth score 2.4 / Inflation score 1.9 / Credit score 1.4"
+      ]
+    },
+    "allocationAdvice": {
+      "title": "资产与行业分配建议",
+      "summary": "最近 24 小时没有新的数据卡片 与 Frank Elderson: Interview with Het Financieele Dagblad 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
+      "bullets": [
+        "债券：久期保持偏短或中性，优先现金、短债、TIPS，谨慎追长端。",
+        "权益：偏向 financials、energy、industrials、materials 和具备定价权的 quality cyclicals。",
+        "行业分配：降低 long-duration growth 权重，利率敏感的公用事业和高分红替代要更谨慎。",
+        "10Y 利率仍在高位，估值扩张空间要按更严格标准看待。",
+        "信用利差仍窄，风险偏好尚未被信用端破坏。"
+      ]
+    }
+  },
+  "monitor": {
+    "us": {
+      "title": "美国 24h",
+      "dataUpdates": [
+        {
+          "id": "美国 24h-data",
+          "source": "Monitor",
+          "title": "最近 24 小时没有新的数据卡片",
+          "summary": "下一次刷新后会自动补入。",
+          "publishedAt": "2026-06-20T05:16:39.633Z",
+          "publishedAtLocal": "",
+          "importance": "low",
+          "url": null
+        }
+      ],
+      "news": [
+        {
+          "id": "Federal Reserve-0-2026-06-09T20:00:00.000Z",
+          "source": "Federal Reserve",
+          "region": "us",
+          "title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
+          "summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
+          "publishedAt": "2026-06-09T20:00:00.000Z",
+          "publishedAtLocal": "2026/06/10 04:00",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
+          "category": "news",
+          "importance": "medium"
+        },
+        {
+          "id": "U.S. Treasury-11-2026-06-09T15:30:00.000Z",
+          "source": "U.S. Treasury",
+          "region": "us",
+          "title": "Treasury Releases Social Security and Medicare Trustees Reports",
+          "summary": "June 9, 2026 Treasury Releases Social Security and Medicare Trustees Reports",
+          "publishedAt": "2026-06-09T15:30:00.000Z",
+          "publishedAtLocal": "2026/06/09 23:30",
+          "url": "https://home.treasury.gov/news/press-releases/sb0526",
+          "category": "news",
+          "importance": "medium"
+        }
+      ]
+    },
+    "global": {
+      "title": "全球 24h",
+      "dataUpdates": [
+        {
+          "id": "全球 24h-data",
+          "source": "Monitor",
+          "title": "最近 24 小时没有新的数据卡片",
+          "summary": "下一次刷新后会自动补入。",
+          "publishedAt": "2026-06-20T05:16:39.633Z",
+          "publishedAtLocal": "",
+          "importance": "low",
+          "url": null
+        }
+      ],
+      "news": [
+        {
+          "id": "ECB-0-2026-06-10T14:00:00.000Z",
+          "source": "ECB",
+          "region": "global",
+          "title": "Frank Elderson: Interview with Het Financieele Dagblad",
+          "summary": "",
+          "publishedAt": "2026-06-10T14:00:00.000Z",
+          "publishedAtLocal": "2026/06/10 22:00",
+          "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260610~439aa97519.en.html",
+          "category": "news",
+          "importance": "medium"
+        },
+        {
+          "id": "BOJ-0-2026-06-10T07:30:00.000Z",
+          "source": "BOJ",
+          "region": "global",
+          "title": "フェイルの発生状況（5月）",
+          "summary": "",
+          "publishedAt": "2026-06-10T07:30:00.000Z",
+          "publishedAtLocal": "2026/06/10 15:30",
+          "url": "http://www.boj.or.jp/statistics/set/bffail/sjgb2605.pdf",
+          "category": "news",
+          "importance": "medium"
+        },
+        {
+          "id": "BOK-0-2026-06-10T03:00:00.000Z",
+          "source": "BOK",
+          "region": "global",
+          "title": "2025년 기업경영분석 결과(속보)",
+          "summary": "□ 2025년 법인기업은 전년 대비 성장성이 둔화되었으나 수익성 및 안정성이 개선 &nbsp; &nbsp;ㅇ (성장성)매출액증가율(4.2%&rarr;2.5%)이 하락하였으나총자산증가율(6.5%&rarr;6.7%)은 소폭 상승 &nbsp; &nbsp;ㅇ (수익성)매출액영업이익률(5.4%&rarr;6.2%)과매출액세전순이익률(5.2%&rarr;6.3%) 모두 상승 &nbsp; &nbsp;ㅇ (안정성)부채비율(103.4%&rarr;98.3%)과 차입금의존도(28.4%&rarr;27.3%) 모두 하락 &nbsp; &nbsp;ㅇ (현금흐름)영업활동 현금 유입 증가 등으로 현금흐름보상비율(51.4%&rarr;52.8%)이 상승 &nbsp; &nbsp; ㅇ &nbsp; (자세한 내용은 &lt;붙임&gt; 참조)",
+          "publishedAt": "2026-06-10T03:00:00.000Z",
+          "publishedAtLocal": "2026/06/10 11:00",
+          "url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098408&menuNo=200690",
+          "category": "news",
+          "importance": "medium"
+        },
+        {
+          "id": "BOJ-1-2026-06-10T01:00:00.000Z",
+          "source": "BOJ",
+          "region": "global",
+          "title": "中央銀行デジタル通貨に関する実証実験「パイロット実験」の進捗報告書（2026年6月）CBDCフォーラムにおけるこれまでの議論の総括【別冊】",
+          "summary": "",
+          "publishedAt": "2026-06-10T01:00:00.000Z",
+          "publishedAtLocal": "2026/06/10 09:00",
+          "url": "http://www.boj.or.jp/paym/digital/dig260610a.pdf",
+          "category": "news",
+          "importance": "medium"
+        }
+      ]
+    }
+  },
+  "aiOverlay": {
+    "enabled": true,
+    "configured": true,
+    "status": "error",
+    "model": "deepseek-v4-pro",
+    "reasoningEffort": "max",
+    "generatedAt": "2026-06-10T02:12:48.261Z",
+    "generatedAtLocal": "2026/06/10 10:12",
+    "fingerprint": "493b5fd09778c446659b001ff5d1ee5f7c659d5f",
+    "sections": {
+      "regimeJudgment": {
+        "headline": "再通胀主线延续，关注金融系统稳健性测试",
+        "summary": "尽管非农就业增长放缓至172K，但失业率持稳、初请维持低位，消费与劳动力市场韧性仍支撑名义增长。核心通胀指标显示黏性，实际利率维持高位，令长端资产估值承压。美联储年度压力测试结果即将发布，若显示银行系统稳健，可能进一步提振金融板块信心。日本央行发布CBDC实验报告，短期内对市场冲击有限，但长期需关注数字货币对金融体系的潜在影响。",
+        "bullets": [
+          "劳动力市场再平衡缓慢，工资增长仍在3.45%，服务通胀压力未消。",
+          "实际利率2.2%处于限制性水平，长债利率上行风险大于下行。",
+          "信用利差0.75%仍极度宽松，但若再通胀超预期，可能触发信用重定价。",
+          "美元指数企稳于120上方，对新兴市场和大宗商品构成压力。",
+          "美联储压力测试结果或成为金融股短期催化剂。"
+        ]
+      },
+      "assetAllocation": {
+        "headline": "缩短久期，超配价值与通胀敏感资产",
+        "summary": "在再通胀环境下，久期管理是核心防御手段。建议维持短久期债券配置，增配TIPS以对冲通胀风险。权益方面，偏向价值股和周期性行业，对长久期成长股保持谨慎。美元强势可能压制大宗商品货币，但能源和材料股受益于名义需求。信用资产虽仍受益于宽松条件，但鉴于利差已窄，风险回报不对称。",
+        "bullets": [
+          "债券：低配长久期国债，超配1-3年期国债和TIPS，现金等价物提供灵活性。",
+          "权益：整体中性偏高贝塔，但结构上超配金融、能源、工业、材料，低配科技与通信。",
+          "美元：做多美元指数，对欧元、日元保持强势，但需关注干预风险。",
+          "信用：投资级信用利差过窄，不建议追涨；高收益债相对吸引力减弱，等待更好入场点。",
+          "大宗商品：能源和工业金属受益于再通胀，但美元走强可能限制短期涨幅，建议选择性配置。"
+        ]
+      },
+      "sectorAllocation": {
+        "headline": "板块轮动至价值与周期，回避高估值成长",
+        "summary": "在利率上升和通胀黏性环境中，价值板块通常表现优于成长。金融板块受益于收益率曲线陡峭化和贷款利润率改善；能源和材料企业受益于名义需求坚挺和定价能力；工业板块在制造业企稳中获支撑。相反，高估值科技股和通信服务对利率敏感，公用事业和房地产等高分红板块因债券替代吸引力下降而承压。",
+        "bullets": [
+          "超配：金融（尤其是大型银行与区域银行）、能源、材料、工业。",
+          "标配：医疗保健、必需消费（防御属性但估值不高）。",
+          "低配：信息技术、通信服务（高久期、高估值），公用事业、房地产（利率敏感）。",
+          "风格上：价值相对成长的优势将持续，大盘价值为核心持仓。",
+          "关注金融股在压力测试结果公布前后的交易机会。"
+        ]
+      },
+      "keyRisks": [
+        "通胀意外加速迫使美联储重启加息，冲击风险资产。",
+        "增长超预期放缓，劳动力市场急剧恶化，引发衰退交易。",
+        "信用事件爆发，尽管当前利差窄，但高杠杆行业可能暴雷。",
+        "地缘政治冲突或贸易紧张升级，特别是对能源供应链的影响。"
+      ]
+    },
+    "error": "terminated"
+  },
+  "regimeState": {
+    "asOf": "2026-06-20T05:16:39.628Z",
+    "regime": "Reflation",
+    "confidence": 0.92,
+    "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
+    "drivers": [
+      "非农月增 172K",
+      "失业率 4.3%",
+      "初请 225K",
+      "CPI 同比 4.47%",
+      "Core PCE 同比 3.29%",
+      "信用利差 0.75% | 信用非常宽松"
+    ],
+    "implications": [
+      "名义增长偏强，但长端利率和美元可能抬升。",
+      "Value、energy、financials 通常相对更占优。",
+      "高估值长久期资产更容易承压。"
+    ],
+    "scores": {
+      "growth": 2.4,
+      "inflation": 1.9,
+      "credit": 1.4
+    }
+  },
+  "sourceStatus": {
+    "fred": "cached",
+    "treasury": "cached",
+    "releases": "cached",
+    "news": "cached",
+    "ai": "error"
+  },
+  "configStatus": {
+    "fredConfigured": true,
+    "notionConfigured": true,
+    "deepseekConfigured": true
+  },
+  "publishing": {
+    "mode": "notion",
+    "notionConfigured": true,
+    "lastPublishedAt": null,
+    "latestPageId": null,
+    "latestPageUrl": null,
+    "latestBriefPath": "C:\\Users\\chris\\Documents\\Macro看板\\server\\logs\\notion\\2026-06-13-macro-daily.md",
+    "statusText": "Notion configured and waiting for today's first sync"
+  },
+  "warnings": [
+    "Live refresh failed. Showing repository cache instead: fetch failed",
+    "Live refresh failed. Showing repository cache instead: fetch failed",
+    "Live refresh failed. Showing cached data instead: fetch failed",
+    "Retail Sales is stale. Latest observation is 2026-04 (monthly).",
+    "JOLTS Openings is stale. Latest observation is 2026-04 (monthly).",
+    "Manufacturing Output Proxy is stale. Latest observation is 2026-04 (monthly).",
+    "Industrial Production is stale. Latest observation is 2026-04 (monthly).",
+    "Housing Starts is stale. Latest observation is 2026-04 (monthly).",
+    "Headline PCE is stale. Latest observation is 2026-04 (monthly).",
+    "Effective Fed Funds is stale. Latest observation is 2026-06-08 (daily).",
+    "Core PCE is stale. Latest observation is 2026-04 (monthly).",
+    "30Y Treasury is stale. Latest observation is 2026-06-09 (daily).",
+    "2Y Treasury is stale. Latest observation is 2026-06-09 (daily).",
+    "10Y Treasury is stale. Latest observation is 2026-06-09 (daily).",
+    "S&P 500 is stale. Latest observation is 2026-06-09 (daily).",
+    "10Y Real Yield is stale. Latest observation is 2026-06-09 (daily).",
+    "Broad Dollar Index is stale. Latest observation is 2026-06-05 (daily).",
+    "2s10s Curve is stale. Latest observation is 2026-06-09 (daily).",
+    "US Corporate OAS is stale. Latest observation is 2026-06-09 (daily).",
+    "10Y Breakeven is stale. Latest observation is 2026-06-09 (daily).",
+    "DeepSeek overlay: terminated"
+  ],
+  "topSignals": [
+    {
+      "key": "unemploymentRate",
+      "label": "Unemployment Rate",
+      "valueText": "4.3%",
+      "marketSignal": "Labor market is rebalancing",
+      "date": "2026-05"
+    },
+    {
+      "key": "retailSales",
+      "label": "Retail Sales",
+      "valueText": "4.87%",
+      "marketSignal": "Consumer demand remains resilient",
+      "date": "2026-04"
+    },
+    {
+      "key": "nonfarmPayrolls",
+      "label": "Nonfarm Payrolls",
+      "valueText": "172K",
+      "marketSignal": "Hiring is cooling",
+      "date": "2026-05"
+    },
+    {
+      "key": "ismManufacturing",
+      "label": "Manufacturing Output Proxy",
+      "valueText": "1.38%",
+      "marketSignal": "Factory activity is stabilizing",
+      "date": "2026-04"
+    },
+    {
+      "key": "initialClaims",
+      "label": "Initial Jobless Claims",
+      "valueText": "225 K",
+      "marketSignal": "Layoff pressure remains low",
+      "date": "2026-05-30"
+    },
+    {
+      "key": "wageGrowth",
+      "label": "Average Hourly Earnings",
+      "valueText": "3.45%",
+      "marketSignal": "Inflation remains sticky",
+      "date": "2026-05"
+    }
+  ],
+  "sections": [
+    {
+      "key": "growthLabor",
+      "title": "增长与劳动力",
+      "lead": "先看最新观测值与对应观测期，再判断增长是在降温、企稳，还是重新走强。",
+      "perspective": "House View 只负责解释边际变化对盈利、风格和风险偏好的含义，不和原始数据混在一起。",
+      "metrics": [
+        {
+          "key": "unemploymentRate",
+          "label": "Unemployment Rate",
+          "category": "就业",
+          "group": "growthLabor",
+          "sourceLabel": "BLS via FRED",
+          "definition": "Level",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Labor market is rebalancing",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 4.3,
+            "rawValue": 4.3
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 4.3
+          },
+          "change": 0,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 3.6,
+              "rawValue": 3.6
+            },
+            {
+              "date": "2023-06-01",
+              "value": 3.6,
+              "rawValue": 3.6
+            },
+            {
+              "date": "2023-07-01",
+              "value": 3.5,
+              "rawValue": 3.5
+            },
+            {
+              "date": "2023-08-01",
+              "value": 3.7,
+              "rawValue": 3.7
+            },
+            {
+              "date": "2023-09-01",
+              "value": 3.7,
+              "rawValue": 3.7
+            },
+            {
+              "date": "2023-10-01",
+              "value": 3.9,
+              "rawValue": 3.9
+            },
+            {
+              "date": "2023-11-01",
+              "value": 3.7,
+              "rawValue": 3.7
+            },
+            {
+              "date": "2023-12-01",
+              "value": 3.8,
+              "rawValue": 3.8
+            },
+            {
+              "date": "2024-01-01",
+              "value": 3.7,
+              "rawValue": 3.7
+            },
+            {
+              "date": "2024-02-01",
+              "value": 3.9,
+              "rawValue": 3.9
+            },
+            {
+              "date": "2024-03-01",
+              "value": 3.9,
+              "rawValue": 3.9
+            },
+            {
+              "date": "2024-04-01",
+              "value": 3.9,
+              "rawValue": 3.9
+            },
+            {
+              "date": "2024-05-01",
+              "value": 3.9,
+              "rawValue": 3.9
+            },
+            {
+              "date": "2024-06-01",
+              "value": 4.1,
+              "rawValue": 4.1
+            },
+            {
+              "date": "2024-07-01",
+              "value": 4.2,
+              "rawValue": 4.2
+            },
+            {
+              "date": "2024-08-01",
+              "value": 4.2,
+              "rawValue": 4.2
+            },
+            {
+              "date": "2024-09-01",
+              "value": 4.1,
+              "rawValue": 4.1
+            },
+            {
+              "date": "2024-10-01",
+              "value": 4.1,
+              "rawValue": 4.1
+            },
+            {
+              "date": "2024-11-01",
+              "value": 4.2,
+              "rawValue": 4.2
+            },
+            {
+              "date": "2024-12-01",
+              "value": 4.1,
+              "rawValue": 4.1
+            },
+            {
+              "date": "2025-01-01",
+              "value": 4,
+              "rawValue": 4
+            },
+            {
+              "date": "2025-02-01",
+              "value": 4.2,
+              "rawValue": 4.2
+            },
+            {
+              "date": "2025-03-01",
+              "value": 4.2,
+              "rawValue": 4.2
+            },
+            {
+              "date": "2025-04-01",
+              "value": 4.2,
+              "rawValue": 4.2
+            },
+            {
+              "date": "2025-05-01",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2025-06-01",
+              "value": 4.1,
+              "rawValue": 4.1
+            },
+            {
+              "date": "2025-07-01",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2025-08-01",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2025-09-01",
+              "value": 4.4,
+              "rawValue": 4.4
+            },
+            {
+              "date": "2025-11-01",
+              "value": 4.5,
+              "rawValue": 4.5
+            },
+            {
+              "date": "2025-12-01",
+              "value": 4.4,
+              "rawValue": 4.4
+            },
+            {
+              "date": "2026-01-01",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2026-02-01",
+              "value": 4.4,
+              "rawValue": 4.4
+            },
+            {
+              "date": "2026-03-01",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2026-04-01",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2026-05-01",
+              "value": 4.3,
+              "rawValue": 4.3
+            }
+          ],
+          "valueText": "4.3%",
+          "changeText": "0%",
+          "changeDirection": "flat",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is unchanged; labor slack is building"
+        },
+        {
+          "key": "retailSales",
+          "label": "Retail Sales",
+          "category": "消费",
+          "group": "growthLabor",
+          "sourceLabel": "Census via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Consumer demand remains resilient",
+          "latest": {
+            "date": "2026-04-01",
+            "value": 4.87,
+            "rawValue": 757085
+          },
+          "previous": {
+            "date": "2026-03-01",
+            "value": 4.15
+          },
+          "change": 0.72,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 2.13,
+              "rawValue": 673902
+            },
+            {
+              "date": "2023-06-01",
+              "value": 1.65,
+              "rawValue": 677117
+            },
+            {
+              "date": "2023-07-01",
+              "value": 2.86,
+              "rawValue": 678424
+            },
+            {
+              "date": "2023-08-01",
+              "value": 3.19,
+              "rawValue": 684755
+            },
+            {
+              "date": "2023-09-01",
+              "value": 4.16,
+              "rawValue": 689403
+            },
+            {
+              "date": "2023-10-01",
+              "value": 2.61,
+              "rawValue": 686148
+            },
+            {
+              "date": "2023-11-01",
+              "value": 3.92,
+              "rawValue": 685328
+            },
+            {
+              "date": "2023-12-01",
+              "value": 5.3,
+              "rawValue": 686277
+            },
+            {
+              "date": "2024-01-01",
+              "value": 0.03,
+              "rawValue": 680456
+            },
+            {
+              "date": "2024-02-01",
+              "value": 1.95,
+              "rawValue": 685280
+            },
+            {
+              "date": "2024-03-01",
+              "value": 3.39,
+              "rawValue": 687641
+            },
+            {
+              "date": "2024-04-01",
+              "value": 2.55,
+              "rawValue": 687602
+            },
+            {
+              "date": "2024-05-01",
+              "value": 2.8,
+              "rawValue": 692774
+            },
+            {
+              "date": "2024-06-01",
+              "value": 2.26,
+              "rawValue": 692449
+            },
+            {
+              "date": "2024-07-01",
+              "value": 3.01,
+              "rawValue": 698835
+            },
+            {
+              "date": "2024-08-01",
+              "value": 1.79,
+              "rawValue": 697039
+            },
+            {
+              "date": "2024-09-01",
+              "value": 1.98,
+              "rawValue": 703055
+            },
+            {
+              "date": "2024-10-01",
+              "value": 3.23,
+              "rawValue": 708290
+            },
+            {
+              "date": "2024-11-01",
+              "value": 3.87,
+              "rawValue": 711853
+            },
+            {
+              "date": "2024-12-01",
+              "value": 4.52,
+              "rawValue": 717265
+            },
+            {
+              "date": "2025-01-01",
+              "value": 4.53,
+              "rawValue": 711260
+            },
+            {
+              "date": "2025-02-01",
+              "value": 3.84,
+              "rawValue": 711575
+            },
+            {
+              "date": "2025-03-01",
+              "value": 5.19,
+              "rawValue": 723339
+            },
+            {
+              "date": "2025-04-01",
+              "value": 4.99,
+              "rawValue": 721903
+            },
+            {
+              "date": "2025-05-01",
+              "value": 3.37,
+              "rawValue": 716101
+            },
+            {
+              "date": "2025-06-01",
+              "value": 4.42,
+              "rawValue": 723033
+            },
+            {
+              "date": "2025-07-01",
+              "value": 4.13,
+              "rawValue": 727727
+            },
+            {
+              "date": "2025-08-01",
+              "value": 4.97,
+              "rawValue": 731700
+            },
+            {
+              "date": "2025-09-01",
+              "value": 4.14,
+              "rawValue": 732192
+            },
+            {
+              "date": "2025-10-01",
+              "value": 3.21,
+              "rawValue": 731051
+            },
+            {
+              "date": "2025-11-01",
+              "value": 3.21,
+              "rawValue": 734718
+            },
+            {
+              "date": "2025-12-01",
+              "value": 2.43,
+              "rawValue": 734717
+            },
+            {
+              "date": "2026-01-01",
+              "value": 3.27,
+              "rawValue": 734503
+            },
+            {
+              "date": "2026-02-01",
+              "value": 4.17,
+              "rawValue": 741278
+            },
+            {
+              "date": "2026-03-01",
+              "value": 4.15,
+              "rawValue": 753370
+            },
+            {
+              "date": "2026-04-01",
+              "value": 4.87,
+              "rawValue": 757085
+            }
+          ],
+          "valueText": "4.87%",
+          "changeText": "+0.72%",
+          "changeDirection": "up",
+          "asOfText": "2026-04",
+          "isStale": true,
+          "statusLabel": "Healthy",
+          "statusTone": "positive",
+          "brief": "Momentum is improving; consumer spending still supports growth"
+        },
+        {
+          "key": "nonfarmPayrolls",
+          "label": "Nonfarm Payrolls",
+          "category": "就业",
+          "group": "growthLabor",
+          "sourceLabel": "BLS via FRED",
+          "definition": "Monthly change",
+          "unit": "K jobs",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Hiring is cooling",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 172,
+            "rawValue": 159001
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 179
+          },
+          "change": -7,
+          "history": [
+            {
+              "date": "2023-06-01",
+              "value": 225,
+              "rawValue": 155880
+            },
+            {
+              "date": "2023-07-01",
+              "value": 163,
+              "rawValue": 156043
+            },
+            {
+              "date": "2023-08-01",
+              "value": 218,
+              "rawValue": 156261
+            },
+            {
+              "date": "2023-09-01",
+              "value": 156,
+              "rawValue": 156417
+            },
+            {
+              "date": "2023-10-01",
+              "value": 159,
+              "rawValue": 156576
+            },
+            {
+              "date": "2023-11-01",
+              "value": 127,
+              "rawValue": 156703
+            },
+            {
+              "date": "2023-12-01",
+              "value": 154,
+              "rawValue": 156857
+            },
+            {
+              "date": "2024-01-01",
+              "value": 175,
+              "rawValue": 157032
+            },
+            {
+              "date": "2024-02-01",
+              "value": 206,
+              "rawValue": 157238
+            },
+            {
+              "date": "2024-03-01",
+              "value": 228,
+              "rawValue": 157466
+            },
+            {
+              "date": "2024-04-01",
+              "value": 64,
+              "rawValue": 157530
+            },
+            {
+              "date": "2024-05-01",
+              "value": 78,
+              "rawValue": 157608
+            },
+            {
+              "date": "2024-06-01",
+              "value": 87,
+              "rawValue": 157695
+            },
+            {
+              "date": "2024-07-01",
+              "value": 53,
+              "rawValue": 157748
+            },
+            {
+              "date": "2024-08-01",
+              "value": 9,
+              "rawValue": 157757
+            },
+            {
+              "date": "2024-09-01",
+              "value": 155,
+              "rawValue": 157912
+            },
+            {
+              "date": "2024-10-01",
+              "value": 33,
+              "rawValue": 157945
+            },
+            {
+              "date": "2024-11-01",
+              "value": 134,
+              "rawValue": 158079
+            },
+            {
+              "date": "2024-12-01",
+              "value": 237,
+              "rawValue": 158316
+            },
+            {
+              "date": "2025-01-01",
+              "value": -48,
+              "rawValue": 158268
+            },
+            {
+              "date": "2025-02-01",
+              "value": 42,
+              "rawValue": 158310
+            },
+            {
+              "date": "2025-03-01",
+              "value": 67,
+              "rawValue": 158377
+            },
+            {
+              "date": "2025-04-01",
+              "value": 108,
+              "rawValue": 158485
+            },
+            {
+              "date": "2025-05-01",
+              "value": 13,
+              "rawValue": 158498
+            },
+            {
+              "date": "2025-06-01",
+              "value": -20,
+              "rawValue": 158478
+            },
+            {
+              "date": "2025-07-01",
+              "value": 64,
+              "rawValue": 158542
+            },
+            {
+              "date": "2025-08-01",
+              "value": -70,
+              "rawValue": 158472
+            },
+            {
+              "date": "2025-09-01",
+              "value": 76,
+              "rawValue": 158548
+            },
+            {
+              "date": "2025-10-01",
+              "value": -140,
+              "rawValue": 158408
+            },
+            {
+              "date": "2025-11-01",
+              "value": 41,
+              "rawValue": 158449
+            },
+            {
+              "date": "2025-12-01",
+              "value": -17,
+              "rawValue": 158432
+            },
+            {
+              "date": "2026-01-01",
+              "value": 160,
+              "rawValue": 158592
+            },
+            {
+              "date": "2026-02-01",
+              "value": -156,
+              "rawValue": 158436
+            },
+            {
+              "date": "2026-03-01",
+              "value": 214,
+              "rawValue": 158650
+            },
+            {
+              "date": "2026-04-01",
+              "value": 179,
+              "rawValue": 158829
+            },
+            {
+              "date": "2026-05-01",
+              "value": 172,
+              "rawValue": 159001
+            }
+          ],
+          "valueText": "172K",
+          "changeText": "-7 K jobs",
+          "changeDirection": "down",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is softening; hiring is no longer strong enough to ignore"
+        },
+        {
+          "key": "joltsOpenings",
+          "label": "JOLTS Openings",
+          "category": "就业",
+          "group": "growthLabor",
+          "sourceLabel": "BLS via FRED",
+          "definition": "Level",
+          "unit": "K",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-04-01",
+            "value": 7618,
+            "rawValue": 7618
+          },
+          "previous": {
+            "date": "2026-03-01",
+            "value": 6887
+          },
+          "change": 731,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 9368,
+              "rawValue": 9368
+            },
+            {
+              "date": "2023-06-01",
+              "value": 9180,
+              "rawValue": 9180
+            },
+            {
+              "date": "2023-07-01",
+              "value": 8657,
+              "rawValue": 8657
+            },
+            {
+              "date": "2023-08-01",
+              "value": 9254,
+              "rawValue": 9254
+            },
+            {
+              "date": "2023-09-01",
+              "value": 9259,
+              "rawValue": 9259
+            },
+            {
+              "date": "2023-10-01",
+              "value": 8580,
+              "rawValue": 8580
+            },
+            {
+              "date": "2023-11-01",
+              "value": 8602,
+              "rawValue": 8602
+            },
+            {
+              "date": "2023-12-01",
+              "value": 8520,
+              "rawValue": 8520
+            },
+            {
+              "date": "2024-01-01",
+              "value": 8378,
+              "rawValue": 8378
+            },
+            {
+              "date": "2024-02-01",
+              "value": 8440,
+              "rawValue": 8440
+            },
+            {
+              "date": "2024-03-01",
+              "value": 8206,
+              "rawValue": 8206
+            },
+            {
+              "date": "2024-04-01",
+              "value": 7529,
+              "rawValue": 7529
+            },
+            {
+              "date": "2024-05-01",
+              "value": 7782,
+              "rawValue": 7782
+            },
+            {
+              "date": "2024-06-01",
+              "value": 7416,
+              "rawValue": 7416
+            },
+            {
+              "date": "2024-07-01",
+              "value": 7426,
+              "rawValue": 7426
+            },
+            {
+              "date": "2024-08-01",
+              "value": 7520,
+              "rawValue": 7520
+            },
+            {
+              "date": "2024-09-01",
+              "value": 6943,
+              "rawValue": 6943
+            },
+            {
+              "date": "2024-10-01",
+              "value": 7379,
+              "rawValue": 7379
+            },
+            {
+              "date": "2024-11-01",
+              "value": 7566,
+              "rawValue": 7566
+            },
+            {
+              "date": "2024-12-01",
+              "value": 7295,
+              "rawValue": 7295
+            },
+            {
+              "date": "2025-01-01",
+              "value": 7431,
+              "rawValue": 7431
+            },
+            {
+              "date": "2025-02-01",
+              "value": 7242,
+              "rawValue": 7242
+            },
+            {
+              "date": "2025-03-01",
+              "value": 6952,
+              "rawValue": 6952
+            },
+            {
+              "date": "2025-04-01",
+              "value": 7098,
+              "rawValue": 7098
+            },
+            {
+              "date": "2025-05-01",
+              "value": 7310,
+              "rawValue": 7310
+            },
+            {
+              "date": "2025-06-01",
+              "value": 7204,
+              "rawValue": 7204
+            },
+            {
+              "date": "2025-07-01",
+              "value": 7089,
+              "rawValue": 7089
+            },
+            {
+              "date": "2025-08-01",
+              "value": 6919,
+              "rawValue": 6919
+            },
+            {
+              "date": "2025-09-01",
+              "value": 7169,
+              "rawValue": 7169
+            },
+            {
+              "date": "2025-10-01",
+              "value": 7170,
+              "rawValue": 7170
+            },
+            {
+              "date": "2025-11-01",
+              "value": 6846,
+              "rawValue": 6846
+            },
+            {
+              "date": "2025-12-01",
+              "value": 6550,
+              "rawValue": 6550
+            },
+            {
+              "date": "2026-01-01",
+              "value": 7240,
+              "rawValue": 7240
+            },
+            {
+              "date": "2026-02-01",
+              "value": 6922,
+              "rawValue": 6922
+            },
+            {
+              "date": "2026-03-01",
+              "value": 6887,
+              "rawValue": 6887
+            },
+            {
+              "date": "2026-04-01",
+              "value": 7618,
+              "rawValue": 7618
+            }
+          ],
+          "valueText": "7,618 K",
+          "changeText": "+731 K",
+          "changeDirection": "up",
+          "asOfText": "2026-04",
+          "isStale": true,
+          "statusLabel": "Watch",
+          "statusTone": "neutral",
+          "brief": "Momentum is improving; Monitoring"
+        },
+        {
+          "key": "ismManufacturing",
+          "label": "Manufacturing Output Proxy",
+          "category": "景气",
+          "group": "growthLabor",
+          "sourceLabel": "Federal Reserve via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Factory activity is stabilizing",
+          "latest": {
+            "date": "2026-04-01",
+            "value": 1.38,
+            "rawValue": 98.6729
+          },
+          "previous": {
+            "date": "2026-03-01",
+            "value": 0.7
+          },
+          "change": 0.68,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": -0.9,
+              "rawValue": 97.5956
+            },
+            {
+              "date": "2023-06-01",
+              "value": -1.04,
+              "rawValue": 96.9217
+            },
+            {
+              "date": "2023-07-01",
+              "value": -0.73,
+              "rawValue": 97.3075
+            },
+            {
+              "date": "2023-08-01",
+              "value": -0.75,
+              "rawValue": 97.2654
+            },
+            {
+              "date": "2023-09-01",
+              "value": -0.7,
+              "rawValue": 97.3037
+            },
+            {
+              "date": "2023-10-01",
+              "value": -1.48,
+              "rawValue": 96.786
+            },
+            {
+              "date": "2023-11-01",
+              "value": -0.21,
+              "rawValue": 97.2483
+            },
+            {
+              "date": "2023-12-01",
+              "value": 1.56,
+              "rawValue": 97.2445
+            },
+            {
+              "date": "2024-01-01",
+              "value": -1.73,
+              "rawValue": 95.7457
+            },
+            {
+              "date": "2024-02-01",
+              "value": -0.54,
+              "rawValue": 96.9553
+            },
+            {
+              "date": "2024-03-01",
+              "value": 0.24,
+              "rawValue": 97.0896
+            },
+            {
+              "date": "2024-04-01",
+              "value": -1.24,
+              "rawValue": 96.564
+            },
+            {
+              "date": "2024-05-01",
+              "value": -0.5,
+              "rawValue": 97.1046
+            },
+            {
+              "date": "2024-06-01",
+              "value": 0,
+              "rawValue": 96.9264
+            },
+            {
+              "date": "2024-07-01",
+              "value": -1.17,
+              "rawValue": 96.1663
+            },
+            {
+              "date": "2024-08-01",
+              "value": -0.66,
+              "rawValue": 96.6244
+            },
+            {
+              "date": "2024-09-01",
+              "value": -1.25,
+              "rawValue": 96.0864
+            },
+            {
+              "date": "2024-10-01",
+              "value": -1.39,
+              "rawValue": 95.4449
+            },
+            {
+              "date": "2024-11-01",
+              "value": -1.57,
+              "rawValue": 95.7246
+            },
+            {
+              "date": "2024-12-01",
+              "value": -1.12,
+              "rawValue": 96.1524
+            },
+            {
+              "date": "2025-01-01",
+              "value": 0.02,
+              "rawValue": 95.7673
+            },
+            {
+              "date": "2025-02-01",
+              "value": 0,
+              "rawValue": 96.9554
+            },
+            {
+              "date": "2025-03-01",
+              "value": 0.31,
+              "rawValue": 97.3898
+            },
+            {
+              "date": "2025-04-01",
+              "value": 0.79,
+              "rawValue": 97.3314
+            },
+            {
+              "date": "2025-05-01",
+              "value": 0.15,
+              "rawValue": 97.2482
+            },
+            {
+              "date": "2025-06-01",
+              "value": 0.67,
+              "rawValue": 97.5794
+            },
+            {
+              "date": "2025-07-01",
+              "value": 1.98,
+              "rawValue": 98.0693
+            },
+            {
+              "date": "2025-08-01",
+              "value": 1.51,
+              "rawValue": 98.084
+            },
+            {
+              "date": "2025-09-01",
+              "value": 2.04,
+              "rawValue": 98.0473
+            },
+            {
+              "date": "2025-10-01",
+              "value": 1.85,
+              "rawValue": 97.2128
+            },
+            {
+              "date": "2025-11-01",
+              "value": 1.47,
+              "rawValue": 97.1299
+            },
+            {
+              "date": "2025-12-01",
+              "value": 0.94,
+              "rawValue": 97.0606
+            },
+            {
+              "date": "2026-01-01",
+              "value": 1.97,
+              "rawValue": 97.6553
+            },
+            {
+              "date": "2026-02-01",
+              "value": 1.1,
+              "rawValue": 98.0219
+            },
+            {
+              "date": "2026-03-01",
+              "value": 0.7,
+              "rawValue": 98.0696
+            },
+            {
+              "date": "2026-04-01",
+              "value": 1.38,
+              "rawValue": 98.6729
+            }
+          ],
+          "valueText": "1.38%",
+          "changeText": "+0.68%",
+          "changeDirection": "up",
+          "asOfText": "2026-04",
+          "isStale": true,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is improving; Factory activity is stabilizing"
+        },
+        {
+          "key": "initialClaims",
+          "label": "Initial Jobless Claims",
+          "category": "就业",
+          "group": "growthLabor",
+          "sourceLabel": "DOL via FRED",
+          "definition": "Level",
+          "unit": "K",
+          "frequency": "weekly",
+          "frequencyLabel": "Weekly",
+          "importance": "high",
+          "marketSignal": "Layoff pressure remains low",
+          "latest": {
+            "date": "2026-05-30",
+            "value": 225,
+            "rawValue": 225000
+          },
+          "previous": {
+            "date": "2026-05-23",
+            "value": 212
+          },
+          "change": 13,
+          "history": [
+            {
+              "date": "2025-09-27",
+              "value": 225,
+              "rawValue": 225000
+            },
+            {
+              "date": "2025-10-04",
+              "value": 233,
+              "rawValue": 233000
+            },
+            {
+              "date": "2025-10-11",
+              "value": 222,
+              "rawValue": 222000
+            },
+            {
+              "date": "2025-10-18",
+              "value": 231,
+              "rawValue": 231000
+            },
+            {
+              "date": "2025-10-25",
+              "value": 221,
+              "rawValue": 221000
+            },
+            {
+              "date": "2025-11-01",
+              "value": 228,
+              "rawValue": 228000
+            },
+            {
+              "date": "2025-11-08",
+              "value": 228,
+              "rawValue": 228000
+            },
+            {
+              "date": "2025-11-15",
+              "value": 222,
+              "rawValue": 222000
+            },
+            {
+              "date": "2025-11-22",
+              "value": 218,
+              "rawValue": 218000
+            },
+            {
+              "date": "2025-11-29",
+              "value": 216,
+              "rawValue": 216000
+            },
+            {
+              "date": "2025-12-06",
+              "value": 235,
+              "rawValue": 235000
+            },
+            {
+              "date": "2025-12-13",
+              "value": 224,
+              "rawValue": 224000
+            },
+            {
+              "date": "2025-12-20",
+              "value": 215,
+              "rawValue": 215000
+            },
+            {
+              "date": "2025-12-27",
+              "value": 203,
+              "rawValue": 203000
+            },
+            {
+              "date": "2026-01-03",
+              "value": 207,
+              "rawValue": 207000
+            },
+            {
+              "date": "2026-01-10",
+              "value": 201,
+              "rawValue": 201000
+            },
+            {
+              "date": "2026-01-17",
+              "value": 210,
+              "rawValue": 210000
+            },
+            {
+              "date": "2026-01-24",
+              "value": 211,
+              "rawValue": 211000
+            },
+            {
+              "date": "2026-01-31",
+              "value": 230,
+              "rawValue": 230000
+            },
+            {
+              "date": "2026-02-07",
+              "value": 230,
+              "rawValue": 230000
+            },
+            {
+              "date": "2026-02-14",
+              "value": 208,
+              "rawValue": 208000
+            },
+            {
+              "date": "2026-02-21",
+              "value": 211,
+              "rawValue": 211000
+            },
+            {
+              "date": "2026-02-28",
+              "value": 214,
+              "rawValue": 214000
+            },
+            {
+              "date": "2026-03-07",
+              "value": 213,
+              "rawValue": 213000
+            },
+            {
+              "date": "2026-03-14",
+              "value": 205,
+              "rawValue": 205000
+            },
+            {
+              "date": "2026-03-21",
+              "value": 211,
+              "rawValue": 211000
+            },
+            {
+              "date": "2026-03-28",
+              "value": 203,
+              "rawValue": 203000
+            },
+            {
+              "date": "2026-04-04",
+              "value": 218,
+              "rawValue": 218000
+            },
+            {
+              "date": "2026-04-11",
+              "value": 208,
+              "rawValue": 208000
+            },
+            {
+              "date": "2026-04-18",
+              "value": 215,
+              "rawValue": 215000
+            },
+            {
+              "date": "2026-04-25",
+              "value": 190,
+              "rawValue": 190000
+            },
+            {
+              "date": "2026-05-02",
+              "value": 199,
+              "rawValue": 199000
+            },
+            {
+              "date": "2026-05-09",
+              "value": 212,
+              "rawValue": 212000
+            },
+            {
+              "date": "2026-05-16",
+              "value": 210,
+              "rawValue": 210000
+            },
+            {
+              "date": "2026-05-23",
+              "value": 212,
+              "rawValue": 212000
+            },
+            {
+              "date": "2026-05-30",
+              "value": 225,
+              "rawValue": 225000
+            }
+          ],
+          "valueText": "225 K",
+          "changeText": "+13 K",
+          "changeDirection": "up",
+          "asOfText": "2026-05-30",
+          "isStale": false,
+          "statusLabel": "Healthy",
+          "statusTone": "positive",
+          "brief": "Momentum is softening; layoff pressure remains contained"
+        },
+        {
+          "key": "industrialProduction",
+          "label": "Industrial Production",
+          "category": "实体经济",
+          "group": "growthLabor",
+          "sourceLabel": "Federal Reserve via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-04-01",
+            "value": 1.35,
+            "rawValue": 102.4963
+          },
+          "previous": {
+            "date": "2026-03-01",
+            "value": 0.76
+          },
+          "change": 0.59,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": -0.4,
+              "rawValue": 100.9286
+            },
+            {
+              "date": "2023-06-01",
+              "value": -0.89,
+              "rawValue": 100.1196
+            },
+            {
+              "date": "2023-07-01",
+              "value": -0.31,
+              "rawValue": 100.9067
+            },
+            {
+              "date": "2023-08-01",
+              "value": -0.25,
+              "rawValue": 100.8393
+            },
+            {
+              "date": "2023-09-01",
+              "value": -0.27,
+              "rawValue": 101.0211
+            },
+            {
+              "date": "2023-10-01",
+              "value": -0.77,
+              "rawValue": 100.4689
+            },
+            {
+              "date": "2023-11-01",
+              "value": -0.09,
+              "rawValue": 100.8639
+            },
+            {
+              "date": "2023-12-01",
+              "value": 0.84,
+              "rawValue": 100.6031
+            },
+            {
+              "date": "2024-01-01",
+              "value": -1.28,
+              "rawValue": 99.2223
+            },
+            {
+              "date": "2024-02-01",
+              "value": -0.35,
+              "rawValue": 100.285
+            },
+            {
+              "date": "2024-03-01",
+              "value": -0.56,
+              "rawValue": 100.4575
+            },
+            {
+              "date": "2024-04-01",
+              "value": -1,
+              "rawValue": 100.2434
+            },
+            {
+              "date": "2024-05-01",
+              "value": -0.06,
+              "rawValue": 100.863
+            },
+            {
+              "date": "2024-06-01",
+              "value": 0.77,
+              "rawValue": 100.894
+            },
+            {
+              "date": "2024-07-01",
+              "value": -0.92,
+              "rawValue": 99.9757
+            },
+            {
+              "date": "2024-08-01",
+              "value": -0.41,
+              "rawValue": 100.4309
+            },
+            {
+              "date": "2024-09-01",
+              "value": -1.2,
+              "rawValue": 99.8084
+            },
+            {
+              "date": "2024-10-01",
+              "value": -0.99,
+              "rawValue": 99.4695
+            },
+            {
+              "date": "2024-11-01",
+              "value": -1.56,
+              "rawValue": 99.2925
+            },
+            {
+              "date": "2024-12-01",
+              "value": -0.27,
+              "rawValue": 100.3273
+            },
+            {
+              "date": "2025-01-01",
+              "value": 0.85,
+              "rawValue": 100.0647
+            },
+            {
+              "date": "2025-02-01",
+              "value": 0.81,
+              "rawValue": 101.0993
+            },
+            {
+              "date": "2025-03-01",
+              "value": 0.58,
+              "rawValue": 101.0404
+            },
+            {
+              "date": "2025-04-01",
+              "value": 0.88,
+              "rawValue": 101.1279
+            },
+            {
+              "date": "2025-05-01",
+              "value": 0.1,
+              "rawValue": 100.9655
+            },
+            {
+              "date": "2025-06-01",
+              "value": 0.58,
+              "rawValue": 101.4785
+            },
+            {
+              "date": "2025-07-01",
+              "value": 1.92,
+              "rawValue": 101.894
+            },
+            {
+              "date": "2025-08-01",
+              "value": 1.19,
+              "rawValue": 101.6247
+            },
+            {
+              "date": "2025-09-01",
+              "value": 1.86,
+              "rawValue": 101.668
+            },
+            {
+              "date": "2025-10-01",
+              "value": 1.76,
+              "rawValue": 101.2195
+            },
+            {
+              "date": "2025-11-01",
+              "value": 1.75,
+              "rawValue": 101.0344
+            },
+            {
+              "date": "2025-12-01",
+              "value": 1.19,
+              "rawValue": 101.5203
+            },
+            {
+              "date": "2026-01-01",
+              "value": 1.41,
+              "rawValue": 101.4737
+            },
+            {
+              "date": "2026-02-01",
+              "value": 0.99,
+              "rawValue": 102.1009
+            },
+            {
+              "date": "2026-03-01",
+              "value": 0.76,
+              "rawValue": 101.806
+            },
+            {
+              "date": "2026-04-01",
+              "value": 1.35,
+              "rawValue": 102.4963
+            }
+          ],
+          "valueText": "1.35%",
+          "changeText": "+0.59%",
+          "changeDirection": "up",
+          "asOfText": "2026-04",
+          "isStale": true,
+          "statusLabel": "Watch",
+          "statusTone": "neutral",
+          "brief": "Momentum is improving; Monitoring"
+        },
+        {
+          "key": "housingStarts",
+          "label": "Housing Starts",
+          "category": "地产",
+          "group": "growthLabor",
+          "sourceLabel": "Census via FRED",
+          "definition": "SAAR level",
+          "unit": "K",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-04-01",
+            "value": 1465,
+            "rawValue": 1465
+          },
+          "previous": {
+            "date": "2026-03-01",
+            "value": 1507
+          },
+          "change": -42,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 1609,
+              "rawValue": 1609
+            },
+            {
+              "date": "2023-06-01",
+              "value": 1420,
+              "rawValue": 1420
+            },
+            {
+              "date": "2023-07-01",
+              "value": 1464,
+              "rawValue": 1464
+            },
+            {
+              "date": "2023-08-01",
+              "value": 1321,
+              "rawValue": 1321
+            },
+            {
+              "date": "2023-09-01",
+              "value": 1369,
+              "rawValue": 1369
+            },
+            {
+              "date": "2023-10-01",
+              "value": 1380,
+              "rawValue": 1380
+            },
+            {
+              "date": "2023-11-01",
+              "value": 1522,
+              "rawValue": 1522
+            },
+            {
+              "date": "2023-12-01",
+              "value": 1504,
+              "rawValue": 1504
+            },
+            {
+              "date": "2024-01-01",
+              "value": 1378,
+              "rawValue": 1378
+            },
+            {
+              "date": "2024-02-01",
+              "value": 1555,
+              "rawValue": 1555
+            },
+            {
+              "date": "2024-03-01",
+              "value": 1297,
+              "rawValue": 1297
+            },
+            {
+              "date": "2024-04-01",
+              "value": 1379,
+              "rawValue": 1379
+            },
+            {
+              "date": "2024-05-01",
+              "value": 1329,
+              "rawValue": 1329
+            },
+            {
+              "date": "2024-06-01",
+              "value": 1318,
+              "rawValue": 1318
+            },
+            {
+              "date": "2024-07-01",
+              "value": 1269,
+              "rawValue": 1269
+            },
+            {
+              "date": "2024-08-01",
+              "value": 1394,
+              "rawValue": 1394
+            },
+            {
+              "date": "2024-09-01",
+              "value": 1357,
+              "rawValue": 1357
+            },
+            {
+              "date": "2024-10-01",
+              "value": 1370,
+              "rawValue": 1370
+            },
+            {
+              "date": "2024-11-01",
+              "value": 1300,
+              "rawValue": 1300
+            },
+            {
+              "date": "2024-12-01",
+              "value": 1494,
+              "rawValue": 1494
+            },
+            {
+              "date": "2025-01-01",
+              "value": 1353,
+              "rawValue": 1353
+            },
+            {
+              "date": "2025-02-01",
+              "value": 1491,
+              "rawValue": 1491
+            },
+            {
+              "date": "2025-03-01",
+              "value": 1346,
+              "rawValue": 1346
+            },
+            {
+              "date": "2025-04-01",
+              "value": 1400,
+              "rawValue": 1400
+            },
+            {
+              "date": "2025-05-01",
+              "value": 1289,
+              "rawValue": 1289
+            },
+            {
+              "date": "2025-06-01",
+              "value": 1379,
+              "rawValue": 1379
+            },
+            {
+              "date": "2025-07-01",
+              "value": 1432,
+              "rawValue": 1432
+            },
+            {
+              "date": "2025-08-01",
+              "value": 1291,
+              "rawValue": 1291
+            },
+            {
+              "date": "2025-09-01",
+              "value": 1319,
+              "rawValue": 1319
+            },
+            {
+              "date": "2025-10-01",
+              "value": 1273,
+              "rawValue": 1273
+            },
+            {
+              "date": "2025-11-01",
+              "value": 1319,
+              "rawValue": 1319
+            },
+            {
+              "date": "2025-12-01",
+              "value": 1378,
+              "rawValue": 1378
+            },
+            {
+              "date": "2026-01-01",
+              "value": 1385,
+              "rawValue": 1385
+            },
+            {
+              "date": "2026-02-01",
+              "value": 1346,
+              "rawValue": 1346
+            },
+            {
+              "date": "2026-03-01",
+              "value": 1507,
+              "rawValue": 1507
+            },
+            {
+              "date": "2026-04-01",
+              "value": 1465,
+              "rawValue": 1465
+            }
+          ],
+          "valueText": "1,465 K",
+          "changeText": "-42 K",
+          "changeDirection": "down",
+          "asOfText": "2026-04",
+          "isStale": true,
+          "statusLabel": "Watch",
+          "statusTone": "neutral",
+          "brief": "Momentum is softening; housing is still an important swing factor for cyclical growth"
+        },
+        {
+          "key": "existingHomeSales",
+          "label": "Existing Home Sales",
+          "category": "地产",
+          "group": "growthLabor",
+          "sourceLabel": "NAR via FRED",
+          "definition": "SAAR level",
+          "unit": "M",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 4.17,
+            "rawValue": 4170000
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 4.04
+          },
+          "change": 0.13,
+          "history": [
+            {
+              "date": "2025-04-01",
+              "value": 4.02,
+              "rawValue": 4020000
+            },
+            {
+              "date": "2025-05-01",
+              "value": 4.04,
+              "rawValue": 4040000
+            },
+            {
+              "date": "2025-06-01",
+              "value": 3.98,
+              "rawValue": 3980000
+            },
+            {
+              "date": "2025-07-01",
+              "value": 4.03,
+              "rawValue": 4030000
+            },
+            {
+              "date": "2025-08-01",
+              "value": 4.03,
+              "rawValue": 4030000
+            },
+            {
+              "date": "2025-09-01",
+              "value": 4.08,
+              "rawValue": 4080000
+            },
+            {
+              "date": "2025-10-01",
+              "value": 4.11,
+              "rawValue": 4110000
+            },
+            {
+              "date": "2025-11-01",
+              "value": 4.09,
+              "rawValue": 4090000
+            },
+            {
+              "date": "2025-12-01",
+              "value": 4.27,
+              "rawValue": 4270000
+            },
+            {
+              "date": "2026-01-01",
+              "value": 4.02,
+              "rawValue": 4020000
+            },
+            {
+              "date": "2026-02-01",
+              "value": 4.13,
+              "rawValue": 4130000
+            },
+            {
+              "date": "2026-03-01",
+              "value": 4.01,
+              "rawValue": 4010000
+            },
+            {
+              "date": "2026-04-01",
+              "value": 4.04,
+              "rawValue": 4040000
+            },
+            {
+              "date": "2026-05-01",
+              "value": 4.17,
+              "rawValue": 4170000
+            }
+          ],
+          "valueText": "4.17 M",
+          "changeText": "+0.13 M",
+          "changeDirection": "up",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Watch",
+          "statusTone": "neutral",
+          "brief": "Momentum is improving; housing is still an important swing factor for cyclical growth"
+        }
+      ]
+    },
+    {
+      "key": "inflationFed",
+      "title": "通胀与 Fed",
+      "lead": "把 headline、core、工资和服务通胀放在一起看，核心是判断通胀黏性和政策约束有没有变化。",
+      "perspective": "House View 聚焦 higher-for-longer 风险、降息空间，以及对久期资产和成长风格的影响。",
+      "metrics": [
+        {
+          "key": "wageGrowth",
+          "label": "Average Hourly Earnings",
+          "category": "工资",
+          "group": "inflationFed",
+          "sourceLabel": "BLS via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Inflation remains sticky",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 3.45,
+            "rawValue": 37.53
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 3.57
+          },
+          "change": -0.12,
+          "history": [
+            {
+              "date": "2023-06-01",
+              "value": 4.66,
+              "rawValue": 33.69
+            },
+            {
+              "date": "2023-07-01",
+              "value": 4.67,
+              "rawValue": 33.85
+            },
+            {
+              "date": "2023-08-01",
+              "value": 4.47,
+              "rawValue": 33.89
+            },
+            {
+              "date": "2023-09-01",
+              "value": 4.42,
+              "rawValue": 34.01
+            },
+            {
+              "date": "2023-10-01",
+              "value": 4.22,
+              "rawValue": 34.08
+            },
+            {
+              "date": "2023-11-01",
+              "value": 4.11,
+              "rawValue": 34.17
+            },
+            {
+              "date": "2023-12-01",
+              "value": 4.1,
+              "rawValue": 34.29
+            },
+            {
+              "date": "2024-01-01",
+              "value": 4.39,
+              "rawValue": 34.47
+            },
+            {
+              "date": "2024-02-01",
+              "value": 4.13,
+              "rawValue": 34.52
+            },
+            {
+              "date": "2024-03-01",
+              "value": 4.15,
+              "rawValue": 34.65
+            },
+            {
+              "date": "2024-04-01",
+              "value": 3.98,
+              "rawValue": 34.76
+            },
+            {
+              "date": "2024-05-01",
+              "value": 4.15,
+              "rawValue": 34.89
+            },
+            {
+              "date": "2024-06-01",
+              "value": 3.92,
+              "rawValue": 35.01
+            },
+            {
+              "date": "2024-07-01",
+              "value": 3.63,
+              "rawValue": 35.08
+            },
+            {
+              "date": "2024-08-01",
+              "value": 3.92,
+              "rawValue": 35.22
+            },
+            {
+              "date": "2024-09-01",
+              "value": 3.91,
+              "rawValue": 35.34
+            },
+            {
+              "date": "2024-10-01",
+              "value": 4.05,
+              "rawValue": 35.46
+            },
+            {
+              "date": "2024-11-01",
+              "value": 4.18,
+              "rawValue": 35.6
+            },
+            {
+              "date": "2024-12-01",
+              "value": 4.08,
+              "rawValue": 35.69
+            },
+            {
+              "date": "2025-01-01",
+              "value": 3.97,
+              "rawValue": 35.84
+            },
+            {
+              "date": "2025-02-01",
+              "value": 4.11,
+              "rawValue": 35.94
+            },
+            {
+              "date": "2025-03-01",
+              "value": 4.21,
+              "rawValue": 36.11
+            },
+            {
+              "date": "2025-04-01",
+              "value": 3.91,
+              "rawValue": 36.12
+            },
+            {
+              "date": "2025-05-01",
+              "value": 3.98,
+              "rawValue": 36.28
+            },
+            {
+              "date": "2025-06-01",
+              "value": 3.86,
+              "rawValue": 36.36
+            },
+            {
+              "date": "2025-07-01",
+              "value": 3.96,
+              "rawValue": 36.47
+            },
+            {
+              "date": "2025-08-01",
+              "value": 3.98,
+              "rawValue": 36.62
+            },
+            {
+              "date": "2025-09-01",
+              "value": 3.85,
+              "rawValue": 36.7
+            },
+            {
+              "date": "2025-10-01",
+              "value": 3.92,
+              "rawValue": 36.85
+            },
+            {
+              "date": "2025-11-01",
+              "value": 3.93,
+              "rawValue": 37
+            },
+            {
+              "date": "2025-12-01",
+              "value": 3.73,
+              "rawValue": 37.02
+            },
+            {
+              "date": "2026-01-01",
+              "value": 3.66,
+              "rawValue": 37.15
+            },
+            {
+              "date": "2026-02-01",
+              "value": 3.7,
+              "rawValue": 37.27
+            },
+            {
+              "date": "2026-03-01",
+              "value": 3.43,
+              "rawValue": 37.35
+            },
+            {
+              "date": "2026-04-01",
+              "value": 3.57,
+              "rawValue": 37.41
+            },
+            {
+              "date": "2026-05-01",
+              "value": 3.45,
+              "rawValue": 37.53
+            }
+          ],
+          "valueText": "3.45%",
+          "changeText": "-0.12%",
+          "changeDirection": "down",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is softening; wage pressure is easing"
+        },
+        {
+          "key": "shelterCpi",
+          "label": "Shelter CPI YoY",
+          "category": "住房通胀",
+          "group": "inflationFed",
+          "sourceLabel": "BLS via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 3.7,
+            "rawValue": 428.677
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 3.66
+          },
+          "change": 0.04,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 8.04,
+              "rawValue": 378.776
+            },
+            {
+              "date": "2023-06-01",
+              "value": 7.83,
+              "rawValue": 380.594
+            },
+            {
+              "date": "2023-07-01",
+              "value": 7.69,
+              "rawValue": 382.226
+            },
+            {
+              "date": "2023-08-01",
+              "value": 7.27,
+              "rawValue": 383.221
+            },
+            {
+              "date": "2023-09-01",
+              "value": 7.15,
+              "rawValue": 385.433
+            },
+            {
+              "date": "2023-10-01",
+              "value": 6.72,
+              "rawValue": 386.435
+            },
+            {
+              "date": "2023-11-01",
+              "value": 6.51,
+              "rawValue": 387.892
+            },
+            {
+              "date": "2023-12-01",
+              "value": 6.15,
+              "rawValue": 389.433
+            },
+            {
+              "date": "2024-01-01",
+              "value": 6.04,
+              "rawValue": 391.896
+            },
+            {
+              "date": "2024-02-01",
+              "value": 5.74,
+              "rawValue": 393.906
+            },
+            {
+              "date": "2024-03-01",
+              "value": 5.65,
+              "rawValue": 396.174
+            },
+            {
+              "date": "2024-04-01",
+              "value": 5.55,
+              "rawValue": 397.539
+            },
+            {
+              "date": "2024-05-01",
+              "value": 5.41,
+              "rawValue": 399.274
+            },
+            {
+              "date": "2024-06-01",
+              "value": 5.16,
+              "rawValue": 400.234
+            },
+            {
+              "date": "2024-07-01",
+              "value": 5.05,
+              "rawValue": 401.545
+            },
+            {
+              "date": "2024-08-01",
+              "value": 5.23,
+              "rawValue": 403.257
+            },
+            {
+              "date": "2024-09-01",
+              "value": 4.85,
+              "rawValue": 404.133
+            },
+            {
+              "date": "2024-10-01",
+              "value": 4.88,
+              "rawValue": 405.287
+            },
+            {
+              "date": "2024-11-01",
+              "value": 4.73,
+              "rawValue": 406.25
+            },
+            {
+              "date": "2024-12-01",
+              "value": 4.57,
+              "rawValue": 407.242
+            },
+            {
+              "date": "2025-01-01",
+              "value": 4.4,
+              "rawValue": 409.153
+            },
+            {
+              "date": "2025-02-01",
+              "value": 4.25,
+              "rawValue": 410.635
+            },
+            {
+              "date": "2025-03-01",
+              "value": 3.99,
+              "rawValue": 411.99
+            },
+            {
+              "date": "2025-04-01",
+              "value": 3.99,
+              "rawValue": 413.389
+            },
+            {
+              "date": "2025-05-01",
+              "value": 3.86,
+              "rawValue": 414.689
+            },
+            {
+              "date": "2025-06-01",
+              "value": 3.8,
+              "rawValue": 415.455
+            },
+            {
+              "date": "2025-07-01",
+              "value": 3.67,
+              "rawValue": 416.271
+            },
+            {
+              "date": "2025-08-01",
+              "value": 3.63,
+              "rawValue": 417.902
+            },
+            {
+              "date": "2025-09-01",
+              "value": 3.58,
+              "rawValue": 418.598
+            },
+            {
+              "date": "2025-11-01",
+              "value": 3.28,
+              "rawValue": 418.593
+            },
+            {
+              "date": "2025-12-01",
+              "value": 3.42,
+              "rawValue": 420.134
+            },
+            {
+              "date": "2026-01-01",
+              "value": 3.51,
+              "rawValue": 421.526
+            },
+            {
+              "date": "2026-02-01",
+              "value": 3.33,
+              "rawValue": 422.776
+            },
+            {
+              "date": "2026-03-01",
+              "value": 3.36,
+              "rawValue": 424.45
+            },
+            {
+              "date": "2026-04-01",
+              "value": 3.66,
+              "rawValue": 427.049
+            },
+            {
+              "date": "2026-05-01",
+              "value": 3.7,
+              "rawValue": 428.677
+            }
+          ],
+          "valueText": "3.7%",
+          "changeText": "+0.04%",
+          "changeDirection": "up",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Watch",
+          "statusTone": "neutral",
+          "brief": "Momentum is improving; Monitoring"
+        },
+        {
+          "key": "pce",
+          "label": "Headline PCE",
+          "category": "通胀",
+          "group": "inflationFed",
+          "sourceLabel": "BEA via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Inflation is running hot",
+          "latest": {
+            "date": "2026-04-01",
+            "value": 3.77,
+            "rawValue": 130.902
+          },
+          "previous": {
+            "date": "2026-03-01",
+            "value": 3.53
+          },
+          "change": 0.24,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 4,
+              "rawValue": 120.15
+            },
+            {
+              "date": "2023-06-01",
+              "value": 3.28,
+              "rawValue": 120.469
+            },
+            {
+              "date": "2023-07-01",
+              "value": 3.41,
+              "rawValue": 120.607
+            },
+            {
+              "date": "2023-08-01",
+              "value": 3.43,
+              "rawValue": 120.97
+            },
+            {
+              "date": "2023-09-01",
+              "value": 3.45,
+              "rawValue": 121.419
+            },
+            {
+              "date": "2023-10-01",
+              "value": 3.02,
+              "rawValue": 121.484
+            },
+            {
+              "date": "2023-11-01",
+              "value": 2.77,
+              "rawValue": 121.493
+            },
+            {
+              "date": "2023-12-01",
+              "value": 2.77,
+              "rawValue": 121.66
+            },
+            {
+              "date": "2024-01-01",
+              "value": 2.7,
+              "rawValue": 122.23
+            },
+            {
+              "date": "2024-02-01",
+              "value": 2.71,
+              "rawValue": 122.598
+            },
+            {
+              "date": "2024-03-01",
+              "value": 2.93,
+              "rawValue": 123.038
+            },
+            {
+              "date": "2024-04-01",
+              "value": 2.83,
+              "rawValue": 123.341
+            },
+            {
+              "date": "2024-05-01",
+              "value": 2.66,
+              "rawValue": 123.348
+            },
+            {
+              "date": "2024-06-01",
+              "value": 2.55,
+              "rawValue": 123.539
+            },
+            {
+              "date": "2024-07-01",
+              "value": 2.59,
+              "rawValue": 123.736
+            },
+            {
+              "date": "2024-08-01",
+              "value": 2.41,
+              "rawValue": 123.889
+            },
+            {
+              "date": "2024-09-01",
+              "value": 2.26,
+              "rawValue": 124.164
+            },
+            {
+              "date": "2024-10-01",
+              "value": 2.48,
+              "rawValue": 124.494
+            },
+            {
+              "date": "2024-11-01",
+              "value": 2.59,
+              "rawValue": 124.637
+            },
+            {
+              "date": "2024-12-01",
+              "value": 2.73,
+              "rawValue": 124.979
+            },
+            {
+              "date": "2025-01-01",
+              "value": 2.61,
+              "rawValue": 125.417
+            },
+            {
+              "date": "2025-02-01",
+              "value": 2.71,
+              "rawValue": 125.921
+            },
+            {
+              "date": "2025-03-01",
+              "value": 2.36,
+              "rawValue": 125.941
+            },
+            {
+              "date": "2025-04-01",
+              "value": 2.28,
+              "rawValue": 126.15
+            },
+            {
+              "date": "2025-05-01",
+              "value": 2.46,
+              "rawValue": 126.38
+            },
+            {
+              "date": "2025-06-01",
+              "value": 2.59,
+              "rawValue": 126.743
+            },
+            {
+              "date": "2025-07-01",
+              "value": 2.61,
+              "rawValue": 126.96
+            },
+            {
+              "date": "2025-08-01",
+              "value": 2.75,
+              "rawValue": 127.293
+            },
+            {
+              "date": "2025-09-01",
+              "value": 2.79,
+              "rawValue": 127.625
+            },
+            {
+              "date": "2025-10-01",
+              "value": 2.71,
+              "rawValue": 127.871
+            },
+            {
+              "date": "2025-11-01",
+              "value": 2.82,
+              "rawValue": 128.152
+            },
+            {
+              "date": "2025-12-01",
+              "value": 2.88,
+              "rawValue": 128.576
+            },
+            {
+              "date": "2026-01-01",
+              "value": 2.86,
+              "rawValue": 129.002
+            },
+            {
+              "date": "2026-02-01",
+              "value": 2.86,
+              "rawValue": 129.52
+            },
+            {
+              "date": "2026-03-01",
+              "value": 3.53,
+              "rawValue": 130.381
+            },
+            {
+              "date": "2026-04-01",
+              "value": 3.77,
+              "rawValue": 130.902
+            }
+          ],
+          "valueText": "3.77%",
+          "changeText": "+0.24%",
+          "changeDirection": "up",
+          "asOfText": "2026-04",
+          "isStale": true,
+          "statusLabel": "Stress",
+          "statusTone": "negative",
+          "brief": "Momentum is improving; higher-for-longer risk is still alive"
+        },
+        {
+          "key": "effectiveFedFunds",
+          "label": "Effective Fed Funds",
+          "category": "政策利率",
+          "group": "inflationFed",
+          "sourceLabel": "New York Fed via FRED",
+          "definition": "Level",
+          "unit": "%",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-06-08",
+            "value": 3.62,
+            "rawValue": 3.62
+          },
+          "previous": {
+            "date": "2026-06-07",
+            "value": 3.62
+          },
+          "change": 0,
+          "history": [
+            {
+              "date": "2026-05-04",
+              "value": 3.64,
+              "rawValue": 3.64
+            },
+            {
+              "date": "2026-05-05",
+              "value": 3.64,
+              "rawValue": 3.64
+            },
+            {
+              "date": "2026-05-06",
+              "value": 3.64,
+              "rawValue": 3.64
+            },
+            {
+              "date": "2026-05-07",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-08",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-09",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-10",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-11",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-12",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-13",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-14",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-15",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-16",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-17",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-18",
+              "value": 3.63,
+              "rawValue": 3.63
+            },
+            {
+              "date": "2026-05-19",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-20",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-21",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-22",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-23",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-24",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-25",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-26",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-27",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-28",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-29",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-30",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-05-31",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-01",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-02",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-03",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-04",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-05",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-06",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-07",
+              "value": 3.62,
+              "rawValue": 3.62
+            },
+            {
+              "date": "2026-06-08",
+              "value": 3.62,
+              "rawValue": 3.62
+            }
+          ],
+          "valueText": "3.62%",
+          "changeText": "0%",
+          "changeDirection": "flat",
+          "asOfText": "2026-06-08",
+          "isStale": true,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "The policy rate changes slowly; what matters most is whether inflation and labor data are making policy more or less restrictive."
+        },
+        {
+          "key": "cpi",
+          "label": "Headline CPI YoY",
+          "category": "通胀",
+          "group": "inflationFed",
+          "sourceLabel": "BLS via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Inflation is running hot",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 4.47,
+            "rawValue": 335.123
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 4.13
+          },
+          "change": 0.34,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 4.05,
+              "rawValue": 304.127
+            },
+            {
+              "date": "2023-06-01",
+              "value": 2.97,
+              "rawValue": 305.109
+            },
+            {
+              "date": "2023-07-01",
+              "value": 3.18,
+              "rawValue": 305.691
+            },
+            {
+              "date": "2023-08-01",
+              "value": 3.67,
+              "rawValue": 307.026
+            },
+            {
+              "date": "2023-09-01",
+              "value": 3.7,
+              "rawValue": 307.789
+            },
+            {
+              "date": "2023-10-01",
+              "value": 3.24,
+              "rawValue": 307.671
+            },
+            {
+              "date": "2023-11-01",
+              "value": 3.14,
+              "rawValue": 307.051
+            },
+            {
+              "date": "2023-12-01",
+              "value": 3.35,
+              "rawValue": 306.746
+            },
+            {
+              "date": "2024-01-01",
+              "value": 3.09,
+              "rawValue": 308.417
+            },
+            {
+              "date": "2024-02-01",
+              "value": 3.15,
+              "rawValue": 310.326
+            },
+            {
+              "date": "2024-03-01",
+              "value": 3.48,
+              "rawValue": 312.332
+            },
+            {
+              "date": "2024-04-01",
+              "value": 3.36,
+              "rawValue": 313.548
+            },
+            {
+              "date": "2024-05-01",
+              "value": 3.27,
+              "rawValue": 314.069
+            },
+            {
+              "date": "2024-06-01",
+              "value": 2.97,
+              "rawValue": 314.175
+            },
+            {
+              "date": "2024-07-01",
+              "value": 2.89,
+              "rawValue": 314.54
+            },
+            {
+              "date": "2024-08-01",
+              "value": 2.53,
+              "rawValue": 314.796
+            },
+            {
+              "date": "2024-09-01",
+              "value": 2.44,
+              "rawValue": 315.301
+            },
+            {
+              "date": "2024-10-01",
+              "value": 2.6,
+              "rawValue": 315.664
+            },
+            {
+              "date": "2024-11-01",
+              "value": 2.75,
+              "rawValue": 315.493
+            },
+            {
+              "date": "2024-12-01",
+              "value": 2.89,
+              "rawValue": 315.605
+            },
+            {
+              "date": "2025-01-01",
+              "value": 3,
+              "rawValue": 317.671
+            },
+            {
+              "date": "2025-02-01",
+              "value": 2.82,
+              "rawValue": 319.082
+            },
+            {
+              "date": "2025-03-01",
+              "value": 2.39,
+              "rawValue": 319.799
+            },
+            {
+              "date": "2025-04-01",
+              "value": 2.31,
+              "rawValue": 320.795
+            },
+            {
+              "date": "2025-05-01",
+              "value": 2.35,
+              "rawValue": 321.465
+            },
+            {
+              "date": "2025-06-01",
+              "value": 2.67,
+              "rawValue": 322.561
+            },
+            {
+              "date": "2025-07-01",
+              "value": 2.7,
+              "rawValue": 323.048
+            },
+            {
+              "date": "2025-08-01",
+              "value": 2.92,
+              "rawValue": 323.976
+            },
+            {
+              "date": "2025-09-01",
+              "value": 3.01,
+              "rawValue": 324.8
+            },
+            {
+              "date": "2025-11-01",
+              "value": 2.68,
+              "rawValue": 324.122
+            },
+            {
+              "date": "2025-12-01",
+              "value": 2.71,
+              "rawValue": 324.054
+            },
+            {
+              "date": "2026-01-01",
+              "value": 3.06,
+              "rawValue": 325.252
+            },
+            {
+              "date": "2026-02-01",
+              "value": 2.87,
+              "rawValue": 326.785
+            },
+            {
+              "date": "2026-03-01",
+              "value": 3.49,
+              "rawValue": 330.213
+            },
+            {
+              "date": "2026-04-01",
+              "value": 4.13,
+              "rawValue": 333.02
+            },
+            {
+              "date": "2026-05-01",
+              "value": 4.47,
+              "rawValue": 335.123
+            }
+          ],
+          "valueText": "4.47%",
+          "changeText": "+0.34%",
+          "changeDirection": "up",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Stress",
+          "statusTone": "negative",
+          "brief": "Momentum is improving; higher-for-longer risk is still alive"
+        },
+        {
+          "key": "coreServicesExHousing",
+          "label": "Services Less Rent of Shelter YoY",
+          "category": "服务通胀",
+          "group": "inflationFed",
+          "sourceLabel": "BLS via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Inflation is running hot",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 4.02,
+            "rawValue": 446.291
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 3.85
+          },
+          "change": 0.17,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 4.17,
+              "rawValue": 395.956
+            },
+            {
+              "date": "2023-06-01",
+              "value": 3.22,
+              "rawValue": 397.625
+            },
+            {
+              "date": "2023-07-01",
+              "value": 3.27,
+              "rawValue": 398.407
+            },
+            {
+              "date": "2023-08-01",
+              "value": 3.12,
+              "rawValue": 399.835
+            },
+            {
+              "date": "2023-09-01",
+              "value": 2.76,
+              "rawValue": 401.324
+            },
+            {
+              "date": "2023-10-01",
+              "value": 3.02,
+              "rawValue": 402.364
+            },
+            {
+              "date": "2023-11-01",
+              "value": 3.5,
+              "rawValue": 404.184
+            },
+            {
+              "date": "2023-12-01",
+              "value": 3.43,
+              "rawValue": 404.884
+            },
+            {
+              "date": "2024-01-01",
+              "value": 3.57,
+              "rawValue": 408.614
+            },
+            {
+              "date": "2024-02-01",
+              "value": 3.95,
+              "rawValue": 411.089
+            },
+            {
+              "date": "2024-03-01",
+              "value": 4.77,
+              "rawValue": 414.016
+            },
+            {
+              "date": "2024-04-01",
+              "value": 4.87,
+              "rawValue": 415.161
+            },
+            {
+              "date": "2024-05-01",
+              "value": 4.97,
+              "rawValue": 415.639
+            },
+            {
+              "date": "2024-06-01",
+              "value": 4.81,
+              "rawValue": 416.758
+            },
+            {
+              "date": "2024-07-01",
+              "value": 4.63,
+              "rawValue": 416.85
+            },
+            {
+              "date": "2024-08-01",
+              "value": 4.31,
+              "rawValue": 417.066
+            },
+            {
+              "date": "2024-09-01",
+              "value": 4.42,
+              "rawValue": 419.05
+            },
+            {
+              "date": "2024-10-01",
+              "value": 4.51,
+              "rawValue": 420.492
+            },
+            {
+              "date": "2024-11-01",
+              "value": 4.11,
+              "rawValue": 420.788
+            },
+            {
+              "date": "2024-12-01",
+              "value": 4.03,
+              "rawValue": 421.204
+            },
+            {
+              "date": "2025-01-01",
+              "value": 3.94,
+              "rawValue": 424.722
+            },
+            {
+              "date": "2025-02-01",
+              "value": 3.82,
+              "rawValue": 426.787
+            },
+            {
+              "date": "2025-03-01",
+              "value": 3.3,
+              "rawValue": 427.695
+            },
+            {
+              "date": "2025-04-01",
+              "value": 3.35,
+              "rawValue": 429.054
+            },
+            {
+              "date": "2025-05-01",
+              "value": 3.5,
+              "rawValue": 430.191
+            },
+            {
+              "date": "2025-06-01",
+              "value": 3.82,
+              "rawValue": 432.672
+            },
+            {
+              "date": "2025-07-01",
+              "value": 4.01,
+              "rawValue": 433.583
+            },
+            {
+              "date": "2025-08-01",
+              "value": 4.01,
+              "rawValue": 433.8
+            },
+            {
+              "date": "2025-09-01",
+              "value": 3.7,
+              "rawValue": 434.536
+            },
+            {
+              "date": "2025-11-01",
+              "value": 3.6,
+              "rawValue": 435.623
+            },
+            {
+              "date": "2025-12-01",
+              "value": 3.53,
+              "rawValue": 435.662
+            },
+            {
+              "date": "2026-01-01",
+              "value": 4.24,
+              "rawValue": 439.057
+            },
+            {
+              "date": "2026-02-01",
+              "value": 3.8,
+              "rawValue": 440.876
+            },
+            {
+              "date": "2026-03-01",
+              "value": 3.58,
+              "rawValue": 442.058
+            },
+            {
+              "date": "2026-04-01",
+              "value": 3.85,
+              "rawValue": 444.149
+            },
+            {
+              "date": "2026-05-01",
+              "value": 4.02,
+              "rawValue": 446.291
+            }
+          ],
+          "valueText": "4.02%",
+          "changeText": "+0.17%",
+          "changeDirection": "up",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Stress",
+          "statusTone": "negative",
+          "brief": "Momentum is improving; Inflation is running hot"
+        },
+        {
+          "key": "corePce",
+          "label": "Core PCE",
+          "category": "通胀",
+          "group": "inflationFed",
+          "sourceLabel": "BEA via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Inflation remains sticky",
+          "latest": {
+            "date": "2026-04-01",
+            "value": 3.29,
+            "rawValue": 129.63
+          },
+          "previous": {
+            "date": "2026-03-01",
+            "value": 3.24
+          },
+          "change": 0.05,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 4.73,
+              "rawValue": 119.083
+            },
+            {
+              "date": "2023-06-01",
+              "value": 4.38,
+              "rawValue": 119.39
+            },
+            {
+              "date": "2023-07-01",
+              "value": 4.3,
+              "rawValue": 119.556
+            },
+            {
+              "date": "2023-08-01",
+              "value": 3.83,
+              "rawValue": 119.689
+            },
+            {
+              "date": "2023-09-01",
+              "value": 3.69,
+              "rawValue": 120.058
+            },
+            {
+              "date": "2023-10-01",
+              "value": 3.47,
+              "rawValue": 120.241
+            },
+            {
+              "date": "2023-11-01",
+              "value": 3.29,
+              "rawValue": 120.374
+            },
+            {
+              "date": "2023-12-01",
+              "value": 3.11,
+              "rawValue": 120.592
+            },
+            {
+              "date": "2024-01-01",
+              "value": 3.16,
+              "rawValue": 121.217
+            },
+            {
+              "date": "2024-02-01",
+              "value": 3.06,
+              "rawValue": 121.537
+            },
+            {
+              "date": "2024-03-01",
+              "value": 3.12,
+              "rawValue": 122.009
+            },
+            {
+              "date": "2024-04-01",
+              "value": 3.01,
+              "rawValue": 122.304
+            },
+            {
+              "date": "2024-05-01",
+              "value": 2.77,
+              "rawValue": 122.383
+            },
+            {
+              "date": "2024-06-01",
+              "value": 2.75,
+              "rawValue": 122.677
+            },
+            {
+              "date": "2024-07-01",
+              "value": 2.81,
+              "rawValue": 122.911
+            },
+            {
+              "date": "2024-08-01",
+              "value": 2.87,
+              "rawValue": 123.128
+            },
+            {
+              "date": "2024-09-01",
+              "value": 2.84,
+              "rawValue": 123.466
+            },
+            {
+              "date": "2024-10-01",
+              "value": 2.99,
+              "rawValue": 123.832
+            },
+            {
+              "date": "2024-11-01",
+              "value": 2.98,
+              "rawValue": 123.962
+            },
+            {
+              "date": "2024-12-01",
+              "value": 2.99,
+              "rawValue": 124.196
+            },
+            {
+              "date": "2025-01-01",
+              "value": 2.78,
+              "rawValue": 124.587
+            },
+            {
+              "date": "2025-02-01",
+              "value": 2.97,
+              "rawValue": 125.145
+            },
+            {
+              "date": "2025-03-01",
+              "value": 2.67,
+              "rawValue": 125.267
+            },
+            {
+              "date": "2025-04-01",
+              "value": 2.61,
+              "rawValue": 125.502
+            },
+            {
+              "date": "2025-05-01",
+              "value": 2.78,
+              "rawValue": 125.79
+            },
+            {
+              "date": "2025-06-01",
+              "value": 2.81,
+              "rawValue": 126.121
+            },
+            {
+              "date": "2025-07-01",
+              "value": 2.86,
+              "rawValue": 126.43
+            },
+            {
+              "date": "2025-08-01",
+              "value": 2.91,
+              "rawValue": 126.714
+            },
+            {
+              "date": "2025-09-01",
+              "value": 2.83,
+              "rawValue": 126.954
+            },
+            {
+              "date": "2025-10-01",
+              "value": 2.75,
+              "rawValue": 127.243
+            },
+            {
+              "date": "2025-11-01",
+              "value": 2.83,
+              "rawValue": 127.469
+            },
+            {
+              "date": "2025-12-01",
+              "value": 2.97,
+              "rawValue": 127.886
+            },
+            {
+              "date": "2026-01-01",
+              "value": 3.09,
+              "rawValue": 128.432
+            },
+            {
+              "date": "2026-02-01",
+              "value": 3.03,
+              "rawValue": 128.94
+            },
+            {
+              "date": "2026-03-01",
+              "value": 3.24,
+              "rawValue": 129.321
+            },
+            {
+              "date": "2026-04-01",
+              "value": 3.29,
+              "rawValue": 129.63
+            }
+          ],
+          "valueText": "3.29%",
+          "changeText": "+0.05%",
+          "changeDirection": "up",
+          "asOfText": "2026-04",
+          "isStale": true,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is improving; higher-for-longer risk is still alive"
+        },
+        {
+          "key": "coreCpi",
+          "label": "Core CPI YoY",
+          "category": "通胀",
+          "group": "inflationFed",
+          "sourceLabel": "BLS via FRED",
+          "definition": "YoY %",
+          "unit": "%",
+          "frequency": "monthly",
+          "frequencyLabel": "Monthly",
+          "importance": "high",
+          "marketSignal": "Inflation remains sticky",
+          "latest": {
+            "date": "2026-05-01",
+            "value": 3.07,
+            "rawValue": 336.846
+          },
+          "previous": {
+            "date": "2026-04-01",
+            "value": 3.03
+          },
+          "change": 0.04,
+          "history": [
+            {
+              "date": "2023-05-01",
+              "value": 5.33,
+              "rawValue": 308.096
+            },
+            {
+              "date": "2023-06-01",
+              "value": 4.83,
+              "rawValue": 308.91
+            },
+            {
+              "date": "2023-07-01",
+              "value": 4.65,
+              "rawValue": 309.402
+            },
+            {
+              "date": "2023-08-01",
+              "value": 4.35,
+              "rawValue": 310.103
+            },
+            {
+              "date": "2023-09-01",
+              "value": 4.15,
+              "rawValue": 310.817
+            },
+            {
+              "date": "2023-10-01",
+              "value": 4.03,
+              "rawValue": 311.38
+            },
+            {
+              "date": "2023-11-01",
+              "value": 4.01,
+              "rawValue": 311.606
+            },
+            {
+              "date": "2023-12-01",
+              "value": 3.93,
+              "rawValue": 311.907
+            },
+            {
+              "date": "2024-01-01",
+              "value": 3.86,
+              "rawValue": 313.623
+            },
+            {
+              "date": "2024-02-01",
+              "value": 3.75,
+              "rawValue": 315.419
+            },
+            {
+              "date": "2024-03-01",
+              "value": 3.8,
+              "rawValue": 317.088
+            },
+            {
+              "date": "2024-04-01",
+              "value": 3.61,
+              "rawValue": 317.978
+            },
+            {
+              "date": "2024-05-01",
+              "value": 3.42,
+              "rawValue": 318.629
+            },
+            {
+              "date": "2024-06-01",
+              "value": 3.27,
+              "rawValue": 319.003
+            },
+            {
+              "date": "2024-07-01",
+              "value": 3.17,
+              "rawValue": 319.214
+            },
+            {
+              "date": "2024-08-01",
+              "value": 3.2,
+              "rawValue": 320.017
+            },
+            {
+              "date": "2024-09-01",
+              "value": 3.31,
+              "rawValue": 321.109
+            },
+            {
+              "date": "2024-10-01",
+              "value": 3.33,
+              "rawValue": 321.758
+            },
+            {
+              "date": "2024-11-01",
+              "value": 3.32,
+              "rawValue": 321.947
+            },
+            {
+              "date": "2024-12-01",
+              "value": 3.24,
+              "rawValue": 322.007
+            },
+            {
+              "date": "2025-01-01",
+              "value": 3.26,
+              "rawValue": 323.842
+            },
+            {
+              "date": "2025-02-01",
+              "value": 3.12,
+              "rawValue": 325.252
+            },
+            {
+              "date": "2025-03-01",
+              "value": 2.79,
+              "rawValue": 325.933
+            },
+            {
+              "date": "2025-04-01",
+              "value": 2.78,
+              "rawValue": 326.815
+            },
+            {
+              "date": "2025-05-01",
+              "value": 2.79,
+              "rawValue": 327.509
+            },
+            {
+              "date": "2025-06-01",
+              "value": 2.93,
+              "rawValue": 328.364
+            },
+            {
+              "date": "2025-07-01",
+              "value": 3.06,
+              "rawValue": 328.98
+            },
+            {
+              "date": "2025-08-01",
+              "value": 3.11,
+              "rawValue": 329.97
+            },
+            {
+              "date": "2025-09-01",
+              "value": 3.02,
+              "rawValue": 330.804
+            },
+            {
+              "date": "2025-11-01",
+              "value": 2.69,
+              "rawValue": 330.425
+            },
+            {
+              "date": "2025-12-01",
+              "value": 2.66,
+              "rawValue": 330.506
+            },
+            {
+              "date": "2026-01-01",
+              "value": 3.09,
+              "rawValue": 331.95
+            },
+            {
+              "date": "2026-02-01",
+              "value": 2.9,
+              "rawValue": 333.242
+            },
+            {
+              "date": "2026-03-01",
+              "value": 2.81,
+              "rawValue": 334.391
+            },
+            {
+              "date": "2026-04-01",
+              "value": 3.03,
+              "rawValue": 335.803
+            },
+            {
+              "date": "2026-05-01",
+              "value": 3.07,
+              "rawValue": 336.846
+            }
+          ],
+          "valueText": "3.07%",
+          "changeText": "+0.04%",
+          "changeDirection": "up",
+          "asOfText": "2026-05",
+          "isStale": false,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is improving; higher-for-longer risk is still alive"
+        }
+      ]
+    },
+    {
+      "key": "ratesFinancial",
+      "title": "利率与金融条件",
+      "lead": "名义利率、真实利率、曲线、信用和美元共同决定折现率与风险偏好。",
+      "perspective": "House View 用来表达这些变化更利多成长、价值，还是更偏向防御和现金流资产。",
+      "metrics": [
+        {
+          "key": "treasury30y",
+          "label": "30Y Treasury",
+          "category": "利率",
+          "group": "ratesFinancial",
+          "sourceLabel": "U.S. Treasury",
+          "definition": "Level",
+          "unit": "%",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 5.01,
+            "rawValue": 5.01
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 5.03
+          },
+          "change": -0.02,
+          "history": [
+            {
+              "date": "2026-04-20",
+              "value": 4.88,
+              "rawValue": 4.88
+            },
+            {
+              "date": "2026-04-21",
+              "value": 4.89,
+              "rawValue": 4.89
+            },
+            {
+              "date": "2026-04-22",
+              "value": 4.9,
+              "rawValue": 4.9
+            },
+            {
+              "date": "2026-04-23",
+              "value": 4.92,
+              "rawValue": 4.92
+            },
+            {
+              "date": "2026-04-24",
+              "value": 4.91,
+              "rawValue": 4.91
+            },
+            {
+              "date": "2026-04-27",
+              "value": 4.94,
+              "rawValue": 4.94
+            },
+            {
+              "date": "2026-04-28",
+              "value": 4.94,
+              "rawValue": 4.94
+            },
+            {
+              "date": "2026-04-29",
+              "value": 4.98,
+              "rawValue": 4.98
+            },
+            {
+              "date": "2026-04-30",
+              "value": 4.98,
+              "rawValue": 4.98
+            },
+            {
+              "date": "2026-05-01",
+              "value": 4.97,
+              "rawValue": 4.97
+            },
+            {
+              "date": "2026-05-04",
+              "value": 5.02,
+              "rawValue": 5.02
+            },
+            {
+              "date": "2026-05-05",
+              "value": 4.98,
+              "rawValue": 4.98
+            },
+            {
+              "date": "2026-05-06",
+              "value": 4.94,
+              "rawValue": 4.94
+            },
+            {
+              "date": "2026-05-07",
+              "value": 4.97,
+              "rawValue": 4.97
+            },
+            {
+              "date": "2026-05-08",
+              "value": 4.95,
+              "rawValue": 4.95
+            },
+            {
+              "date": "2026-05-11",
+              "value": 4.98,
+              "rawValue": 4.98
+            },
+            {
+              "date": "2026-05-12",
+              "value": 5.03,
+              "rawValue": 5.03
+            },
+            {
+              "date": "2026-05-13",
+              "value": 5.03,
+              "rawValue": 5.03
+            },
+            {
+              "date": "2026-05-14",
+              "value": 5.02,
+              "rawValue": 5.02
+            },
+            {
+              "date": "2026-05-15",
+              "value": 5.12,
+              "rawValue": 5.12
+            },
+            {
+              "date": "2026-05-18",
+              "value": 5.14,
+              "rawValue": 5.14
+            },
+            {
+              "date": "2026-05-19",
+              "value": 5.18,
+              "rawValue": 5.18
+            },
+            {
+              "date": "2026-05-20",
+              "value": 5.11,
+              "rawValue": 5.11
+            },
+            {
+              "date": "2026-05-21",
+              "value": 5.1,
+              "rawValue": 5.1
+            },
+            {
+              "date": "2026-05-22",
+              "value": 5.07,
+              "rawValue": 5.07
+            },
+            {
+              "date": "2026-05-26",
+              "value": 5.03,
+              "rawValue": 5.03
+            },
+            {
+              "date": "2026-05-27",
+              "value": 5.01,
+              "rawValue": 5.01
+            },
+            {
+              "date": "2026-05-28",
+              "value": 4.98,
+              "rawValue": 4.98
+            },
+            {
+              "date": "2026-05-29",
+              "value": 4.99,
+              "rawValue": 4.99
+            },
+            {
+              "date": "2026-06-01",
+              "value": 4.99,
+              "rawValue": 4.99
+            },
+            {
+              "date": "2026-06-02",
+              "value": 4.97,
+              "rawValue": 4.97
+            },
+            {
+              "date": "2026-06-03",
+              "value": 4.99,
+              "rawValue": 4.99
+            },
+            {
+              "date": "2026-06-04",
+              "value": 4.97,
+              "rawValue": 4.97
+            },
+            {
+              "date": "2026-06-05",
+              "value": 5.01,
+              "rawValue": 5.01
+            },
+            {
+              "date": "2026-06-08",
+              "value": 5.03,
+              "rawValue": 5.03
+            },
+            {
+              "date": "2026-06-09",
+              "value": 5.01,
+              "rawValue": 5.01
+            }
+          ],
+          "valueText": "5.01%",
+          "changeText": "-0.02%",
+          "changeDirection": "down",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Stress",
+          "statusTone": "negative",
+          "brief": "Momentum is softening; Monitoring"
+        },
+        {
+          "key": "treasury2y",
+          "label": "2Y Treasury",
+          "category": "利率",
+          "group": "ratesFinancial",
+          "sourceLabel": "U.S. Treasury",
+          "definition": "Level",
+          "unit": "%",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "high",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 4.13,
+            "rawValue": 4.13
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 4.15
+          },
+          "change": -0.02,
+          "history": [
+            {
+              "date": "2026-04-20",
+              "value": 3.72,
+              "rawValue": 3.72
+            },
+            {
+              "date": "2026-04-21",
+              "value": 3.78,
+              "rawValue": 3.78
+            },
+            {
+              "date": "2026-04-22",
+              "value": 3.79,
+              "rawValue": 3.79
+            },
+            {
+              "date": "2026-04-23",
+              "value": 3.83,
+              "rawValue": 3.83
+            },
+            {
+              "date": "2026-04-24",
+              "value": 3.78,
+              "rawValue": 3.78
+            },
+            {
+              "date": "2026-04-27",
+              "value": 3.78,
+              "rawValue": 3.78
+            },
+            {
+              "date": "2026-04-28",
+              "value": 3.84,
+              "rawValue": 3.84
+            },
+            {
+              "date": "2026-04-29",
+              "value": 3.92,
+              "rawValue": 3.92
+            },
+            {
+              "date": "2026-04-30",
+              "value": 3.88,
+              "rawValue": 3.88
+            },
+            {
+              "date": "2026-05-01",
+              "value": 3.88,
+              "rawValue": 3.88
+            },
+            {
+              "date": "2026-05-04",
+              "value": 3.95,
+              "rawValue": 3.95
+            },
+            {
+              "date": "2026-05-05",
+              "value": 3.93,
+              "rawValue": 3.93
+            },
+            {
+              "date": "2026-05-06",
+              "value": 3.87,
+              "rawValue": 3.87
+            },
+            {
+              "date": "2026-05-07",
+              "value": 3.92,
+              "rawValue": 3.92
+            },
+            {
+              "date": "2026-05-08",
+              "value": 3.9,
+              "rawValue": 3.9
+            },
+            {
+              "date": "2026-05-11",
+              "value": 3.95,
+              "rawValue": 3.95
+            },
+            {
+              "date": "2026-05-12",
+              "value": 4,
+              "rawValue": 4
+            },
+            {
+              "date": "2026-05-13",
+              "value": 3.98,
+              "rawValue": 3.98
+            },
+            {
+              "date": "2026-05-14",
+              "value": 4,
+              "rawValue": 4
+            },
+            {
+              "date": "2026-05-15",
+              "value": 4.09,
+              "rawValue": 4.09
+            },
+            {
+              "date": "2026-05-18",
+              "value": 4.07,
+              "rawValue": 4.07
+            },
+            {
+              "date": "2026-05-19",
+              "value": 4.13,
+              "rawValue": 4.13
+            },
+            {
+              "date": "2026-05-20",
+              "value": 4.04,
+              "rawValue": 4.04
+            },
+            {
+              "date": "2026-05-21",
+              "value": 4.08,
+              "rawValue": 4.08
+            },
+            {
+              "date": "2026-05-22",
+              "value": 4.13,
+              "rawValue": 4.13
+            },
+            {
+              "date": "2026-05-26",
+              "value": 4.01,
+              "rawValue": 4.01
+            },
+            {
+              "date": "2026-05-27",
+              "value": 4,
+              "rawValue": 4
+            },
+            {
+              "date": "2026-05-28",
+              "value": 3.99,
+              "rawValue": 3.99
+            },
+            {
+              "date": "2026-05-29",
+              "value": 3.98,
+              "rawValue": 3.98
+            },
+            {
+              "date": "2026-06-01",
+              "value": 4.05,
+              "rawValue": 4.05
+            },
+            {
+              "date": "2026-06-02",
+              "value": 4.05,
+              "rawValue": 4.05
+            },
+            {
+              "date": "2026-06-03",
+              "value": 4.08,
+              "rawValue": 4.08
+            },
+            {
+              "date": "2026-06-04",
+              "value": 4.05,
+              "rawValue": 4.05
+            },
+            {
+              "date": "2026-06-05",
+              "value": 4.17,
+              "rawValue": 4.17
+            },
+            {
+              "date": "2026-06-08",
+              "value": 4.15,
+              "rawValue": 4.15
+            },
+            {
+              "date": "2026-06-09",
+              "value": 4.13,
+              "rawValue": 4.13
+            }
+          ],
+          "valueText": "4.13%",
+          "changeText": "-0.02%",
+          "changeDirection": "down",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is softening; Monitoring"
+        },
+        {
+          "key": "treasury10y",
+          "label": "10Y Treasury",
+          "category": "利率",
+          "group": "ratesFinancial",
+          "sourceLabel": "U.S. Treasury",
+          "definition": "Level",
+          "unit": "%",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "high",
+          "marketSignal": "Long-end yields are pressuring valuation",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 4.53,
+            "rawValue": 4.53
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 4.56
+          },
+          "change": -0.03,
+          "history": [
+            {
+              "date": "2026-04-20",
+              "value": 4.26,
+              "rawValue": 4.26
+            },
+            {
+              "date": "2026-04-21",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2026-04-22",
+              "value": 4.3,
+              "rawValue": 4.3
+            },
+            {
+              "date": "2026-04-23",
+              "value": 4.34,
+              "rawValue": 4.34
+            },
+            {
+              "date": "2026-04-24",
+              "value": 4.31,
+              "rawValue": 4.31
+            },
+            {
+              "date": "2026-04-27",
+              "value": 4.35,
+              "rawValue": 4.35
+            },
+            {
+              "date": "2026-04-28",
+              "value": 4.36,
+              "rawValue": 4.36
+            },
+            {
+              "date": "2026-04-29",
+              "value": 4.42,
+              "rawValue": 4.42
+            },
+            {
+              "date": "2026-04-30",
+              "value": 4.4,
+              "rawValue": 4.4
+            },
+            {
+              "date": "2026-05-01",
+              "value": 4.39,
+              "rawValue": 4.39
+            },
+            {
+              "date": "2026-05-04",
+              "value": 4.45,
+              "rawValue": 4.45
+            },
+            {
+              "date": "2026-05-05",
+              "value": 4.43,
+              "rawValue": 4.43
+            },
+            {
+              "date": "2026-05-06",
+              "value": 4.36,
+              "rawValue": 4.36
+            },
+            {
+              "date": "2026-05-07",
+              "value": 4.41,
+              "rawValue": 4.41
+            },
+            {
+              "date": "2026-05-08",
+              "value": 4.38,
+              "rawValue": 4.38
+            },
+            {
+              "date": "2026-05-11",
+              "value": 4.42,
+              "rawValue": 4.42
+            },
+            {
+              "date": "2026-05-12",
+              "value": 4.46,
+              "rawValue": 4.46
+            },
+            {
+              "date": "2026-05-13",
+              "value": 4.46,
+              "rawValue": 4.46
+            },
+            {
+              "date": "2026-05-14",
+              "value": 4.47,
+              "rawValue": 4.47
+            },
+            {
+              "date": "2026-05-15",
+              "value": 4.59,
+              "rawValue": 4.59
+            },
+            {
+              "date": "2026-05-18",
+              "value": 4.61,
+              "rawValue": 4.61
+            },
+            {
+              "date": "2026-05-19",
+              "value": 4.67,
+              "rawValue": 4.67
+            },
+            {
+              "date": "2026-05-20",
+              "value": 4.57,
+              "rawValue": 4.57
+            },
+            {
+              "date": "2026-05-21",
+              "value": 4.57,
+              "rawValue": 4.57
+            },
+            {
+              "date": "2026-05-22",
+              "value": 4.56,
+              "rawValue": 4.56
+            },
+            {
+              "date": "2026-05-26",
+              "value": 4.5,
+              "rawValue": 4.5
+            },
+            {
+              "date": "2026-05-27",
+              "value": 4.48,
+              "rawValue": 4.48
+            },
+            {
+              "date": "2026-05-28",
+              "value": 4.45,
+              "rawValue": 4.45
+            },
+            {
+              "date": "2026-05-29",
+              "value": 4.45,
+              "rawValue": 4.45
+            },
+            {
+              "date": "2026-06-01",
+              "value": 4.47,
+              "rawValue": 4.47
+            },
+            {
+              "date": "2026-06-02",
+              "value": 4.46,
+              "rawValue": 4.46
+            },
+            {
+              "date": "2026-06-03",
+              "value": 4.49,
+              "rawValue": 4.49
+            },
+            {
+              "date": "2026-06-04",
+              "value": 4.47,
+              "rawValue": 4.47
+            },
+            {
+              "date": "2026-06-05",
+              "value": 4.55,
+              "rawValue": 4.55
+            },
+            {
+              "date": "2026-06-08",
+              "value": 4.56,
+              "rawValue": 4.56
+            },
+            {
+              "date": "2026-06-09",
+              "value": 4.53,
+              "rawValue": 4.53
+            }
+          ],
+          "valueText": "4.53%",
+          "changeText": "-0.03%",
+          "changeDirection": "down",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Stress",
+          "statusTone": "negative",
+          "brief": "Momentum is softening; discount-rate pressure on equities remains high"
+        },
+        {
+          "key": "sp500",
+          "label": "S&P 500",
+          "category": "风险偏好",
+          "group": "ratesFinancial",
+          "sourceLabel": "S&P DJI via FRED",
+          "definition": "Level",
+          "unit": "",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "medium",
+          "marketSignal": "Monitoring",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 7386.65,
+            "rawValue": 7386.65
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 7405.73
+          },
+          "change": -19.08,
+          "history": [
+            {
+              "date": "2026-04-20",
+              "value": 7109.14,
+              "rawValue": 7109.14
+            },
+            {
+              "date": "2026-04-21",
+              "value": 7064.01,
+              "rawValue": 7064.01
+            },
+            {
+              "date": "2026-04-22",
+              "value": 7137.9,
+              "rawValue": 7137.9
+            },
+            {
+              "date": "2026-04-23",
+              "value": 7108.4,
+              "rawValue": 7108.4
+            },
+            {
+              "date": "2026-04-24",
+              "value": 7165.08,
+              "rawValue": 7165.08
+            },
+            {
+              "date": "2026-04-27",
+              "value": 7173.91,
+              "rawValue": 7173.91
+            },
+            {
+              "date": "2026-04-28",
+              "value": 7138.8,
+              "rawValue": 7138.8
+            },
+            {
+              "date": "2026-04-29",
+              "value": 7135.95,
+              "rawValue": 7135.95
+            },
+            {
+              "date": "2026-04-30",
+              "value": 7209.01,
+              "rawValue": 7209.01
+            },
+            {
+              "date": "2026-05-01",
+              "value": 7230.12,
+              "rawValue": 7230.12
+            },
+            {
+              "date": "2026-05-04",
+              "value": 7200.75,
+              "rawValue": 7200.75
+            },
+            {
+              "date": "2026-05-05",
+              "value": 7259.22,
+              "rawValue": 7259.22
+            },
+            {
+              "date": "2026-05-06",
+              "value": 7365.12,
+              "rawValue": 7365.12
+            },
+            {
+              "date": "2026-05-07",
+              "value": 7337.11,
+              "rawValue": 7337.11
+            },
+            {
+              "date": "2026-05-08",
+              "value": 7398.93,
+              "rawValue": 7398.93
+            },
+            {
+              "date": "2026-05-11",
+              "value": 7412.84,
+              "rawValue": 7412.84
+            },
+            {
+              "date": "2026-05-12",
+              "value": 7400.96,
+              "rawValue": 7400.96
+            },
+            {
+              "date": "2026-05-13",
+              "value": 7444.25,
+              "rawValue": 7444.25
+            },
+            {
+              "date": "2026-05-14",
+              "value": 7501.24,
+              "rawValue": 7501.24
+            },
+            {
+              "date": "2026-05-15",
+              "value": 7408.5,
+              "rawValue": 7408.5
+            },
+            {
+              "date": "2026-05-18",
+              "value": 7403.05,
+              "rawValue": 7403.05
+            },
+            {
+              "date": "2026-05-19",
+              "value": 7353.61,
+              "rawValue": 7353.61
+            },
+            {
+              "date": "2026-05-20",
+              "value": 7432.97,
+              "rawValue": 7432.97
+            },
+            {
+              "date": "2026-05-21",
+              "value": 7445.72,
+              "rawValue": 7445.72
+            },
+            {
+              "date": "2026-05-22",
+              "value": 7473.47,
+              "rawValue": 7473.47
+            },
+            {
+              "date": "2026-05-26",
+              "value": 7519.12,
+              "rawValue": 7519.12
+            },
+            {
+              "date": "2026-05-27",
+              "value": 7520.36,
+              "rawValue": 7520.36
+            },
+            {
+              "date": "2026-05-28",
+              "value": 7563.63,
+              "rawValue": 7563.63
+            },
+            {
+              "date": "2026-05-29",
+              "value": 7580.06,
+              "rawValue": 7580.06
+            },
+            {
+              "date": "2026-06-01",
+              "value": 7599.96,
+              "rawValue": 7599.96
+            },
+            {
+              "date": "2026-06-02",
+              "value": 7609.78,
+              "rawValue": 7609.78
+            },
+            {
+              "date": "2026-06-03",
+              "value": 7553.68,
+              "rawValue": 7553.68
+            },
+            {
+              "date": "2026-06-04",
+              "value": 7584.31,
+              "rawValue": 7584.31
+            },
+            {
+              "date": "2026-06-05",
+              "value": 7383.74,
+              "rawValue": 7383.74
+            },
+            {
+              "date": "2026-06-08",
+              "value": 7405.73,
+              "rawValue": 7405.73
+            },
+            {
+              "date": "2026-06-09",
+              "value": 7386.65,
+              "rawValue": 7386.65
+            }
+          ],
+          "valueText": "7,387",
+          "changeText": "-19.08",
+          "changeDirection": "down",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Watch",
+          "statusTone": "neutral",
+          "brief": "Momentum is softening; Monitoring"
+        },
+        {
+          "key": "real10y",
+          "label": "10Y Real Yield",
+          "category": "实际利率",
+          "group": "ratesFinancial",
+          "sourceLabel": "U.S. Treasury",
+          "definition": "Level",
+          "unit": "%",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "high",
+          "marketSignal": "Real yields are restrictive",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 2.2,
+            "rawValue": 2.2
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 2.21
+          },
+          "change": -0.01,
+          "history": [
+            {
+              "date": "2026-04-20",
+              "value": 1.91,
+              "rawValue": 1.91
+            },
+            {
+              "date": "2026-04-21",
+              "value": 1.92,
+              "rawValue": 1.92
+            },
+            {
+              "date": "2026-04-22",
+              "value": 1.92,
+              "rawValue": 1.92
+            },
+            {
+              "date": "2026-04-23",
+              "value": 1.92,
+              "rawValue": 1.92
+            },
+            {
+              "date": "2026-04-24",
+              "value": 1.89,
+              "rawValue": 1.89
+            },
+            {
+              "date": "2026-04-27",
+              "value": 1.91,
+              "rawValue": 1.91
+            },
+            {
+              "date": "2026-04-28",
+              "value": 1.92,
+              "rawValue": 1.92
+            },
+            {
+              "date": "2026-04-29",
+              "value": 1.96,
+              "rawValue": 1.96
+            },
+            {
+              "date": "2026-04-30",
+              "value": 1.94,
+              "rawValue": 1.94
+            },
+            {
+              "date": "2026-05-01",
+              "value": 1.91,
+              "rawValue": 1.91
+            },
+            {
+              "date": "2026-05-04",
+              "value": 1.95,
+              "rawValue": 1.95
+            },
+            {
+              "date": "2026-05-05",
+              "value": 1.96,
+              "rawValue": 1.96
+            },
+            {
+              "date": "2026-05-06",
+              "value": 1.94,
+              "rawValue": 1.94
+            },
+            {
+              "date": "2026-05-07",
+              "value": 1.96,
+              "rawValue": 1.96
+            },
+            {
+              "date": "2026-05-08",
+              "value": 1.93,
+              "rawValue": 1.93
+            },
+            {
+              "date": "2026-05-11",
+              "value": 1.95,
+              "rawValue": 1.95
+            },
+            {
+              "date": "2026-05-12",
+              "value": 1.99,
+              "rawValue": 1.99
+            },
+            {
+              "date": "2026-05-13",
+              "value": 1.99,
+              "rawValue": 1.99
+            },
+            {
+              "date": "2026-05-14",
+              "value": 2,
+              "rawValue": 2
+            },
+            {
+              "date": "2026-05-15",
+              "value": 2.1,
+              "rawValue": 2.1
+            },
+            {
+              "date": "2026-05-18",
+              "value": 2.13,
+              "rawValue": 2.13
+            },
+            {
+              "date": "2026-05-19",
+              "value": 2.18,
+              "rawValue": 2.18
+            },
+            {
+              "date": "2026-05-20",
+              "value": 2.13,
+              "rawValue": 2.13
+            },
+            {
+              "date": "2026-05-21",
+              "value": 2.18,
+              "rawValue": 2.18
+            },
+            {
+              "date": "2026-05-22",
+              "value": 2.16,
+              "rawValue": 2.16
+            },
+            {
+              "date": "2026-05-26",
+              "value": 2.1,
+              "rawValue": 2.1
+            },
+            {
+              "date": "2026-05-27",
+              "value": 2.09,
+              "rawValue": 2.09
+            },
+            {
+              "date": "2026-05-28",
+              "value": 2.06,
+              "rawValue": 2.06
+            },
+            {
+              "date": "2026-05-29",
+              "value": 2.07,
+              "rawValue": 2.07
+            },
+            {
+              "date": "2026-06-01",
+              "value": 2.07,
+              "rawValue": 2.07
+            },
+            {
+              "date": "2026-06-02",
+              "value": 2.07,
+              "rawValue": 2.07
+            },
+            {
+              "date": "2026-06-03",
+              "value": 2.11,
+              "rawValue": 2.11
+            },
+            {
+              "date": "2026-06-04",
+              "value": 2.11,
+              "rawValue": 2.11
+            },
+            {
+              "date": "2026-06-05",
+              "value": 2.19,
+              "rawValue": 2.19
+            },
+            {
+              "date": "2026-06-08",
+              "value": 2.21,
+              "rawValue": 2.21
+            },
+            {
+              "date": "2026-06-09",
+              "value": 2.2,
+              "rawValue": 2.2
+            }
+          ],
+          "valueText": "2.2%",
+          "changeText": "-0.01%",
+          "changeDirection": "down",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Healthy",
+          "statusTone": "positive",
+          "brief": "Momentum is softening; real-rate pressure is unfriendly for long-duration assets"
+        },
+        {
+          "key": "dxyBroad",
+          "label": "Broad Dollar Index",
+          "category": "美元",
+          "group": "ratesFinancial",
+          "sourceLabel": "Fed H.10 via FRED",
+          "definition": "Level",
+          "unit": "",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "medium",
+          "marketSignal": "Dollar is firm",
+          "latest": {
+            "date": "2026-06-05",
+            "value": 120.08,
+            "rawValue": 120.0831
+          },
+          "previous": {
+            "date": "2026-06-04",
+            "value": 119.36
+          },
+          "change": 0.72,
+          "history": [
+            {
+              "date": "2026-04-16",
+              "value": 118.36,
+              "rawValue": 118.3616
+            },
+            {
+              "date": "2026-04-17",
+              "value": 118.08,
+              "rawValue": 118.0795
+            },
+            {
+              "date": "2026-04-20",
+              "value": 118.24,
+              "rawValue": 118.2374
+            },
+            {
+              "date": "2026-04-21",
+              "value": 118.43,
+              "rawValue": 118.4331
+            },
+            {
+              "date": "2026-04-22",
+              "value": 118.6,
+              "rawValue": 118.6004
+            },
+            {
+              "date": "2026-04-23",
+              "value": 118.72,
+              "rawValue": 118.7155
+            },
+            {
+              "date": "2026-04-24",
+              "value": 118.73,
+              "rawValue": 118.7294
+            },
+            {
+              "date": "2026-04-27",
+              "value": 118.55,
+              "rawValue": 118.5458
+            },
+            {
+              "date": "2026-04-28",
+              "value": 118.77,
+              "rawValue": 118.7717
+            },
+            {
+              "date": "2026-04-29",
+              "value": 119.1,
+              "rawValue": 119.0975
+            },
+            {
+              "date": "2026-04-30",
+              "value": 118.67,
+              "rawValue": 118.671
+            },
+            {
+              "date": "2026-05-01",
+              "value": 118.39,
+              "rawValue": 118.3926
+            },
+            {
+              "date": "2026-05-04",
+              "value": 118.83,
+              "rawValue": 118.8264
+            },
+            {
+              "date": "2026-05-05",
+              "value": 118.62,
+              "rawValue": 118.6207
+            },
+            {
+              "date": "2026-05-06",
+              "value": 118.1,
+              "rawValue": 118.0982
+            },
+            {
+              "date": "2026-05-07",
+              "value": 118.01,
+              "rawValue": 118.0116
+            },
+            {
+              "date": "2026-05-08",
+              "value": 118.04,
+              "rawValue": 118.0392
+            },
+            {
+              "date": "2026-05-11",
+              "value": 118.06,
+              "rawValue": 118.0562
+            },
+            {
+              "date": "2026-05-12",
+              "value": 118.52,
+              "rawValue": 118.5238
+            },
+            {
+              "date": "2026-05-13",
+              "value": 118.47,
+              "rawValue": 118.4737
+            },
+            {
+              "date": "2026-05-14",
+              "value": 118.67,
+              "rawValue": 118.6696
+            },
+            {
+              "date": "2026-05-15",
+              "value": 119.28,
+              "rawValue": 119.2825
+            },
+            {
+              "date": "2026-05-18",
+              "value": 119.06,
+              "rawValue": 119.0574
+            },
+            {
+              "date": "2026-05-19",
+              "value": 119.45,
+              "rawValue": 119.451
+            },
+            {
+              "date": "2026-05-20",
+              "value": 119.16,
+              "rawValue": 119.1624
+            },
+            {
+              "date": "2026-05-21",
+              "value": 119.37,
+              "rawValue": 119.369
+            },
+            {
+              "date": "2026-05-22",
+              "value": 119.29,
+              "rawValue": 119.2868
+            },
+            {
+              "date": "2026-05-26",
+              "value": 119.17,
+              "rawValue": 119.1696
+            },
+            {
+              "date": "2026-05-27",
+              "value": 119.18,
+              "rawValue": 119.1829
+            },
+            {
+              "date": "2026-05-28",
+              "value": 119.03,
+              "rawValue": 119.0318
+            },
+            {
+              "date": "2026-05-29",
+              "value": 118.88,
+              "rawValue": 118.8783
+            },
+            {
+              "date": "2026-06-01",
+              "value": 119.17,
+              "rawValue": 119.1653
+            },
+            {
+              "date": "2026-06-02",
+              "value": 119.04,
+              "rawValue": 119.0359
+            },
+            {
+              "date": "2026-06-03",
+              "value": 119.38,
+              "rawValue": 119.3848
+            },
+            {
+              "date": "2026-06-04",
+              "value": 119.36,
+              "rawValue": 119.3615
+            },
+            {
+              "date": "2026-06-05",
+              "value": 120.08,
+              "rawValue": 120.0831
+            }
+          ],
+          "valueText": "120",
+          "changeText": "+0.72",
+          "changeDirection": "up",
+          "asOfText": "2026-06-05",
+          "isStale": true,
+          "statusLabel": "Caution",
+          "statusTone": "caution",
+          "brief": "Momentum is improving; dollar pressure is manageable"
+        },
+        {
+          "key": "curve2s10s",
+          "label": "2s10s Curve",
+          "category": "曲线",
+          "group": "ratesFinancial",
+          "sourceLabel": "Derived from U.S. Treasury",
+          "definition": "Derived spread",
+          "unit": "bp",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "high",
+          "marketSignal": "Curve has re-steepened",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 40,
+            "rawValue": 40
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 41
+          },
+          "change": -1,
+          "history": [
+            {
+              "date": "2026-04-20",
+              "value": 54,
+              "rawValue": 54
+            },
+            {
+              "date": "2026-04-21",
+              "value": 52,
+              "rawValue": 52
+            },
+            {
+              "date": "2026-04-22",
+              "value": 51,
+              "rawValue": 51
+            },
+            {
+              "date": "2026-04-23",
+              "value": 51,
+              "rawValue": 51
+            },
+            {
+              "date": "2026-04-24",
+              "value": 53,
+              "rawValue": 53
+            },
+            {
+              "date": "2026-04-27",
+              "value": 57,
+              "rawValue": 57
+            },
+            {
+              "date": "2026-04-28",
+              "value": 52,
+              "rawValue": 52
+            },
+            {
+              "date": "2026-04-29",
+              "value": 50,
+              "rawValue": 50
+            },
+            {
+              "date": "2026-04-30",
+              "value": 52,
+              "rawValue": 52
+            },
+            {
+              "date": "2026-05-01",
+              "value": 51,
+              "rawValue": 51
+            },
+            {
+              "date": "2026-05-04",
+              "value": 50,
+              "rawValue": 50
+            },
+            {
+              "date": "2026-05-05",
+              "value": 50,
+              "rawValue": 50
+            },
+            {
+              "date": "2026-05-06",
+              "value": 49,
+              "rawValue": 49
+            },
+            {
+              "date": "2026-05-07",
+              "value": 49,
+              "rawValue": 49
+            },
+            {
+              "date": "2026-05-08",
+              "value": 48,
+              "rawValue": 48
+            },
+            {
+              "date": "2026-05-11",
+              "value": 47,
+              "rawValue": 47
+            },
+            {
+              "date": "2026-05-12",
+              "value": 46,
+              "rawValue": 46
+            },
+            {
+              "date": "2026-05-13",
+              "value": 48,
+              "rawValue": 48
+            },
+            {
+              "date": "2026-05-14",
+              "value": 47,
+              "rawValue": 47
+            },
+            {
+              "date": "2026-05-15",
+              "value": 50,
+              "rawValue": 50
+            },
+            {
+              "date": "2026-05-18",
+              "value": 54,
+              "rawValue": 54
+            },
+            {
+              "date": "2026-05-19",
+              "value": 54,
+              "rawValue": 54
+            },
+            {
+              "date": "2026-05-20",
+              "value": 53,
+              "rawValue": 53
+            },
+            {
+              "date": "2026-05-21",
+              "value": 49,
+              "rawValue": 49
+            },
+            {
+              "date": "2026-05-22",
+              "value": 43,
+              "rawValue": 43
+            },
+            {
+              "date": "2026-05-26",
+              "value": 49,
+              "rawValue": 49
+            },
+            {
+              "date": "2026-05-27",
+              "value": 48,
+              "rawValue": 48
+            },
+            {
+              "date": "2026-05-28",
+              "value": 46,
+              "rawValue": 46
+            },
+            {
+              "date": "2026-05-29",
+              "value": 47,
+              "rawValue": 47
+            },
+            {
+              "date": "2026-06-01",
+              "value": 42,
+              "rawValue": 42
+            },
+            {
+              "date": "2026-06-02",
+              "value": 41,
+              "rawValue": 41
+            },
+            {
+              "date": "2026-06-03",
+              "value": 41,
+              "rawValue": 41
+            },
+            {
+              "date": "2026-06-04",
+              "value": 42,
+              "rawValue": 42
+            },
+            {
+              "date": "2026-06-05",
+              "value": 38,
+              "rawValue": 38
+            },
+            {
+              "date": "2026-06-08",
+              "value": 41,
+              "rawValue": 41
+            },
+            {
+              "date": "2026-06-09",
+              "value": 40,
+              "rawValue": 40
+            }
+          ],
+          "valueText": "40 bp",
+          "changeText": "-1bp",
+          "changeDirection": "down",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Healthy",
+          "statusTone": "positive",
+          "brief": "Momentum is softening; curve re-steepening fits better with reflation than recession panic"
+        },
+        {
+          "key": "creditSpread",
+          "label": "US Corporate OAS",
+          "category": "信用",
+          "group": "ratesFinancial",
+          "sourceLabel": "ICE BofA via FRED",
+          "definition": "Level",
+          "unit": "%",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "high",
+          "marketSignal": "Credit conditions are easy",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 0.75,
+            "rawValue": 0.75
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 0.75
+          },
+          "change": 0,
+          "history": [
+            {
+              "date": "2026-04-22",
+              "value": 0.79,
+              "rawValue": 0.79
+            },
+            {
+              "date": "2026-04-23",
+              "value": 0.8,
+              "rawValue": 0.8
+            },
+            {
+              "date": "2026-04-24",
+              "value": 0.8,
+              "rawValue": 0.8
+            },
+            {
+              "date": "2026-04-27",
+              "value": 0.81,
+              "rawValue": 0.81
+            },
+            {
+              "date": "2026-04-28",
+              "value": 0.81,
+              "rawValue": 0.81
+            },
+            {
+              "date": "2026-04-29",
+              "value": 0.81,
+              "rawValue": 0.81
+            },
+            {
+              "date": "2026-04-30",
+              "value": 0.81,
+              "rawValue": 0.81
+            },
+            {
+              "date": "2026-05-01",
+              "value": 0.81,
+              "rawValue": 0.81
+            },
+            {
+              "date": "2026-05-04",
+              "value": 0.8,
+              "rawValue": 0.8
+            },
+            {
+              "date": "2026-05-05",
+              "value": 0.79,
+              "rawValue": 0.79
+            },
+            {
+              "date": "2026-05-06",
+              "value": 0.78,
+              "rawValue": 0.78
+            },
+            {
+              "date": "2026-05-07",
+              "value": 0.79,
+              "rawValue": 0.79
+            },
+            {
+              "date": "2026-05-08",
+              "value": 0.79,
+              "rawValue": 0.79
+            },
+            {
+              "date": "2026-05-11",
+              "value": 0.78,
+              "rawValue": 0.78
+            },
+            {
+              "date": "2026-05-12",
+              "value": 0.77,
+              "rawValue": 0.77
+            },
+            {
+              "date": "2026-05-13",
+              "value": 0.76,
+              "rawValue": 0.76
+            },
+            {
+              "date": "2026-05-14",
+              "value": 0.76,
+              "rawValue": 0.76
+            },
+            {
+              "date": "2026-05-15",
+              "value": 0.75,
+              "rawValue": 0.75
+            },
+            {
+              "date": "2026-05-18",
+              "value": 0.75,
+              "rawValue": 0.75
+            },
+            {
+              "date": "2026-05-19",
+              "value": 0.76,
+              "rawValue": 0.76
+            },
+            {
+              "date": "2026-05-20",
+              "value": 0.75,
+              "rawValue": 0.75
+            },
+            {
+              "date": "2026-05-21",
+              "value": 0.75,
+              "rawValue": 0.75
+            },
+            {
+              "date": "2026-05-22",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-05-25",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-05-26",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-05-27",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-05-28",
+              "value": 0.73,
+              "rawValue": 0.73
+            },
+            {
+              "date": "2026-05-29",
+              "value": 0.73,
+              "rawValue": 0.73
+            },
+            {
+              "date": "2026-05-31",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-06-01",
+              "value": 0.73,
+              "rawValue": 0.73
+            },
+            {
+              "date": "2026-06-02",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-06-03",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-06-04",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-06-05",
+              "value": 0.74,
+              "rawValue": 0.74
+            },
+            {
+              "date": "2026-06-08",
+              "value": 0.75,
+              "rawValue": 0.75
+            },
+            {
+              "date": "2026-06-09",
+              "value": 0.75,
+              "rawValue": 0.75
+            }
+          ],
+          "valueText": "0.75%",
+          "changeText": "0%",
+          "changeDirection": "flat",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Healthy",
+          "statusTone": "positive",
+          "brief": "Momentum is unchanged; credit still supports risk appetite"
+        },
+        {
+          "key": "breakeven10y",
+          "label": "10Y Breakeven",
+          "category": "通胀预期",
+          "group": "ratesFinancial",
+          "sourceLabel": "Derived from U.S. Treasury",
+          "definition": "Derived spread",
+          "unit": "%",
+          "frequency": "daily",
+          "frequencyLabel": "Daily",
+          "importance": "medium",
+          "marketSignal": "Inflation expectations are stable",
+          "latest": {
+            "date": "2026-06-09",
+            "value": 2.33,
+            "rawValue": 2.33
+          },
+          "previous": {
+            "date": "2026-06-08",
+            "value": 2.35
+          },
+          "change": -0.02,
+          "history": [
+            {
+              "date": "2026-04-20",
+              "value": 2.35,
+              "rawValue": 2.35
+            },
+            {
+              "date": "2026-04-21",
+              "value": 2.38,
+              "rawValue": 2.38
+            },
+            {
+              "date": "2026-04-22",
+              "value": 2.38,
+              "rawValue": 2.38
+            },
+            {
+              "date": "2026-04-23",
+              "value": 2.42,
+              "rawValue": 2.42
+            },
+            {
+              "date": "2026-04-24",
+              "value": 2.42,
+              "rawValue": 2.42
+            },
+            {
+              "date": "2026-04-27",
+              "value": 2.44,
+              "rawValue": 2.44
+            },
+            {
+              "date": "2026-04-28",
+              "value": 2.44,
+              "rawValue": 2.44
+            },
+            {
+              "date": "2026-04-29",
+              "value": 2.46,
+              "rawValue": 2.46
+            },
+            {
+              "date": "2026-04-30",
+              "value": 2.46,
+              "rawValue": 2.46
+            },
+            {
+              "date": "2026-05-01",
+              "value": 2.48,
+              "rawValue": 2.48
+            },
+            {
+              "date": "2026-05-04",
+              "value": 2.5,
+              "rawValue": 2.5
+            },
+            {
+              "date": "2026-05-05",
+              "value": 2.47,
+              "rawValue": 2.47
+            },
+            {
+              "date": "2026-05-06",
+              "value": 2.42,
+              "rawValue": 2.42
+            },
+            {
+              "date": "2026-05-07",
+              "value": 2.45,
+              "rawValue": 2.45
+            },
+            {
+              "date": "2026-05-08",
+              "value": 2.45,
+              "rawValue": 2.45
+            },
+            {
+              "date": "2026-05-11",
+              "value": 2.47,
+              "rawValue": 2.47
+            },
+            {
+              "date": "2026-05-12",
+              "value": 2.47,
+              "rawValue": 2.47
+            },
+            {
+              "date": "2026-05-13",
+              "value": 2.47,
+              "rawValue": 2.47
+            },
+            {
+              "date": "2026-05-14",
+              "value": 2.47,
+              "rawValue": 2.47
+            },
+            {
+              "date": "2026-05-15",
+              "value": 2.49,
+              "rawValue": 2.49
+            },
+            {
+              "date": "2026-05-18",
+              "value": 2.48,
+              "rawValue": 2.48
+            },
+            {
+              "date": "2026-05-19",
+              "value": 2.49,
+              "rawValue": 2.49
+            },
+            {
+              "date": "2026-05-20",
+              "value": 2.44,
+              "rawValue": 2.44
+            },
+            {
+              "date": "2026-05-21",
+              "value": 2.39,
+              "rawValue": 2.39
+            },
+            {
+              "date": "2026-05-22",
+              "value": 2.4,
+              "rawValue": 2.4
+            },
+            {
+              "date": "2026-05-26",
+              "value": 2.4,
+              "rawValue": 2.4
+            },
+            {
+              "date": "2026-05-27",
+              "value": 2.39,
+              "rawValue": 2.39
+            },
+            {
+              "date": "2026-05-28",
+              "value": 2.39,
+              "rawValue": 2.39
+            },
+            {
+              "date": "2026-05-29",
+              "value": 2.38,
+              "rawValue": 2.38
+            },
+            {
+              "date": "2026-06-01",
+              "value": 2.4,
+              "rawValue": 2.4
+            },
+            {
+              "date": "2026-06-02",
+              "value": 2.39,
+              "rawValue": 2.39
+            },
+            {
+              "date": "2026-06-03",
+              "value": 2.38,
+              "rawValue": 2.38
+            },
+            {
+              "date": "2026-06-04",
+              "value": 2.36,
+              "rawValue": 2.36
+            },
+            {
+              "date": "2026-06-05",
+              "value": 2.36,
+              "rawValue": 2.36
+            },
+            {
+              "date": "2026-06-08",
+              "value": 2.35,
+              "rawValue": 2.35
+            },
+            {
+              "date": "2026-06-09",
+              "value": 2.33,
+              "rawValue": 2.33
+            }
+          ],
+          "valueText": "2.33%",
+          "changeText": "-0.02%",
+          "changeDirection": "down",
+          "asOfText": "2026-06-09",
+          "isStale": true,
+          "statusLabel": "Healthy",
+          "statusTone": "positive",
+          "brief": "Momentum is softening; Inflation expectations are stable"
+        }
+      ]
+    }
+  ],
+  "releases": {
+    "sevenDays": [
+      {
+        "eventId": "BEA-news-2026-06-25",
+        "source": "BEA",
+        "name": "News",
+        "releaseAtUtc": "2026-06-25T12:30:00.000Z",
+        "releaseAtLocal": "2026/06/25 20:30",
+        "importance": "medium",
+        "impact": "Income / PCE / Inflation",
+        "tags": [
+          "pce",
+          "income"
+        ],
+        "relatedSeries": [
+          "pce",
+          "corePce",
+          "retailSales"
+        ],
+        "notes": "",
+        "status": "scheduled",
+        "metadata": {
+          "easternTime": "8:30 AM"
+        }
+      }
+    ],
+    "thirtyDays": [
+      {
+        "eventId": "BEA-news-2026-06-25",
+        "source": "BEA",
+        "name": "News",
+        "releaseAtUtc": "2026-06-25T12:30:00.000Z",
+        "releaseAtLocal": "2026/06/25 20:30",
+        "importance": "medium",
+        "impact": "Income / PCE / Inflation",
+        "tags": [
+          "pce",
+          "income"
+        ],
+        "relatedSeries": [
+          "pce",
+          "corePce",
+          "retailSales"
+        ],
+        "notes": "",
+        "status": "scheduled",
+        "metadata": {
+          "easternTime": "8:30 AM"
+        }
+      },
+      {
+        "eventId": "BLS-employment-situation-2026-07-02",
+        "source": "BLS",
+        "name": "Employment Situation",
+        "releaseAtUtc": "2026-07-02T12:30:00.000Z",
+        "releaseAtLocal": "2026/07/02 20:30",
+        "importance": "high",
+        "impact": "Growth / Labor / Fed",
+        "tags": [
+          "jobs",
+          "labor"
+        ],
+        "relatedSeries": [
+          "nonfarmPayrolls",
+          "unemploymentRate",
+          "wageGrowth"
+        ],
+        "notes": "June 2026",
+        "status": "scheduled",
+        "metadata": {
+          "easternTime": "08:30 AM"
+        }
+      },
+      {
+        "eventId": "BLS-consumer-price-index-2026-07-14",
+        "source": "BLS",
+        "name": "Consumer Price Index",
+        "releaseAtUtc": "2026-07-14T12:30:00.000Z",
+        "releaseAtLocal": "2026/07/14 20:30",
+        "importance": "high",
+        "impact": "Inflation / Fed",
+        "tags": [
+          "cpi",
+          "inflation"
+        ],
+        "relatedSeries": [
+          "cpi",
+          "coreCpi",
+          "shelterCpi",
+          "coreServicesExHousing"
+        ],
+        "notes": "June 2026",
+        "status": "scheduled",
+        "metadata": {
+          "easternTime": "08:30 AM"
+        }
+      },
+      {
+        "eventId": "BLS-producer-price-index-2026-07-15",
+        "source": "BLS",
+        "name": "Producer Price Index",
+        "releaseAtUtc": "2026-07-15T12:30:00.000Z",
+        "releaseAtLocal": "2026/07/15 20:30",
+        "importance": "medium",
+        "impact": "Pipeline inflation",
+        "tags": [
+          "ppi",
+          "inflation"
+        ],
+        "relatedSeries": [
+          "cpi",
+          "corePce"
+        ],
+        "notes": "June 2026",
+        "status": "scheduled",
+        "metadata": {
+          "easternTime": "08:30 AM"
+        }
+      }
+    ]
+  },
+  "feed": [
+    {
+      "alertId": "metric-ca6b1f89542c",
+      "fingerprint": "metric-release:creditSpread:2026-06-09",
+      "createdAt": "2026-06-10T14:56:58.819Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "US Corporate OAS 更新",
+      "body": "US Corporate OAS 发布了新值 0.75 %，当前解读为“Credit conditions are easy”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "creditSpread",
+        "observationDate": "2026-06-09",
+        "change": 0
+      }
+    },
+    {
+      "alertId": "metric-eb1ea2bdd6d1",
+      "fingerprint": "metric-threshold:cpi:2026-05-01:0.34",
+      "createdAt": "2026-06-10T14:26:51.929Z",
+      "alertType": "threshold_change",
+      "severity": "high",
+      "title": "Headline CPI YoY 触发阈值提醒",
+      "body": "Headline CPI YoY 相比上期变化 0.34 %",
+      "impactedAssets": [
+        "Fed",
+        "利率",
+        "成长股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "cpi",
+        "observationDate": "2026-05-01",
+        "change": 0.34
+      }
+    },
+    {
+      "alertId": "metric-19bcde2cbeb5",
+      "fingerprint": "metric-threshold:coreServicesExHousing:2026-05-01:0.17",
+      "createdAt": "2026-06-10T14:26:51.929Z",
+      "alertType": "threshold_change",
+      "severity": "high",
+      "title": "Services Less Rent of Shelter YoY 触发阈值提醒",
+      "body": "Services Less Rent of Shelter YoY 相比上期变化 0.17 %",
+      "impactedAssets": [
+        "Fed",
+        "利率",
+        "成长股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "coreServicesExHousing",
+        "observationDate": "2026-05-01",
+        "change": 0.17
+      }
+    },
+    {
+      "alertId": "metric-cc6dba5de488",
+      "fingerprint": "metric-release:cpi:2026-05-01",
+      "createdAt": "2026-06-10T13:56:47.856Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "Headline CPI YoY 更新",
+      "body": "Headline CPI YoY 发布了新值 4.47 %，当前解读为“Inflation is running hot”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "cpi",
+        "observationDate": "2026-05-01",
+        "change": 0.34
+      }
+    },
+    {
+      "alertId": "metric-05eb02f76b8e",
+      "fingerprint": "metric-release:coreCpi:2026-05-01",
+      "createdAt": "2026-06-10T13:56:47.856Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "Core CPI YoY 更新",
+      "body": "Core CPI YoY 发布了新值 3.07 %，当前解读为“Inflation remains sticky”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "coreCpi",
+        "observationDate": "2026-05-01",
+        "change": 0.04
+      }
+    },
+    {
+      "alertId": "metric-3e2cb0d120c8",
+      "fingerprint": "metric-release:shelterCpi:2026-05-01",
+      "createdAt": "2026-06-10T13:56:47.856Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "Shelter CPI YoY 更新",
+      "body": "Shelter CPI YoY 发布了新值 3.7 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "shelterCpi",
+        "observationDate": "2026-05-01",
+        "change": 0.04
+      }
+    },
+    {
+      "alertId": "metric-926f7b96626e",
+      "fingerprint": "metric-release:coreServicesExHousing:2026-05-01",
+      "createdAt": "2026-06-10T13:56:47.856Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "Services Less Rent of Shelter YoY 更新",
+      "body": "Services Less Rent of Shelter YoY 发布了新值 4.02 %，当前解读为“Inflation is running hot”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "coreServicesExHousing",
+        "observationDate": "2026-05-01",
+        "change": 0.17
+      }
+    },
+    {
+      "alertId": "metric-f955aec79496",
+      "fingerprint": "metric-release:sp500:2026-06-09",
+      "createdAt": "2026-06-10T01:41:57.996Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "S&P 500 更新",
+      "body": "S&P 500 发布了新值 7386.65，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "sp500",
+        "observationDate": "2026-06-09",
+        "change": -19.08
+      }
+    },
+    {
+      "alertId": "metric-2c9275580e0e",
+      "fingerprint": "metric-release:effectiveFedFunds:2026-06-08",
+      "createdAt": "2026-06-09T21:42:39.822Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "Effective Fed Funds 更新",
+      "body": "Effective Fed Funds 发布了新值 3.62 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "effectiveFedFunds",
+        "observationDate": "2026-06-08",
+        "change": 0
+      }
+    },
+    {
+      "alertId": "metric-61057d303a18",
+      "fingerprint": "metric-release:treasury2y:2026-06-09",
+      "createdAt": "2026-06-09T20:11:24.329Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "2Y Treasury 更新",
+      "body": "2Y Treasury 发布了新值 4.13 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury2y",
+        "observationDate": "2026-06-09",
+        "change": -0.02
+      }
+    },
+    {
+      "alertId": "metric-0ba8d30b9f7f",
+      "fingerprint": "metric-release:treasury10y:2026-06-09",
+      "createdAt": "2026-06-09T20:11:24.329Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "10Y Treasury 更新",
+      "body": "10Y Treasury 发布了新值 4.53 %，当前解读为“Long-end valuation pressure is high”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury10y",
+        "observationDate": "2026-06-09",
+        "change": -0.03
+      }
+    },
+    {
+      "alertId": "metric-9fc7b50cb911",
+      "fingerprint": "metric-release:treasury30y:2026-06-09",
+      "createdAt": "2026-06-09T20:11:24.329Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "30Y Treasury 更新",
+      "body": "30Y Treasury 发布了新值 5.01 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury30y",
+        "observationDate": "2026-06-09",
+        "change": -0.02
+      }
+    },
+    {
+      "alertId": "metric-bb7a7ddfafa9",
+      "fingerprint": "metric-release:curve2s10s:2026-06-09",
+      "createdAt": "2026-06-09T20:11:24.329Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "2s10s Curve 更新",
+      "body": "2s10s Curve 发布了新值 40 bp，当前解读为“Curve has re-steepened”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "curve2s10s",
+        "observationDate": "2026-06-09",
+        "change": -1
+      }
+    },
+    {
+      "alertId": "metric-de58e65cfde3",
+      "fingerprint": "metric-release:real10y:2026-06-09",
+      "createdAt": "2026-06-09T20:11:24.329Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "10Y Real Yield 更新",
+      "body": "10Y Real Yield 发布了新值 2.2 %，当前解读为“Real yields remain restrictive”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "real10y",
+        "observationDate": "2026-06-09",
+        "change": -0.01
+      }
+    },
+    {
+      "alertId": "metric-fd0aadb2b53b",
+      "fingerprint": "metric-release:breakeven10y:2026-06-09",
+      "createdAt": "2026-06-09T20:11:24.329Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "10Y Breakeven 更新",
+      "body": "10Y Breakeven 发布了新值 2.33 %，当前解读为“Inflation expectations are stable”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "breakeven10y",
+        "observationDate": "2026-06-09",
+        "change": -0.02
+      }
+    },
+    {
+      "alertId": "metric-9d71c3838bb4",
+      "fingerprint": "metric-release:existingHomeSales:2026-05-01",
+      "createdAt": "2026-06-09T14:49:00.332Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "Existing Home Sales 更新",
+      "body": "Existing Home Sales 发布了新值 4.17 M，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "existingHomeSales",
+        "observationDate": "2026-05-01",
+        "change": 0.13
+      }
+    },
+    {
+      "alertId": "metric-e17be702416f",
+      "fingerprint": "metric-release:creditSpread:2026-06-08",
+      "createdAt": "2026-06-09T14:19:06.886Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "US Corporate OAS 更新",
+      "body": "US Corporate OAS 发布了新值 0.75 %，当前解读为“Credit conditions are easy”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "creditSpread",
+        "observationDate": "2026-06-08",
+        "change": 0.01
+      }
+    },
+    {
+      "alertId": "metric-df617d7b6a58",
+      "fingerprint": "metric-release:sp500:2026-06-08",
+      "createdAt": "2026-06-09T00:32:19.038Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "S&P 500 更新",
+      "body": "S&P 500 发布了新值 7405.73，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "sp500",
+        "observationDate": "2026-06-08",
+        "change": 21.99
+      }
+    },
+    {
+      "alertId": "metric-efc63dbca1fa",
+      "fingerprint": "metric-release:effectiveFedFunds:2026-06-05",
+      "createdAt": "2026-06-08T22:31:50.186Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "Effective Fed Funds 更新",
+      "body": "Effective Fed Funds 发布了新值 3.62 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "effectiveFedFunds",
+        "observationDate": "2026-06-05",
+        "change": 0
+      }
+    },
+    {
+      "alertId": "metric-a31b2d6a403e",
+      "fingerprint": "metric-release:dxyBroad:2026-06-05",
+      "createdAt": "2026-06-08T22:31:50.186Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "Broad Dollar Index 更新",
+      "body": "Broad Dollar Index 发布了新值 120.08，当前解读为“Dollar is firm”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "dxyBroad",
+        "observationDate": "2026-06-05",
+        "change": 0.72
+      }
+    }
+  ]
+}

@@ -4,9 +4,17 @@ import { fileURLToPath } from "node:url";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const bundleDir = path.join(rootDir, "source-bundle");
-const bundleFiles = ["server-source.b64", "client-source.b64", "server-source.json", "client-source.json"];
+const bundleFiles = [
+  ["server-source.b64", "server-source.json"],
+  ["client-source.b64", "client-source.json"],
+];
 
-for (const bundleName of bundleFiles) {
+for (const [primaryBundle, fallbackBundle] of bundleFiles) {
+  const bundleName = [primaryBundle, fallbackBundle].find((name) => fs.existsSync(path.join(bundleDir, name)));
+  if (!bundleName) {
+    continue;
+  }
+
   const bundlePath = path.join(bundleDir, bundleName);
   if (!fs.existsSync(bundlePath)) {
     continue;

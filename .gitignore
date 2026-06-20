@@ -7,4 +7,6 @@ server/data/*.sqlite
 server/data/*.sqlite-wal
 server/data/*.sqlite-shm
 server/data/*.json
+!server/data/render-cache.json
+!server/data/sample-dashboard.json
 server/logs/
