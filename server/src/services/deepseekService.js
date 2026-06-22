@@ -6,6 +6,21 @@ const defaultModel = "deepseek-v4-pro";
 const defaultReasoningEffort = "max";
 const overlayStateKey = "deepseek-overlay:last";
 const newsDigestStateKey = "deepseek-news:last";
+const placeholderTokens = new Set([
+  "",
+  "your_value",
+  "your-value",
+  "your key",
+  "your api key",
+  "api_key_here",
+  "replace_me",
+  "changeme",
+  "你的值",
+  "你的key",
+  "你的api key",
+  "请填写",
+  "待填写",
+]);
 
 function safeJsonParse(value, fallback = null) {
   if (!value) {
@@ -51,11 +66,42 @@ function stableSerialize(value) {
 }
 
 function buildFingerprint(input) {
-  return crypto.createHash("sha1").update(stableSerialize(input)).digest("hex");
+  return crypto.createHash("sha1").update(stableSerialize(input), "utf8").digest("hex");
+}
+
+function normalizeSecretValue(value) {
+  return String(value ?? "")
+    .trim()
+    .replace(/^['"]|['"]$/g, "");
+}
+
+function looksLikePlaceholder(value) {
+  const normalized = normalizeSecretValue(value);
+  if (!normalized) {
+    return true;
+  }
+
+  const lowered = normalized.toLowerCase();
+  if (placeholderTokens.has(lowered) || placeholderTokens.has(normalized)) {
+    return true;
+  }
+
+  return (
+    lowered.includes("your_") ||
+    lowered.includes("your-") ||
+    lowered.includes("your key") ||
+    lowered.includes("placeholder") ||
+    normalized.includes("你的")
+  );
+}
+
+function configuredApiKey(env) {
+  const value = normalizeSecretValue(env.DEEPSEEK_API_KEY);
+  return looksLikePlaceholder(value) ? null : value;
 }
 
 function isConfigured(env) {
-  return Boolean(env.DEEPSEEK_API_KEY);
+  return Boolean(configuredApiKey(env));
 }
 
 function baseModelSettings(env) {
@@ -258,12 +304,17 @@ function validateNewsDigestPayload(payload, expectedIds) {
 }
 
 async function requestDeepSeekJson(env, { systemPrompt, input, maxTokens = 2600, thinkingEnabled = true }) {
+  const apiKey = configuredApiKey(env);
+  if (!apiKey) {
+    throw new Error("DEEPSEEK_API_KEY is missing or still set to a placeholder value.");
+  }
+
   const settings = baseModelSettings(env);
   const response = await fetch(`${env.DEEPSEEK_BASE_URL ?? defaultBaseUrl}/chat/completions`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${env.DEEPSEEK_API_KEY}`,
+      Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
       model: settings.model,

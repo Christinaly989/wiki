@@ -68,7 +68,7 @@ function renderRelease(event: ReleaseEvent, timeZone: string) {
 }
 
 function renderSection(section: Section) {
-  const featuredMetrics = section.metrics.filter((metric) => metric.history.length > 3).slice(0, 3)
+  const featuredMetrics = section.metrics.filter((metric) => (metric.history ?? []).length > 3).slice(0, 3)
 
   return (
     <section className="macro-section" key={section.key}>
