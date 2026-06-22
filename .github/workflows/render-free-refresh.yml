@@ -5,6 +5,10 @@ on:
     - cron: "0 23 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: render-free-refresh-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -59,4 +63,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh render cache"
+          git pull --rebase origin main
           git push
