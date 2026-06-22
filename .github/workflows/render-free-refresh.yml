@@ -63,5 +63,12 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh render cache"
-          git pull --rebase origin main
-          git push
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; retrying after a short pause..."
+            sleep 5
+          done
+          echo "Unable to push refreshed cache after 3 attempts."
+          exit 1
