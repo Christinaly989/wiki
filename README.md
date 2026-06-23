@@ -26,6 +26,13 @@
 - `npm run build:bundles`
   - 重建 `source-bundle/*.json` 与 `source-bundle/*.b64`
 
+## Refresh Policy
+
+- `GitHub Actions + Render` 是线上页面的主刷新链路。
+- `npm run check:live` 是人工手动补刷/排查入口。
+- 不再使用 `Codex` 内部的 `7:00 AM` 自动刷新线程，因为该环境可能受沙箱网络限制，容易产生误报。
+- 如果 `Codex` 线程里出现 `fetch failed`，应先用真实本机 shell 复核，不要直接把它视为 FRED / Treasury / Notion 的真实故障。
+
 ## 免费版 Render 部署
 
 免费版建议只部署一个 `Web Service`，不要依赖 Render 的 cron job 或 persistent disk。

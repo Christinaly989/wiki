@@ -196,11 +196,26 @@ async function fetchFomcEvents() {
 }
 
 export async function fetchReleaseEvents() {
-  const [bls, bea, fomc] = await Promise.all([fetchBlsEvents(), fetchBeaEvents(), fetchFomcEvents()]);
-  const warnings = [...bls.warnings, ...bea.warnings, ...fomc.warnings];
-  const events = uniqueBy([...bls.events, ...bea.events, ...fomc.events], (item) => item.eventId).sort((a, b) =>
-    a.releaseAtUtc.localeCompare(b.releaseAtUtc),
-  );
+  const sourceTasks = [
+    ["BLS", fetchBlsEvents],
+    ["BEA", fetchBeaEvents],
+    ["Fed", fetchFomcEvents],
+  ];
+  const settled = await Promise.allSettled(sourceTasks.map(([, fetcher]) => fetcher()));
+  const warnings = [];
+  const collectedEvents = [];
+
+  for (const [index, result] of settled.entries()) {
+    if (result.status === "fulfilled") {
+      warnings.push(...result.value.warnings);
+      collectedEvents.push(...result.value.events);
+      continue;
+    }
+
+    warnings.push(`${sourceTasks[index][0]} release calendar: ${result.reason instanceof Error ? result.reason.message : String(result.reason)}`);
+  }
+
+  const events = uniqueBy(collectedEvents, (item) => item.eventId).sort((a, b) => a.releaseAtUtc.localeCompare(b.releaseAtUtc));
 
   return {
     events,

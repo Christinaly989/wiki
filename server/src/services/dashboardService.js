@@ -1,6 +1,6 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { groupMeta } from "../config/series.js";
+import { groupMeta, treasuryMetricConfigs } from "../config/series.js";
 import { createDatabase } from "../db/database.js";
 import { buildMetricAlerts, buildRegimeAlerts } from "./alertService.js";
 import { buildAiOverlayStatus, refreshAiOverlay, refreshNewsDigest } from "./deepseekService.js";
@@ -30,6 +30,15 @@ const metricDefinitionVersionKey = "metric_definition_version";
 const metricDefinitionVersion = "2026-06-07-cpi-nsa";
 const newsSnapshotStateKey = "macro_news_snapshot";
 const newsDigestStateKey = "deepseek-news:last";
+
+function buildSourceFetchFailure(name, error) {
+  const detail = error instanceof Error ? error.message : String(error);
+  return `${name}: ${detail}`;
+}
+
+function buildSourceFetchError(failures) {
+  return new Error(`Live source fetch failed: ${failures.join(" | ")}`);
+}
 
 function parseJson(value, fallback) {
   if (!value) {
@@ -98,6 +107,25 @@ function buildFreshnessWarnings(metrics) {
   return metrics.map(buildMetricFreshnessWarning).filter(Boolean);
 }
 
+function hasRenderableSectionCoverage(metrics) {
+  const groupCounts = new Map(metrics.map((metric) => [metric.group, 0]));
+  for (const metric of metrics) {
+    groupCounts.set(metric.group, (groupCounts.get(metric.group) ?? 0) + 1);
+  }
+
+  return Object.keys(groupMeta).every((groupKey) => (groupCounts.get(groupKey) ?? 0) > 0);
+}
+
+function hasCriticalFredCoverage(metrics) {
+  const groups = new Set(metrics.map((metric) => metric.group));
+  return groups.has("growthLabor") && groups.has("inflationFed");
+}
+
+function buildFredCoverageError(fred) {
+  const detail = fred.warnings?.[0] ? ` First FRED warning: ${fred.warnings[0]}` : "";
+  return new Error(`FRED refresh did not produce growth/inflation coverage.${detail}`);
+}
+
 function restoreMetricsFromDb(dbLatestMap, historyMap) {
   return Object.values(dbLatestMap).map((latestMetric) => ({
     ...latestMetric,
@@ -138,6 +166,10 @@ function maxCacheAgeMinutes(env) {
 
 function shouldAttemptAutoRefresh(metrics, lastRefreshIso, cachedVersion, env) {
   if (metrics.length === 0) {
+    return true;
+  }
+
+  if (!hasRenderableSectionCoverage(metrics)) {
     return true;
   }
 
@@ -198,6 +230,21 @@ function resolveCachePath(env) {
   return defaultCachePath;
 }
 
+function buildEmptyNewsSnapshot() {
+  return {
+    us: { dataUpdates: [], news: [] },
+    global: { dataUpdates: [], news: [] },
+    warnings: [],
+    sourceStatus: "error",
+  };
+}
+
+function restoreMetricSubsetFromDb(db, keys) {
+  const latest = db.getLatestMetricMap();
+  const historyMap = db.getMetricHistory();
+  return restoreMetricsFromDb(latest, historyMap).filter((metric) => keys.includes(metric.key));
+}
+
 export function createDashboardService(env) {
   const db = createDatabase(resolveDbPath(env));
   const cachePath = resolveCachePath(env);
@@ -205,16 +252,74 @@ export function createDashboardService(env) {
 
   async function collectFreshData() {
     const timeZone = env.APP_TIMEZONE ?? "Asia/Shanghai";
-    const [fred, treasury, releases, rawNews] = await Promise.all([
-      fetchFredMetrics(env.FRED_API_KEY),
-      fetchTreasuryMetrics(),
-      fetchReleaseEvents(),
-      fetchMacroNews(timeZone),
-    ]);
+    const coreSources = [
+      ["fred", () => fetchFredMetrics(env.FRED_API_KEY)],
+      ["treasury", () => fetchTreasuryMetrics(env.FRED_API_KEY)],
+      ["releases", () => fetchReleaseEvents()],
+    ];
+    const coreSettled = await Promise.allSettled(coreSources.map(([, fetcher]) => fetcher()));
+    const treasuryKeys = treasuryMetricConfigs.map((config) => config.key);
+    const recoveredCoreResults = [];
+    const coreFailures = [];
+
+    for (const [index, result] of coreSettled.entries()) {
+      const sourceName = coreSources[index][0];
+      if (result.status === "fulfilled") {
+        recoveredCoreResults[index] = result.value;
+        continue;
+      }
+
+      if (sourceName === "treasury") {
+        const cachedTreasuryMetrics = restoreMetricSubsetFromDb(db, treasuryKeys);
+        if (cachedTreasuryMetrics.length === treasuryKeys.length) {
+          recoveredCoreResults[index] = {
+            metrics: cachedTreasuryMetrics,
+            warnings: [
+              `Treasury live fetch failed. Using cached rates block: ${result.reason instanceof Error ? result.reason.message : String(result.reason)}`,
+            ],
+            sourceStatus: "cached_fallback",
+          };
+          continue;
+        }
+      }
+
+      if (sourceName === "releases") {
+        const cachedEvents = db.getUpcomingReleases(60);
+        if (cachedEvents.length) {
+          recoveredCoreResults[index] = {
+            events: cachedEvents,
+            warnings: [
+              `Release calendar live fetch failed. Using cached schedule: ${result.reason instanceof Error ? result.reason.message : String(result.reason)}`,
+            ],
+            sourceStatus: "cached_fallback",
+          };
+          continue;
+        }
+      }
+
+      coreFailures.push(buildSourceFetchFailure(sourceName, result.reason));
+    }
+
+    if (coreFailures.length) {
+      throw buildSourceFetchError(coreFailures);
+    }
+
+    const [fred, treasury, releases] = recoveredCoreResults;
+    const newsResult = await Promise.allSettled([fetchMacroNews(timeZone)]);
+    const newsFailure = newsResult[0].status === "rejected" ? buildSourceFetchFailure("news", newsResult[0].reason) : null;
+    const rawNews = newsResult[0].status === "fulfilled" ? newsResult[0].value : buildEmptyNewsSnapshot();
+    if (newsFailure) {
+      rawNews.warnings = [...rawNews.warnings, newsFailure];
+      rawNews.sourceStatus = "error";
+    }
     const newsDigest = await refreshNewsDigest(env, db, { newsSnapshot: rawNews });
     const news = newsDigest.news;
 
     const metrics = [...fred.metrics, ...treasury.metrics];
+    if (env.FRED_API_KEY && !hasCriticalFredCoverage(metrics)) {
+      throw buildFredCoverageError(fred);
+    }
+
     const previousLatest = db.getLatestMetricMap();
     const previousRegime = db.getLatestRegime();
     const metricMap = Object.fromEntries(metrics.map((metric) => [metric.key, metric]));
@@ -447,3 +552,10 @@ export function createDashboardService(env) {
     syncPublishing,
   };
 }
+
+export const __testables = {
+  buildSourceFetchFailure,
+  buildSourceFetchError,
+  buildEmptyNewsSnapshot,
+  hasRenderableSectionCoverage,
+};

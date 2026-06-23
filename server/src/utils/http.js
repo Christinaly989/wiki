@@ -4,15 +4,30 @@ const defaultHeaders = {
   "accept-language": "en-US,en;q=0.9",
 };
 
+function describeFetchFailure(url, error) {
+  if (error instanceof Error) {
+    return `Network fetch failed for ${url}: ${error.message}`;
+  }
+
+  return `Network fetch failed for ${url}: ${String(error)}`;
+}
+
 export async function fetchText(url, options = {}) {
-  const response = await fetch(url, {
-    ...options,
-    headers: {
-      ...defaultHeaders,
-      ...(options.headers ?? {}),
-    },
-    signal: AbortSignal.timeout(options.timeoutMs ?? 20000),
-  });
+  let response;
+  try {
+    response = await fetch(url, {
+      ...options,
+      headers: {
+        ...defaultHeaders,
+        ...(options.headers ?? {}),
+      },
+      signal: AbortSignal.timeout(options.timeoutMs ?? 20000),
+    });
+  } catch (error) {
+    throw new Error(describeFetchFailure(url, error), {
+      cause: error instanceof Error ? error : undefined,
+    });
+  }
 
   if (!response.ok) {
     throw new Error(`HTTP ${response.status} for ${url}`);
@@ -31,3 +46,7 @@ export async function fetchJson(url, options = {}) {
   });
   return JSON.parse(text);
 }
+
+export const __testables = {
+  describeFetchFailure,
+};

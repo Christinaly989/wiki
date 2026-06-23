@@ -17,6 +17,24 @@ function statusLine(label, ok, detail) {
   return `${ok ? "[ok]" : "[missing]"} ${label}${detail ? `: ${detail}` : ""}`;
 }
 
+function printErrorDetails(error, indent = "  ") {
+  if (!(error instanceof Error)) {
+    console.error(`${indent}${String(error)}`);
+    return;
+  }
+
+  console.error(`${indent}${error.message}`);
+  if (error.cause instanceof Error && error.cause.message && error.cause.message !== error.message) {
+    console.error(`${indent}Cause: ${error.cause.message}`);
+  }
+  if (error.stack) {
+    const stackLines = error.stack.split("\n").slice(1, 4).map((line) => line.trim());
+    for (const line of stackLines) {
+      console.error(`${indent}${line}`);
+    }
+  }
+}
+
 async function main() {
   const env = process.env;
   const checks = {
@@ -31,6 +49,8 @@ async function main() {
   console.log(statusLine("NOTION_API_KEY", checks.notionToken, mask(env.NOTION_API_KEY)));
   console.log(statusLine("NOTION_DATA_SOURCE_ID", checks.notionDataSource, mask(env.NOTION_DATA_SOURCE_ID)));
   console.log(statusLine("DEEPSEEK_API_KEY", checks.deepseek, mask(env.DEEPSEEK_API_KEY)));
+  console.log("[info] Use this command as a manual real-machine refresh check.");
+  console.log("[info] If it fails inside a restricted Codex runtime, verify once in your normal local shell before treating it as a real network outage.");
   console.log("");
 
   const dashboardService = createDashboardService(env);
@@ -51,12 +71,12 @@ async function main() {
     }
   } catch (error) {
     console.error("[failed] Dashboard refresh failed");
-    console.error(error instanceof Error ? error.message : String(error));
+    printErrorDetails(error);
     process.exitCode = 1;
   }
 }
 
 main().catch((error) => {
-  console.error(error instanceof Error ? error.message : String(error));
+  printErrorDetails(error);
   process.exitCode = 1;
 });

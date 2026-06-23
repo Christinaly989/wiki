@@ -1,6 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 import { treasuryMetricConfigs } from "../config/series.js";
-import { fetchText } from "../utils/http.js";
+import { fetchJson, fetchText } from "../utils/http.js";
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -18,6 +18,13 @@ function unwrapValue(value) {
   }
   return value;
 }
+
+const fredFallbackSeries = {
+  treasury2y: "DGS2",
+  treasury10y: "DGS10",
+  treasury30y: "DGS30",
+  real10y: "DFII10",
+};
 
 async function fetchTreasuryFeed(kind, year) {
   const url = `https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=${kind}&field_tdr_date_value=${year}`;
@@ -37,12 +44,12 @@ async function fetchTreasuryFeed(kind, year) {
     });
 }
 
-function createSeriesMetric(config, history, latestValue, change, signal) {
+function createSeriesMetric(config, history, latestValue, change, signal, source = "Treasury", sourceLabel = config.sourceLabel) {
   return {
     key: config.key,
     label: config.label,
-    source: "Treasury",
-    sourceLabel: config.sourceLabel,
+    source,
+    sourceLabel,
     group: config.group,
     category: config.category,
     definition: config.definition,
@@ -82,7 +89,44 @@ function deriveTreasurySignal(configKey, latest) {
   return "Monitoring";
 }
 
-export async function fetchTreasuryMetrics() {
+function mergeTreasuryCurves(nominalMap, realMap) {
+  const mergedDates = [...nominalMap.keys()].filter((date) => realMap.has(date)).sort();
+  return mergedDates.map((date) => {
+    const nominal = nominalMap.get(date);
+    const real = realMap.get(date);
+    const curve2s10s = (nominal.treasury10y - nominal.treasury2y) * 100;
+    const breakeven10y = nominal.treasury10y - real.real10y;
+
+    return {
+      date,
+      treasury2y: round(nominal.treasury2y),
+      treasury10y: round(nominal.treasury10y),
+      treasury30y: round(nominal.treasury30y),
+      curve2s10s: round(curve2s10s),
+      real10y: round(real.real10y),
+      breakeven10y: round(breakeven10y),
+    };
+  });
+}
+
+function buildTreasuryMetricPayload(curves, source, sourceLabel) {
+  const metrics = treasuryMetricConfigs.map((config) => {
+    const history = curves.map((row) => ({
+      date: row.date,
+      value: row[config.key],
+      rawValue: row[config.key],
+    }));
+    const latest = history.at(-1)?.value ?? null;
+    const previous = history.at(-2)?.value ?? null;
+    const change = Number.isFinite(latest) && Number.isFinite(previous) ? round(latest - previous) : null;
+
+    return createSeriesMetric(config, history, latest, change, deriveTreasurySignal(config.key, latest), source, sourceLabel);
+  });
+
+  return metrics;
+}
+
+async function fetchTreasuryMetricsFromOfficial() {
   const years = [new Date().getUTCFullYear() - 1, new Date().getUTCFullYear()];
   const nominalRows = (await Promise.all(years.map((year) => fetchTreasuryFeed("daily_treasury_yield_curve", year)))).flat();
   const realRows = (await Promise.all(years.map((year) => fetchTreasuryFeed("daily_treasury_real_yield_curve", year)))).flat();
@@ -109,40 +153,89 @@ export async function fetchTreasuryMetrics() {
     ]),
   );
 
-  const mergedDates = [...nominalMap.keys()].filter((date) => realMap.has(date)).sort();
-  const curves = mergedDates.map((date) => {
-    const nominal = nominalMap.get(date);
-    const real = realMap.get(date);
-    const curve2s10s = (nominal.treasury10y - nominal.treasury2y) * 100;
-    const breakeven10y = nominal.treasury10y - real.real10y;
+  return mergeTreasuryCurves(nominalMap, realMap);
+}
 
+function normalizeFredObservations(observations) {
+  return (observations ?? [])
+    .map((item) => ({
+      date: item.date,
+      value: Number(item.value),
+    }))
+    .filter((item) => item.date && Number.isFinite(item.value))
+    .sort((left, right) => left.date.localeCompare(right.date));
+}
+
+async function fetchFredSeries(seriesId, apiKey) {
+  const url = new URL("https://api.stlouisfed.org/fred/series/observations");
+  url.searchParams.set("series_id", seriesId);
+  url.searchParams.set("api_key", apiKey);
+  url.searchParams.set("file_type", "json");
+  url.searchParams.set("sort_order", "desc");
+  url.searchParams.set("limit", "800");
+  const payload = await fetchJson(url.toString());
+  return normalizeFredObservations(payload.observations);
+}
+
+async function fetchTreasuryMetricsFromFred(apiKey) {
+  const seriesEntries = await Promise.all(
+    Object.entries(fredFallbackSeries).map(async ([key, seriesId]) => [key, await fetchFredSeries(seriesId, apiKey)]),
+  );
+  const seriesMap = new Map(seriesEntries);
+  const nominal2y = seriesMap.get("treasury2y") ?? [];
+  const nominal10y = seriesMap.get("treasury10y") ?? [];
+  const nominal30y = seriesMap.get("treasury30y") ?? [];
+  const real10y = seriesMap.get("real10y") ?? [];
+
+  const nominalMap = new Map();
+  for (const item of nominal2y) {
+    nominalMap.set(item.date, {
+      date: item.date,
+      treasury2y: item.value,
+    });
+  }
+  for (const item of nominal10y) {
+    nominalMap.set(item.date, {
+      ...(nominalMap.get(item.date) ?? { date: item.date }),
+      treasury10y: item.value,
+    });
+  }
+  for (const item of nominal30y) {
+    nominalMap.set(item.date, {
+      ...(nominalMap.get(item.date) ?? { date: item.date }),
+      treasury30y: item.value,
+    });
+  }
+
+  const filteredNominalMap = new Map(
+    [...nominalMap.entries()].filter(([, value]) =>
+      Number.isFinite(value.treasury2y) && Number.isFinite(value.treasury10y) && Number.isFinite(value.treasury30y),
+    ),
+  );
+  const realMap = new Map(real10y.map((item) => [item.date, { date: item.date, real10y: item.value }]));
+  return mergeTreasuryCurves(filteredNominalMap, realMap);
+}
+
+export async function fetchTreasuryMetrics(apiKey) {
+  try {
+    const curves = await fetchTreasuryMetricsFromOfficial();
     return {
-      date,
-      treasury2y: round(nominal.treasury2y),
-      treasury10y: round(nominal.treasury10y),
-      treasury30y: round(nominal.treasury30y),
-      curve2s10s: round(curve2s10s),
-      real10y: round(real.real10y),
-      breakeven10y: round(breakeven10y),
+      metrics: buildTreasuryMetricPayload(curves, "Treasury", "U.S. Treasury"),
+      warnings: [],
+      sourceStatus: "ok",
     };
-  });
+  } catch (error) {
+    if (!apiKey) {
+      throw error;
+    }
 
-  const metrics = treasuryMetricConfigs.map((config) => {
-    const history = curves.map((row) => ({
-      date: row.date,
-      value: row[config.key],
-      rawValue: row[config.key],
-    }));
-    const latest = history.at(-1)?.value ?? null;
-    const previous = history.at(-2)?.value ?? null;
-    const change = Number.isFinite(latest) && Number.isFinite(previous) ? round(latest - previous) : null;
-
-    return createSeriesMetric(config, history, latest, change, deriveTreasurySignal(config.key, latest));
-  });
-
-  return {
-    metrics,
-    warnings: [],
-    sourceStatus: "ok",
-  };
+    const curves = await fetchTreasuryMetricsFromFred(apiKey);
+    return {
+      metrics: buildTreasuryMetricPayload(curves, "FRED", "U.S. Treasury via FRED fallback"),
+      warnings: [
+        `Treasury official feed failed, using FRED fallback: ${error instanceof Error ? error.message : String(error)}`,
+      ],
+      sourceStatus: "fallback_fred",
+    };
+  }
 }
