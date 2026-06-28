@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T23:26:06.227Z",
-  "generatedAtLocal": "2026/06/28 07:26",
+  "generatedAt": "2026-06-28T23:27:20.910Z",
+  "generatedAtLocal": "2026/06/29 07:27",
   "timeZone": "Asia/Shanghai",
   "headline": {
     "title": "Retail Sales YoY 相比上期变化 2.09 %到6.88% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
@@ -20,7 +20,7 @@
     },
     "allocationAdvice": {
       "title": "资产与行业分配建议",
-      "summary": "Retail Sales YoY 相比上期变化 2.09 %到6.88% 与 欧央行消费者预期调查结果 – 2026年5月 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
+      "summary": "Retail Sales YoY 相比上期变化 2.09 %到6.88% 与 [보도참고자료] 제48차 유네스코 세계유산위원회 기념주화 교부일정 및 온·오프라인 판매 안내 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
       "bullets": [
         "债券：久期保持偏短或中性，优先现金、短债、TIPS，谨慎追长端。",
         "权益：偏向 financials、energy、industrials、materials 和具备定价权的 quality cyclicals。",
@@ -39,8 +39,8 @@
           "source": "Dashboard refresh",
           "title": "Retail Sales YoY 相比上期变化 2.09 %到6.88%",
           "summary": "Retail Sales YoY 相比上期变化 2.09 %到6.88%",
-          "publishedAt": "2026-06-27T23:25:36.553Z",
-          "publishedAtLocal": "2026/06/28 07:25",
+          "publishedAt": "2026-06-28T23:26:50.795Z",
+          "publishedAtLocal": "2026/06/29 07:26",
           "importance": "high",
           "url": null
         },
@@ -49,8 +49,8 @@
           "source": "Dashboard refresh",
           "title": "Nonfarm Payrolls MoM 相比上期变化 7 K jobs到172K jobs",
           "summary": "Nonfarm Payrolls MoM 相比上期变化 7 K jobs到172K jobs",
-          "publishedAt": "2026-06-27T23:25:36.553Z",
-          "publishedAtLocal": "2026/06/28 07:25",
+          "publishedAt": "2026-06-28T23:26:50.795Z",
+          "publishedAtLocal": "2026/06/29 07:26",
           "importance": "high",
           "url": null
         },
@@ -59,8 +59,8 @@
           "source": "Dashboard refresh",
           "title": "Unemployment Rate 相比上期变化 0 %到4.3%",
           "summary": "Unemployment Rate 相比上期变化 0 %到4.3%",
-          "publishedAt": "2026-06-27T23:25:36.553Z",
-          "publishedAtLocal": "2026/06/28 07:25",
+          "publishedAt": "2026-06-28T23:26:50.795Z",
+          "publishedAtLocal": "2026/06/29 07:26",
           "importance": "high",
           "url": null
         },
@@ -69,8 +69,8 @@
           "source": "Dashboard refresh",
           "title": "Initial Jobless Claims 相比上期变化 12 K到215K",
           "summary": "Initial Jobless Claims 相比上期变化 12 K到215K",
-          "publishedAt": "2026-06-27T23:25:36.553Z",
-          "publishedAtLocal": "2026/06/28 07:25",
+          "publishedAt": "2026-06-28T23:26:50.795Z",
+          "publishedAtLocal": "2026/06/29 07:26",
           "importance": "high",
           "url": null
         }
@@ -86,11 +86,7 @@
           "publishedAtLocal": "2026/06/26 22:30",
           "url": "https://home.treasury.gov/news/press-releases/sb0544",
           "category": "news",
-          "importance": "medium",
-          "displayTitle": "美国财政部制裁加剧苏丹内战和恶化人道主义危机的网络",
-          "displaySummary": "美国财政部对参与苏丹内战的网络实施制裁，可能加剧地区紧张局势，对避险情绪和大宗商品供应（如石油、黄金）产生影响。",
-          "originalLanguage": "en",
-          "translationSource": "deepseek"
+          "importance": "medium"
         }
       ]
     },
@@ -107,14 +103,22 @@
           "publishedAtLocal": "2026/06/27 21:45",
           "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260627~3807c2766e.en.pdf",
           "category": "data",
-          "importance": "high",
-          "displayTitle": "Isabel Schnabel：通胀回来了吗？",
-          "displaySummary": "欧央行执委Schnabel发表讲话，探讨通胀是否回升，可能释放未来利率路径信号，关注对欧元和债市预期的影响。",
-          "originalLanguage": "en",
-          "translationSource": "deepseek"
+          "importance": "high"
         }
       ],
       "news": [
+        {
+          "id": "BOK-0-2026-06-28T03:00:00.000Z",
+          "source": "BOK",
+          "region": "global",
+          "title": "[보도참고자료] 제48차 유네스코 세계유산위원회 기념주화 교부일정 및 온·오프라인 판매 안내",
+          "summary": "자세한 내용은 첨부파일을 참조하시기 바랍니다.",
+          "publishedAt": "2026-06-28T03:00:00.000Z",
+          "publishedAtLocal": "2026/06/28 11:00",
+          "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062339&menuNo=200690",
+          "category": "news",
+          "importance": "medium"
+        },
         {
           "id": "ECB-1-2026-06-26T08:00:00.000Z",
           "source": "ECB",
@@ -125,11 +129,7 @@
           "publishedAtLocal": "2026/06/26 16:00",
           "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html",
           "category": "news",
-          "importance": "medium",
-          "displayTitle": "欧央行消费者预期调查结果 – 2026年5月",
-          "displaySummary": "调查可能显示欧元区消费者对通胀、收入和支出的最新预期，影响欧央行政策前景和欧元走势。",
-          "originalLanguage": "en",
-          "translationSource": "deepseek"
+          "importance": "medium"
         },
         {
           "id": "BOJ-0-2026-06-26T07:00:00.000Z",
@@ -141,11 +141,7 @@
           "publishedAtLocal": "2026/06/26 15:00",
           "url": "http://www.boj.or.jp/about/bcp/fso/fso260626a.pdf",
           "category": "news",
-          "importance": "medium",
-          "displayTitle": "关于令和8年6月24日起大雨引发灾害的金融措施（福冈县）",
-          "displaySummary": "日本央行针对福冈县暴雨灾害发布金融措施，可能向当地金融机构提供流动性支持，但对全国性货币政策影响有限。",
-          "originalLanguage": "ja",
-          "translationSource": "deepseek"
+          "importance": "medium"
         },
         {
           "id": "BOJ-1-2026-06-26T07:00:00.000Z",
@@ -157,27 +153,7 @@
           "publishedAtLocal": "2026/06/26 15:00",
           "url": "http://www.boj.or.jp/about/release_2026/rel260626a.htm",
           "category": "news",
-          "importance": "medium",
-          "displayTitle": "日本央行货币研究所简讯：2026年经济史研讨会",
-          "displaySummary": "日本央行货币研究所发布经济史研讨会信息，对当前货币政策无直接含义。",
-          "originalLanguage": "ja",
-          "translationSource": "deepseek"
-        },
-        {
-          "id": "BOJ-2-2026-06-26T06:50:00.000Z",
-          "source": "BOJ",
-          "region": "global",
-          "title": "【記者会見】田村審議委員（兵庫、6月25日分）",
-          "summary": "",
-          "publishedAt": "2026-06-26T06:50:00.000Z",
-          "publishedAtLocal": "2026/06/26 14:50",
-          "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260626a.pdf",
-          "category": "news",
-          "importance": "medium",
-          "displayTitle": "【记者会】日本央行审议委员田村（兵库，6月25日）",
-          "displaySummary": "日本央行审议委员田村举行记者会，可能就经济、通胀和货币政策前景发表评论，关注其对日元和利率预期的影响。",
-          "originalLanguage": "ja",
-          "translationSource": "deepseek"
+          "importance": "medium"
         }
       ]
     }
@@ -195,7 +171,7 @@
     "error": "DeepSeek returned empty content"
   },
   "regimeState": {
-    "asOf": "2026-06-27T23:25:36.530Z",
+    "asOf": "2026-06-28T23:26:50.774Z",
     "regime": "Reflation",
     "confidence": 0.89,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
@@ -233,13 +209,14 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-06-27T23:26:08.459Z",
-    "latestPageId": "38c6df82-2641-8101-9cb5-d0cf81040c9c",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-06-28-Reflation-38c6df82264181019cb5d0cf81040c9c",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-06-28-macro-daily.md",
-    "statusText": "Notion synced at 2026/06/28 07:26"
+    "lastPublishedAt": "2026-06-28T23:27:22.213Z",
+    "latestPageId": "38d6df82-2641-8148-a44e-c784e00df769",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-06-29-Reflation-38d6df8226418148a44ec784e00df769",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-06-29-macro-daily.md",
+    "statusText": "Notion synced at 2026/06/29 07:27"
   },
   "warnings": [
+    "DeepSeek news digest: DeepSeek returned empty content",
     "JOLTS Openings is stale. Latest observation is 2026-04 (monthly).",
     "DeepSeek overlay: DeepSeek returned empty content"
   ],
@@ -18188,7 +18165,7 @@
     {
       "alertId": "metric-0edfe1e58e45",
       "fingerprint": "metric-release:retailSales:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Retail Sales YoY 更新",
@@ -18208,7 +18185,7 @@
     {
       "alertId": "metric-34805a222384",
       "fingerprint": "metric-release:nonfarmPayrolls:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Nonfarm Payrolls MoM 更新",
@@ -18228,7 +18205,7 @@
     {
       "alertId": "metric-e1569640ed4b",
       "fingerprint": "metric-release:unemploymentRate:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Unemployment Rate 更新",
@@ -18248,7 +18225,7 @@
     {
       "alertId": "metric-39b198b4542d",
       "fingerprint": "metric-release:initialClaims:2026-06-20",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Initial Jobless Claims 更新",
@@ -18268,7 +18245,7 @@
     {
       "alertId": "metric-4f4e73371abd",
       "fingerprint": "metric-release:joltsOpenings:2026-04-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "JOLTS Openings 更新",
@@ -18288,7 +18265,7 @@
     {
       "alertId": "metric-add6651dacc0",
       "fingerprint": "metric-release:housingStarts:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Housing Starts 更新",
@@ -18308,7 +18285,7 @@
     {
       "alertId": "metric-9d71c3838bb4",
       "fingerprint": "metric-release:existingHomeSales:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Existing Home Sales 更新",
@@ -18328,7 +18305,7 @@
     {
       "alertId": "metric-dca60b7a6f5e",
       "fingerprint": "metric-release:ismManufacturing:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Manufacturing Output YoY 更新",
@@ -18348,7 +18325,7 @@
     {
       "alertId": "metric-1b2fa1f26d59",
       "fingerprint": "metric-release:industrialProduction:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Industrial Production YoY 更新",
@@ -18368,7 +18345,7 @@
     {
       "alertId": "metric-cc6dba5de488",
       "fingerprint": "metric-release:cpi:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline CPI YoY 更新",
@@ -18388,7 +18365,7 @@
     {
       "alertId": "metric-05eb02f76b8e",
       "fingerprint": "metric-release:coreCpi:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -18408,7 +18385,7 @@
     {
       "alertId": "metric-22cbc4fb6bae",
       "fingerprint": "metric-release:pce:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -18428,7 +18405,7 @@
     {
       "alertId": "metric-c8de9a292fbb",
       "fingerprint": "metric-release:corePce:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -18448,7 +18425,7 @@
     {
       "alertId": "metric-3e2cb0d120c8",
       "fingerprint": "metric-release:shelterCpi:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -18468,7 +18445,7 @@
     {
       "alertId": "metric-926f7b96626e",
       "fingerprint": "metric-release:coreServicesExHousing:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -18488,7 +18465,7 @@
     {
       "alertId": "metric-20878aaaddf1",
       "fingerprint": "metric-release:wageGrowth:2026-05-01",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Average Hourly Earnings YoY 更新",
@@ -18508,7 +18485,7 @@
     {
       "alertId": "metric-37f549ce6b85",
       "fingerprint": "metric-release:effectiveFedFunds:2026-06-25",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -18528,7 +18505,7 @@
     {
       "alertId": "metric-0235ebf1fc56",
       "fingerprint": "metric-release:dxyBroad:2026-06-18",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
@@ -18548,7 +18525,7 @@
     {
       "alertId": "metric-8029a6cd716f",
       "fingerprint": "metric-release:creditSpread:2026-06-25",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
@@ -18568,7 +18545,7 @@
     {
       "alertId": "metric-4ac634f44da8",
       "fingerprint": "metric-release:sp500:2026-06-26",
-      "createdAt": "2026-06-27T23:25:36.553Z",
+      "createdAt": "2026-06-28T23:26:50.795Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
