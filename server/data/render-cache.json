@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-28T23:27:20.910Z",
-  "generatedAtLocal": "2026/06/29 07:27",
+  "generatedAt": "2026-06-29T23:25:41.548Z",
+  "generatedAtLocal": "2026/06/30 07:25",
   "timeZone": "Asia/Shanghai",
   "headline": {
-    "title": "Retail Sales YoY 相比上期变化 2.09 %到6.88% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
+    "title": "Unemployment Rate 相比上期变化 0 %到4.3% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。 当前更值得盯住的是 24 小时内的新数据与官方表态是否在强化这条主线。"
   },
   "strategy": {
@@ -20,7 +20,7 @@
     },
     "allocationAdvice": {
       "title": "资产与行业分配建议",
-      "summary": "Retail Sales YoY 相比上期变化 2.09 %到6.88% 与 [보도참고자료] 제48차 유네스코 세계유산위원회 기념주화 교부일정 및 온·오프라인 판매 안내 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
+      "summary": "Unemployment Rate 相比上期变化 0 %到4.3% 与 Christine Lagarde: Back to basics in an uncertain environment 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
       "bullets": [
         "债券：久期保持偏短或中性，优先现金、短债、TIPS，谨慎追长端。",
         "权益：偏向 financials、energy、industrials、materials 和具备定价权的 quality cyclicals。",
@@ -35,32 +35,12 @@
       "title": "美国 24h",
       "dataUpdates": [
         {
-          "id": "metric-0edfe1e58e45",
-          "source": "Dashboard refresh",
-          "title": "Retail Sales YoY 相比上期变化 2.09 %到6.88%",
-          "summary": "Retail Sales YoY 相比上期变化 2.09 %到6.88%",
-          "publishedAt": "2026-06-28T23:26:50.795Z",
-          "publishedAtLocal": "2026/06/29 07:26",
-          "importance": "high",
-          "url": null
-        },
-        {
-          "id": "metric-34805a222384",
-          "source": "Dashboard refresh",
-          "title": "Nonfarm Payrolls MoM 相比上期变化 7 K jobs到172K jobs",
-          "summary": "Nonfarm Payrolls MoM 相比上期变化 7 K jobs到172K jobs",
-          "publishedAt": "2026-06-28T23:26:50.795Z",
-          "publishedAtLocal": "2026/06/29 07:26",
-          "importance": "high",
-          "url": null
-        },
-        {
           "id": "metric-e1569640ed4b",
           "source": "Dashboard refresh",
           "title": "Unemployment Rate 相比上期变化 0 %到4.3%",
           "summary": "Unemployment Rate 相比上期变化 0 %到4.3%",
-          "publishedAt": "2026-06-28T23:26:50.795Z",
-          "publishedAtLocal": "2026/06/29 07:26",
+          "publishedAt": "2026-06-29T23:25:12.486Z",
+          "publishedAtLocal": "2026/06/30 07:25",
           "importance": "high",
           "url": null
         },
@@ -69,9 +49,29 @@
           "source": "Dashboard refresh",
           "title": "Initial Jobless Claims 相比上期变化 12 K到215K",
           "summary": "Initial Jobless Claims 相比上期变化 12 K到215K",
-          "publishedAt": "2026-06-28T23:26:50.795Z",
-          "publishedAtLocal": "2026/06/29 07:26",
+          "publishedAt": "2026-06-29T23:25:12.486Z",
+          "publishedAtLocal": "2026/06/30 07:25",
           "importance": "high",
+          "url": null
+        },
+        {
+          "id": "metric-4f4e73371abd",
+          "source": "Dashboard refresh",
+          "title": "JOLTS Openings 相比上期变化 731 K到7618K",
+          "summary": "JOLTS Openings 相比上期变化 731 K到7618K",
+          "publishedAt": "2026-06-29T23:25:12.486Z",
+          "publishedAtLocal": "2026/06/30 07:25",
+          "importance": "medium",
+          "url": null
+        },
+        {
+          "id": "metric-add6651dacc0",
+          "source": "Dashboard refresh",
+          "title": "Housing Starts 相比上期变化 215 K到1177K",
+          "summary": "Housing Starts 相比上期变化 215 K到1177K",
+          "publishedAt": "2026-06-29T23:25:12.486Z",
+          "publishedAtLocal": "2026/06/30 07:25",
+          "importance": "medium",
           "url": null
         }
       ],
@@ -94,7 +94,7 @@
       "title": "全球 24h",
       "dataUpdates": [
         {
-          "id": "ECB-0-2026-06-27T13:45:00.000Z",
+          "id": "ECB-1-2026-06-27T13:45:00.000Z",
           "source": "ECB",
           "region": "global",
           "title": "Isabel Schnabel: Is inflation back?",
@@ -108,50 +108,50 @@
       ],
       "news": [
         {
-          "id": "BOK-0-2026-06-28T03:00:00.000Z",
-          "source": "BOK",
-          "region": "global",
-          "title": "[보도참고자료] 제48차 유네스코 세계유산위원회 기념주화 교부일정 및 온·오프라인 판매 안내",
-          "summary": "자세한 내용은 첨부파일을 참조하시기 바랍니다.",
-          "publishedAt": "2026-06-28T03:00:00.000Z",
-          "publishedAtLocal": "2026/06/28 11:00",
-          "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062339&menuNo=200690",
-          "category": "news",
-          "importance": "medium"
-        },
-        {
-          "id": "ECB-1-2026-06-26T08:00:00.000Z",
+          "id": "ECB-0-2026-06-29T19:00:00.000Z",
           "source": "ECB",
           "region": "global",
-          "title": "ECB Consumer Expectations Survey results – May 2026",
+          "title": "Christine Lagarde: Back to basics in an uncertain environment",
           "summary": "",
-          "publishedAt": "2026-06-26T08:00:00.000Z",
-          "publishedAtLocal": "2026/06/26 16:00",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html",
+          "publishedAt": "2026-06-29T19:00:00.000Z",
+          "publishedAtLocal": "2026/06/30 03:00",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260629~cb5a2e2168.en.html",
           "category": "news",
           "importance": "medium"
         },
         {
-          "id": "BOJ-0-2026-06-26T07:00:00.000Z",
+          "id": "BOJ-0-2026-06-29T07:00:00.000Z",
           "source": "BOJ",
           "region": "global",
-          "title": "令和8年6月24日からの大雨に伴う災害等に対する金融上の措置について（福岡県）",
+          "title": "（日銀レビュー）日本銀行が参加するアジアの国際会議の発展と深化",
           "summary": "",
-          "publishedAt": "2026-06-26T07:00:00.000Z",
-          "publishedAtLocal": "2026/06/26 15:00",
-          "url": "http://www.boj.or.jp/about/bcp/fso/fso260626a.pdf",
+          "publishedAt": "2026-06-29T07:00:00.000Z",
+          "publishedAtLocal": "2026/06/29 15:00",
+          "url": "http://www.boj.or.jp/research/wps_rev/rev_2026/rev26j09.htm",
           "category": "news",
           "importance": "medium"
         },
         {
-          "id": "BOJ-1-2026-06-26T07:00:00.000Z",
+          "id": "BOJ-1-2026-06-29T07:00:00.000Z",
           "source": "BOJ",
           "region": "global",
-          "title": "（金研ニュースレター）2026年経済史ワークショップ",
+          "title": "国債市場の流動性指標（5月）",
           "summary": "",
-          "publishedAt": "2026-06-26T07:00:00.000Z",
-          "publishedAtLocal": "2026/06/26 15:00",
-          "url": "http://www.boj.or.jp/about/release_2026/rel260626a.htm",
+          "publishedAt": "2026-06-29T07:00:00.000Z",
+          "publishedAtLocal": "2026/06/29 15:00",
+          "url": "http://www.boj.or.jp/paym/bond/ryudo.pdf",
+          "category": "news",
+          "importance": "medium"
+        },
+        {
+          "id": "BOK-0-2026-06-29T05:00:00.000Z",
+          "source": "BOK",
+          "region": "global",
+          "title": "한국은행, 경제연구원장(Chief Economist) 공모",
+          "summary": "□ 한국은행은 경제연구원장(Chief Economist) 공모를 실시하기로 하였음&nbsp; &nbsp; * 자세한 내용은 첨부파일을 참조하시기 바랍니다.",
+          "publishedAt": "2026-06-29T05:00:00.000Z",
+          "publishedAtLocal": "2026/06/29 13:00",
+          "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062367&menuNo=200690",
           "category": "news",
           "importance": "medium"
         }
@@ -168,10 +168,10 @@
     "generatedAtLocal": null,
     "fingerprint": null,
     "sections": null,
-    "error": "DeepSeek returned empty content"
+    "error": "Unterminated string in JSON at position 349 (line 7 column 37)"
   },
   "regimeState": {
-    "asOf": "2026-06-28T23:26:50.774Z",
+    "asOf": "2026-06-29T23:25:12.464Z",
     "regime": "Reflation",
     "confidence": 0.89,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
@@ -181,7 +181,7 @@
       "初请 215K",
       "CPI 同比 4.47%",
       "Core PCE 同比 3.41%",
-      "信用利差 0.76% | 信用非常宽松"
+      "信用利差 0.77% | 信用非常宽松"
     ],
     "implications": [
       "名义增长偏强，但长端利率和美元可能抬升。",
@@ -209,16 +209,16 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-06-28T23:27:22.213Z",
-    "latestPageId": "38d6df82-2641-8148-a44e-c784e00df769",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-06-29-Reflation-38d6df8226418148a44ec784e00df769",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-06-29-macro-daily.md",
-    "statusText": "Notion synced at 2026/06/29 07:27"
+    "lastPublishedAt": "2026-06-29T23:25:42.719Z",
+    "latestPageId": "38e6df82-2641-8158-9176-caaf4a1da738",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-06-30-Reflation-38e6df82264181589176caaf4a1da738",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-06-30-macro-daily.md",
+    "statusText": "Notion synced at 2026/06/30 07:25"
   },
   "warnings": [
     "DeepSeek news digest: DeepSeek returned empty content",
     "JOLTS Openings is stale. Latest observation is 2026-04 (monthly).",
-    "DeepSeek overlay: DeepSeek returned empty content"
+    "DeepSeek overlay: Unterminated string in JSON at position 349 (line 7 column 37)"
   ],
   "topSignals": [
     {
@@ -3063,22 +3063,17 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-06-25",
+            "date": "2026-06-26",
             "value": 3.63,
             "rawValue": 3.63
           },
           "previous": {
-            "date": "2026-06-24",
+            "date": "2026-06-25",
             "value": 3.63,
             "rawValue": 3.63
           },
           "change": 0,
           "history": [
-            {
-              "date": "2026-04-27",
-              "value": 3.64,
-              "rawValue": 3.64
-            },
             {
               "date": "2026-04-28",
               "value": 3.64,
@@ -3373,12 +3368,17 @@
               "date": "2026-06-25",
               "value": 3.63,
               "rawValue": 3.63
+            },
+            {
+              "date": "2026-06-26",
+              "value": 3.63,
+              "rawValue": 3.63
             }
           ],
           "valueText": "3.63%",
           "changeText": "0%",
           "changeDirection": "flat",
-          "asOfText": "2026-06-25",
+          "asOfText": "2026-06-26",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
@@ -5743,15 +5743,15 @@
           "importance": "medium",
           "marketSignal": "Inflation expectations are stable",
           "latest": {
-            "date": "2026-06-26",
-            "value": 2.2,
-            "rawValue": 2.2
+            "date": "2026-06-29",
+            "value": 2.22,
+            "rawValue": 2.22
           },
           "previous": {
-            "date": "2026-06-25",
-            "value": 2.21
+            "date": "2026-06-26",
+            "value": 2.2
           },
-          "change": -0.01,
+          "change": 0.02,
           "history": [
             {
               "date": "2025-01-02",
@@ -7607,16 +7607,21 @@
               "date": "2026-06-26",
               "value": 2.2,
               "rawValue": 2.2
+            },
+            {
+              "date": "2026-06-29",
+              "value": 2.22,
+              "rawValue": 2.22
             }
           ],
-          "valueText": "2.2%",
-          "changeText": "-0.01%",
-          "changeDirection": "down",
-          "asOfText": "2026-06-26",
+          "valueText": "2.22%",
+          "changeText": "+0.02%",
+          "changeDirection": "up",
+          "asOfText": "2026-06-29",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
-          "brief": "Momentum is softening; Inflation expectations are stable"
+          "brief": "Momentum is improving; Inflation expectations are stable"
         },
         {
           "key": "real10y",
@@ -7631,15 +7636,15 @@
           "importance": "high",
           "marketSignal": "Real yields are restrictive",
           "latest": {
-            "date": "2026-06-26",
-            "value": 2.18,
-            "rawValue": 2.18
+            "date": "2026-06-29",
+            "value": 2.16,
+            "rawValue": 2.16
           },
           "previous": {
-            "date": "2026-06-25",
-            "value": 2.19
+            "date": "2026-06-26",
+            "value": 2.18
           },
-          "change": -0.01,
+          "change": -0.02,
           "history": [
             {
               "date": "2025-01-02",
@@ -9495,12 +9500,17 @@
               "date": "2026-06-26",
               "value": 2.18,
               "rawValue": 2.18
+            },
+            {
+              "date": "2026-06-29",
+              "value": 2.16,
+              "rawValue": 2.16
             }
           ],
-          "valueText": "2.18%",
-          "changeText": "-0.01%",
+          "valueText": "2.16%",
+          "changeText": "-0.02%",
           "changeDirection": "down",
-          "asOfText": "2026-06-26",
+          "asOfText": "2026-06-29",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
@@ -9519,15 +9529,15 @@
           "importance": "high",
           "marketSignal": "Curve has re-steepened",
           "latest": {
-            "date": "2026-06-26",
-            "value": 31,
-            "rawValue": 31
+            "date": "2026-06-29",
+            "value": 28,
+            "rawValue": 28
           },
           "previous": {
-            "date": "2026-06-25",
+            "date": "2026-06-26",
             "value": 31
           },
-          "change": 0,
+          "change": -3,
           "history": [
             {
               "date": "2025-01-02",
@@ -11383,16 +11393,21 @@
               "date": "2026-06-26",
               "value": 31,
               "rawValue": 31
+            },
+            {
+              "date": "2026-06-29",
+              "value": 28,
+              "rawValue": 28
             }
           ],
-          "valueText": "31 bp",
-          "changeText": "0bp",
-          "changeDirection": "flat",
-          "asOfText": "2026-06-26",
+          "valueText": "28 bp",
+          "changeText": "-3bp",
+          "changeDirection": "down",
+          "asOfText": "2026-06-29",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
-          "brief": "Momentum is unchanged; curve re-steepening fits better with reflation than recession panic"
+          "brief": "Momentum is softening; curve re-steepening fits better with reflation than recession panic"
         },
         {
           "key": "treasury30y",
@@ -11407,15 +11422,15 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-06-26",
-            "value": 4.87,
-            "rawValue": 4.87
+            "date": "2026-06-29",
+            "value": 4.86,
+            "rawValue": 4.86
           },
           "previous": {
-            "date": "2026-06-25",
-            "value": 4.86
+            "date": "2026-06-26",
+            "value": 4.87
           },
-          "change": 0.01,
+          "change": -0.01,
           "history": [
             {
               "date": "2025-01-02",
@@ -13271,16 +13286,21 @@
               "date": "2026-06-26",
               "value": 4.87,
               "rawValue": 4.87
+            },
+            {
+              "date": "2026-06-29",
+              "value": 4.86,
+              "rawValue": 4.86
             }
           ],
-          "valueText": "4.87%",
-          "changeText": "+0.01%",
-          "changeDirection": "up",
-          "asOfText": "2026-06-26",
+          "valueText": "4.86%",
+          "changeText": "-0.01%",
+          "changeDirection": "down",
+          "asOfText": "2026-06-29",
           "isStale": false,
           "statusLabel": "Stress",
           "statusTone": "negative",
-          "brief": "Momentum is improving; Monitoring"
+          "brief": "Momentum is softening; Monitoring"
         },
         {
           "key": "treasury10y",
@@ -13295,15 +13315,15 @@
           "importance": "high",
           "marketSignal": "Long-end yields remain elevated",
           "latest": {
-            "date": "2026-06-26",
+            "date": "2026-06-29",
             "value": 4.38,
             "rawValue": 4.38
           },
           "previous": {
-            "date": "2026-06-25",
-            "value": 4.4
+            "date": "2026-06-26",
+            "value": 4.38
           },
-          "change": -0.02,
+          "change": 0,
           "history": [
             {
               "date": "2025-01-02",
@@ -15159,16 +15179,21 @@
               "date": "2026-06-26",
               "value": 4.38,
               "rawValue": 4.38
+            },
+            {
+              "date": "2026-06-29",
+              "value": 4.38,
+              "rawValue": 4.38
             }
           ],
           "valueText": "4.38%",
-          "changeText": "-0.02%",
-          "changeDirection": "down",
-          "asOfText": "2026-06-26",
+          "changeText": "0%",
+          "changeDirection": "flat",
+          "asOfText": "2026-06-29",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
-          "brief": "Momentum is softening; valuation pressure is moderating"
+          "brief": "Momentum is unchanged; valuation pressure is moderating"
         },
         {
           "key": "treasury2y",
@@ -15183,15 +15208,15 @@
           "importance": "high",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-06-26",
-            "value": 4.07,
-            "rawValue": 4.07
+            "date": "2026-06-29",
+            "value": 4.1,
+            "rawValue": 4.1
           },
           "previous": {
-            "date": "2026-06-25",
-            "value": 4.09
+            "date": "2026-06-26",
+            "value": 4.07
           },
-          "change": -0.02,
+          "change": 0.03,
           "history": [
             {
               "date": "2025-01-02",
@@ -17047,16 +17072,21 @@
               "date": "2026-06-26",
               "value": 4.07,
               "rawValue": 4.07
+            },
+            {
+              "date": "2026-06-29",
+              "value": 4.1,
+              "rawValue": 4.1
             }
           ],
-          "valueText": "4.07%",
-          "changeText": "-0.02%",
-          "changeDirection": "down",
-          "asOfText": "2026-06-26",
+          "valueText": "4.1%",
+          "changeText": "+0.03%",
+          "changeDirection": "up",
+          "asOfText": "2026-06-29",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
-          "brief": "Momentum is softening; Monitoring"
+          "brief": "Momentum is improving; Monitoring"
         },
         {
           "key": "sp500",
@@ -17405,22 +17435,17 @@
           "importance": "high",
           "marketSignal": "Credit conditions are easy",
           "latest": {
+            "date": "2026-06-26",
+            "value": 0.77,
+            "rawValue": 0.77
+          },
+          "previous": {
             "date": "2026-06-25",
             "value": 0.76,
             "rawValue": 0.76
           },
-          "previous": {
-            "date": "2026-06-24",
-            "value": 0.75,
-            "rawValue": 0.75
-          },
           "change": 0.01,
           "history": [
-            {
-              "date": "2026-04-06",
-              "value": 0.85,
-              "rawValue": 0.85
-            },
             {
               "date": "2026-04-07",
               "value": 0.86,
@@ -17715,12 +17740,17 @@
               "date": "2026-06-25",
               "value": 0.76,
               "rawValue": 0.76
+            },
+            {
+              "date": "2026-06-26",
+              "value": 0.77,
+              "rawValue": 0.77
             }
           ],
-          "valueText": "0.76%",
+          "valueText": "0.77%",
           "changeText": "+0.01%",
           "changeDirection": "up",
-          "asOfText": "2026-06-25",
+          "asOfText": "2026-06-26",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
@@ -17739,42 +17769,17 @@
           "importance": "medium",
           "marketSignal": "Dollar is firm",
           "latest": {
-            "date": "2026-06-18",
-            "value": 120.4,
-            "rawValue": 120.3958
+            "date": "2026-06-26",
+            "value": 120.89,
+            "rawValue": 120.8866
           },
           "previous": {
-            "date": "2026-06-17",
-            "value": 119.39,
-            "rawValue": 119.3871
+            "date": "2026-06-25",
+            "value": 121.06,
+            "rawValue": 121.0559
           },
-          "change": 1.01,
+          "change": -0.17,
           "history": [
-            {
-              "date": "2026-03-26",
-              "value": 120.39,
-              "rawValue": 120.389
-            },
-            {
-              "date": "2026-03-27",
-              "value": 120.89,
-              "rawValue": 120.8851
-            },
-            {
-              "date": "2026-03-30",
-              "value": 121.29,
-              "rawValue": 121.2851
-            },
-            {
-              "date": "2026-03-31",
-              "value": 121.03,
-              "rawValue": 121.035
-            },
-            {
-              "date": "2026-04-01",
-              "value": 120.12,
-              "rawValue": 120.1198
-            },
             {
               "date": "2026-04-02",
               "value": 120.5,
@@ -18049,16 +18054,41 @@
               "date": "2026-06-18",
               "value": 120.4,
               "rawValue": 120.3958
+            },
+            {
+              "date": "2026-06-22",
+              "value": 120.55,
+              "rawValue": 120.5463
+            },
+            {
+              "date": "2026-06-23",
+              "value": 121.06,
+              "rawValue": 121.0552
+            },
+            {
+              "date": "2026-06-24",
+              "value": 121.41,
+              "rawValue": 121.412
+            },
+            {
+              "date": "2026-06-25",
+              "value": 121.06,
+              "rawValue": 121.0559
+            },
+            {
+              "date": "2026-06-26",
+              "value": 120.89,
+              "rawValue": 120.8866
             }
           ],
-          "valueText": "120",
-          "changeText": "+1.01",
-          "changeDirection": "up",
-          "asOfText": "2026-06-18",
+          "valueText": "121",
+          "changeText": "-0.17",
+          "changeDirection": "down",
+          "asOfText": "2026-06-26",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
-          "brief": "Momentum is improving; dollar pressure is manageable"
+          "brief": "Momentum is softening; dollar pressure is manageable"
         }
       ]
     }
@@ -18158,54 +18188,38 @@
         "metadata": {
           "easternTime": "08:30 AM"
         }
+      },
+      {
+        "eventId": "Fed-fomc-decision-july-2026-07-29",
+        "source": "Fed",
+        "name": "FOMC Decision (July)",
+        "releaseAtUtc": "2026-07-29T18:00:00.000Z",
+        "releaseAtLocal": "2026/07/30 02:00",
+        "importance": "high",
+        "impact": "Fed / Rates / Equities",
+        "tags": [
+          "fomc",
+          "fed"
+        ],
+        "relatedSeries": [
+          "effectiveFedFunds",
+          "treasury2y",
+          "treasury10y",
+          "real10y"
+        ],
+        "notes": "Meeting window July 28-29",
+        "status": "scheduled",
+        "metadata": {
+          "easternTime": "02:00 PM"
+        }
       }
     ]
   },
   "feed": [
     {
-      "alertId": "metric-0edfe1e58e45",
-      "fingerprint": "metric-release:retailSales:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Retail Sales YoY 更新",
-      "body": "Retail Sales YoY 发布了新值 6.88 %，当前解读为“Consumer demand remains resilient”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "retailSales",
-        "observationDate": "2026-05-01",
-        "change": 2.09
-      }
-    },
-    {
-      "alertId": "metric-34805a222384",
-      "fingerprint": "metric-release:nonfarmPayrolls:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Nonfarm Payrolls MoM 更新",
-      "body": "Nonfarm Payrolls MoM 发布了新值 172 K jobs，当前解读为“Hiring is cooling”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "nonfarmPayrolls",
-        "observationDate": "2026-05-01",
-        "change": -7
-      }
-    },
-    {
       "alertId": "metric-e1569640ed4b",
       "fingerprint": "metric-release:unemploymentRate:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Unemployment Rate 更新",
@@ -18225,7 +18239,7 @@
     {
       "alertId": "metric-39b198b4542d",
       "fingerprint": "metric-release:initialClaims:2026-06-20",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Initial Jobless Claims 更新",
@@ -18245,7 +18259,7 @@
     {
       "alertId": "metric-4f4e73371abd",
       "fingerprint": "metric-release:joltsOpenings:2026-04-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "JOLTS Openings 更新",
@@ -18265,7 +18279,7 @@
     {
       "alertId": "metric-add6651dacc0",
       "fingerprint": "metric-release:housingStarts:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Housing Starts 更新",
@@ -18285,7 +18299,7 @@
     {
       "alertId": "metric-9d71c3838bb4",
       "fingerprint": "metric-release:existingHomeSales:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Existing Home Sales 更新",
@@ -18305,7 +18319,7 @@
     {
       "alertId": "metric-dca60b7a6f5e",
       "fingerprint": "metric-release:ismManufacturing:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Manufacturing Output YoY 更新",
@@ -18325,7 +18339,7 @@
     {
       "alertId": "metric-1b2fa1f26d59",
       "fingerprint": "metric-release:industrialProduction:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Industrial Production YoY 更新",
@@ -18345,7 +18359,7 @@
     {
       "alertId": "metric-cc6dba5de488",
       "fingerprint": "metric-release:cpi:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline CPI YoY 更新",
@@ -18365,7 +18379,7 @@
     {
       "alertId": "metric-05eb02f76b8e",
       "fingerprint": "metric-release:coreCpi:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -18385,7 +18399,7 @@
     {
       "alertId": "metric-22cbc4fb6bae",
       "fingerprint": "metric-release:pce:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -18405,7 +18419,7 @@
     {
       "alertId": "metric-c8de9a292fbb",
       "fingerprint": "metric-release:corePce:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -18425,7 +18439,7 @@
     {
       "alertId": "metric-3e2cb0d120c8",
       "fingerprint": "metric-release:shelterCpi:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -18445,7 +18459,7 @@
     {
       "alertId": "metric-926f7b96626e",
       "fingerprint": "metric-release:coreServicesExHousing:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -18465,7 +18479,7 @@
     {
       "alertId": "metric-20878aaaddf1",
       "fingerprint": "metric-release:wageGrowth:2026-05-01",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Average Hourly Earnings YoY 更新",
@@ -18483,9 +18497,9 @@
       }
     },
     {
-      "alertId": "metric-37f549ce6b85",
-      "fingerprint": "metric-release:effectiveFedFunds:2026-06-25",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "alertId": "metric-41b480dd0d52",
+      "fingerprint": "metric-release:effectiveFedFunds:2026-06-26",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -18498,18 +18512,18 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "effectiveFedFunds",
-        "observationDate": "2026-06-25",
+        "observationDate": "2026-06-26",
         "change": 0
       }
     },
     {
-      "alertId": "metric-0235ebf1fc56",
-      "fingerprint": "metric-release:dxyBroad:2026-06-18",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "alertId": "metric-0d207e8dd495",
+      "fingerprint": "metric-release:dxyBroad:2026-06-26",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
-      "body": "Broad Dollar Index 发布了新值 120.4，当前解读为“Dollar is firm”。",
+      "body": "Broad Dollar Index 发布了新值 120.89，当前解读为“Dollar is firm”。",
       "impactedAssets": [
         "估值",
         "美元",
@@ -18518,18 +18532,18 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "dxyBroad",
-        "observationDate": "2026-06-18",
-        "change": 1.01
+        "observationDate": "2026-06-26",
+        "change": -0.17
       }
     },
     {
-      "alertId": "metric-8029a6cd716f",
-      "fingerprint": "metric-release:creditSpread:2026-06-25",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "alertId": "metric-68470664d6d0",
+      "fingerprint": "metric-release:creditSpread:2026-06-26",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
-      "body": "US Corporate OAS 发布了新值 0.76 %，当前解读为“Credit conditions are easy”。",
+      "body": "US Corporate OAS 发布了新值 0.77 %，当前解读为“Credit conditions are easy”。",
       "impactedAssets": [
         "估值",
         "美元",
@@ -18538,14 +18552,14 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "creditSpread",
-        "observationDate": "2026-06-25",
+        "observationDate": "2026-06-26",
         "change": 0.01
       }
     },
     {
       "alertId": "metric-4ac634f44da8",
       "fingerprint": "metric-release:sp500:2026-06-26",
-      "createdAt": "2026-06-28T23:26:50.795Z",
+      "createdAt": "2026-06-29T23:25:12.486Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
@@ -18560,6 +18574,46 @@
         "metricKey": "sp500",
         "observationDate": "2026-06-26",
         "change": -3.47
+      }
+    },
+    {
+      "alertId": "metric-390e44aabb25",
+      "fingerprint": "metric-release:treasury2y:2026-06-29",
+      "createdAt": "2026-06-29T23:25:12.486Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "2Y Treasury 更新",
+      "body": "2Y Treasury 发布了新值 4.1 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury2y",
+        "observationDate": "2026-06-29",
+        "change": 0.03
+      }
+    },
+    {
+      "alertId": "metric-630523da242a",
+      "fingerprint": "metric-release:treasury10y:2026-06-29",
+      "createdAt": "2026-06-29T23:25:12.486Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "10Y Treasury 更新",
+      "body": "10Y Treasury 发布了新值 4.38 %，当前解读为“Long-end yields remain elevated”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury10y",
+        "observationDate": "2026-06-29",
+        "change": 0
       }
     }
   ]
