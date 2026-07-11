@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-10T23:58:07.085Z",
-  "generatedAtLocal": "2026/07/11 07:58",
+  "generatedAt": "2026-07-11T23:55:26.963Z",
+  "generatedAtLocal": "2026/07/12 07:55",
   "timeZone": "Asia/Shanghai",
   "headline": {
-    "title": "Retail Sales YoY 相比上期变化 2.09 %到6.88% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
+    "title": "Core CPI YoY 相比上期变化 0.04 %到3.07% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。 当前更值得盯住的是 24 小时内的新数据与官方表态是否在强化这条主线。"
   },
   "strategy": {
@@ -20,7 +20,7 @@
     },
     "allocationAdvice": {
       "title": "资产与行业分配建议",
-      "summary": "Retail Sales YoY 相比上期变化 2.09 %到6.88% 与 フェイルの発生状況（6月） 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
+      "summary": "Core CPI YoY 相比上期变化 0.04 %到3.07% 与 フェイルの発生状況（6月） 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
       "bullets": [
         "债券：久期保持偏短或中性，优先现金、短债、TIPS，谨慎追长端。",
         "权益：偏向 financials、energy、industrials、materials 和具备定价权的 quality cyclicals。",
@@ -35,43 +35,43 @@
       "title": "美国 24h",
       "dataUpdates": [
         {
-          "id": "metric-0edfe1e58e45",
+          "id": "metric-05eb02f76b8e",
           "source": "Dashboard refresh",
-          "title": "Retail Sales YoY 相比上期变化 2.09 %到6.88%",
-          "summary": "Retail Sales YoY 相比上期变化 2.09 %到6.88%",
-          "publishedAt": "2026-07-10T23:57:34.586Z",
-          "publishedAtLocal": "2026/07/11 07:57",
+          "title": "Core CPI YoY 相比上期变化 0.04 %到3.07%",
+          "summary": "Core CPI YoY 相比上期变化 0.04 %到3.07%",
+          "publishedAt": "2026-07-11T23:54:49.537Z",
+          "publishedAtLocal": "2026/07/12 07:54",
           "importance": "high",
           "url": null
         },
         {
-          "id": "metric-7843797e3569",
+          "id": "metric-22cbc4fb6bae",
           "source": "Dashboard refresh",
-          "title": "Nonfarm Payrolls MoM 相比上期变化 72 K jobs到57K jobs",
-          "summary": "Nonfarm Payrolls MoM 相比上期变化 72 K jobs到57K jobs",
-          "publishedAt": "2026-07-10T23:57:34.586Z",
-          "publishedAtLocal": "2026/07/11 07:57",
+          "title": "Headline PCE YoY 相比上期变化 0.27 %到4.07%",
+          "summary": "Headline PCE YoY 相比上期变化 0.27 %到4.07%",
+          "publishedAt": "2026-07-11T23:54:49.537Z",
+          "publishedAtLocal": "2026/07/12 07:54",
           "importance": "high",
           "url": null
         },
         {
-          "id": "metric-d9fa6d8f160e",
+          "id": "metric-c8de9a292fbb",
           "source": "Dashboard refresh",
-          "title": "Unemployment Rate 相比上期变化 0.1 %到4.2%",
-          "summary": "Unemployment Rate 相比上期变化 0.1 %到4.2%",
-          "publishedAt": "2026-07-10T23:57:34.586Z",
-          "publishedAtLocal": "2026/07/11 07:57",
+          "title": "Core PCE YoY 相比上期变化 0.09 %到3.41%",
+          "summary": "Core PCE YoY 相比上期变化 0.09 %到3.41%",
+          "publishedAt": "2026-07-11T23:54:49.537Z",
+          "publishedAtLocal": "2026/07/12 07:54",
           "importance": "high",
           "url": null
         },
         {
-          "id": "metric-dc008b0d42d4",
+          "id": "metric-3e2cb0d120c8",
           "source": "Dashboard refresh",
-          "title": "Initial Jobless Claims 相比上期变化 2 K到215K",
-          "summary": "Initial Jobless Claims 相比上期变化 2 K到215K",
-          "publishedAt": "2026-07-10T23:57:34.586Z",
-          "publishedAtLocal": "2026/07/11 07:57",
-          "importance": "high",
+          "title": "Shelter CPI YoY 相比上期变化 0.04 %到3.7%",
+          "summary": "Shelter CPI YoY 相比上期变化 0.04 %到3.7%",
+          "publishedAt": "2026-07-11T23:54:49.537Z",
+          "publishedAtLocal": "2026/07/12 07:54",
+          "importance": "medium",
           "url": null
         }
       ],
@@ -98,7 +98,7 @@
           "source": "Monitor",
           "title": "最近 24 小时没有新的数据卡片",
           "summary": "下一次刷新后会自动补入。",
-          "publishedAt": "2026-07-10T23:57:34.589Z",
+          "publishedAt": "2026-07-11T23:54:49.539Z",
           "publishedAtLocal": "",
           "importance": "low",
           "url": null
@@ -159,56 +159,17 @@
   "aiOverlay": {
     "enabled": true,
     "configured": true,
-    "status": "ready",
+    "status": "error",
     "model": "deepseek-v4-pro",
     "reasoningEffort": "max",
-    "generatedAt": "2026-07-10T23:58:07.082Z",
-    "generatedAtLocal": "2026/07/11 07:58",
-    "fingerprint": "faa58f0a9b559c9c922de80663484b61220eb666",
-    "sections": {
-      "regimeJudgment": {
-        "headline": "再通胀体制延续，增长分化信号初现",
-        "summary": "零售销售同比跳升至6.88%显示消费韧性，但非农就业大幅放缓至57K暗示劳动力市场动能减弱。通胀黏性仍未消退，核心服务价格压力犹存。信用利差处于0.76%的极低水平，金融条件依然宽松，这为资产价格提供缓冲，但也可能促使美联储维持高利率更长时间。",
-        "bullets": [
-          "名义增长偏强但实际增长动能正在降温，滞胀风险上升。",
-          "通胀预期稳定在2.24%，但10年期实际利率2.32%仍具限制性，债券市场尚未完全计入更长时间的高利率。",
-          "信用环境宽松为风险资产提供支撑，但需警惕利率抬升对杠杆板块的冲击。",
-          "日本央行6月国债市场故障报告暗示其政策正常化面临挑战，全球利率联动风险增加。"
-        ]
-      },
-      "assetAllocation": {
-        "headline": "利率敏感型资产承压，偏向通胀受益和短期久期",
-        "summary": "在higher for longer背景下，债券市场面临进一步重新定价风险，久期应保持偏短。权益市场内部，价值/周期板块相对成长股更占优，特别是定价权强的行业。美元受利差和避险情绪支撑，但需关注美国财政和贸易政策的不确定性。信用利差仍窄，但进一步压缩空间有限，carry策略回报比下降。",
-        "bullets": [
-          "利率：维持短久期（1-3年），做空长端或利用TIPS对冲通胀风险，10年期美债收益率4.56%仍有上行空间。",
-          "权益：超配能源、金融、材料、工业，低配成长股和房地产，关注标普500在7543点附近的估值压力。",
-          "外汇：做多美元兑低息货币（日元、瑞郎），美元指数在120.69附近技术性回调仍是买入机会。",
-          "信用：中性或小幅低配高收益债，偏好贷款和浮动利率票据，注意信用利差扩大的早期信号。",
-          "大宗商品：看好能源和工业金属，作为通胀对冲和供给约束的受益者。"
-        ]
-      },
-      "sectorAllocation": {
-        "headline": "再通胀交易下，价值与周期板块主导，成长股防御性降低",
-        "summary": "在通胀黏性环境下，具有定价权的上游行业和金融板块受益于利率和价格传导。科技和通信服务等高估值板块面临利率逆风，且盈利预期可能承压。公用事业和房地产因类债属性而表现落后。可选消费因零售数据强劲而相对较好，但需警惕劳动力市场放缓的滞后影响。",
-        "bullets": [
-          "超配能源：受益于高油价和再通胀叙事，且资本支出纪律支撑自由现金流。",
-          "超配金融：利率上升和曲线陡峭化至35bp改善净息差，信用成本维持低位。",
-          "超配材料/工业：受益于大宗商品价格和基础设施支出，制造业产出1.43%企稳也提供支撑。",
-          "低配通信服务和信息技术：长久期和高估值对利率敏感，且实际利率高企压制折现价值。",
-          "中性或低配公用事业、房地产：利率高企压制类债资产估值，且房地产销售和开工数据疲软。"
-        ]
-      },
-      "keyRisks": [
-        "美联储意外转鸽或数据恶化导致利率大幅下行，令通胀交易逆转。",
-        "劳动力市场加速恶化，引发衰退担忧，信用利差从0.76%快速走阔。",
-        "地缘政治紧张局势升级（如中东、乌克兰）导致风险资产抛售和能源价格飙升。",
-        "日本央行货币政策正常化或国债市场故障引发全球资金流动冲击，推高全球债券收益率。"
-      ]
-    },
-    "error": null
+    "generatedAt": null,
+    "generatedAtLocal": null,
+    "fingerprint": null,
+    "sections": null,
+    "error": "DeepSeek returned empty content"
   },
   "regimeState": {
-    "asOf": "2026-07-10T23:57:34.563Z",
+    "asOf": "2026-07-11T23:54:49.515Z",
     "regime": "Reflation",
     "confidence": 0.91,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
@@ -236,7 +197,7 @@
     "treasury": "ok",
     "releases": "partial",
     "news": "partial",
-    "ai": "ready"
+    "ai": "error"
   },
   "configStatus": {
     "fredConfigured": true,
@@ -246,18 +207,19 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-07-10T23:58:08.276Z",
-    "latestPageId": "3996df82-2641-8137-81d1-d5cf1ffdc7ab",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-07-11-Reflation-3996df822641813781d1d5cf1ffdc7ab",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-07-11-macro-daily.md",
-    "statusText": "Notion synced at 2026/07/11 07:58"
+    "lastPublishedAt": "2026-07-11T23:55:28.047Z",
+    "latestPageId": "39a6df82-2641-8107-b151-c0b5f24764a8",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-07-12-Reflation-39a6df8226418107b151c0b5f24764a8",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-07-12-macro-daily.md",
+    "statusText": "Notion synced at 2026/07/12 07:55"
   },
   "warnings": [
     "HTTP 403 for https://www.bls.gov/schedule/news_release/cpi.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/empsit.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/ppi.htm?lv=true",
     "HTTP 403 for https://www.imf.org/en/News",
-    "DeepSeek news digest: Unterminated string in JSON at position 1019 (line 30 column 34)"
+    "DeepSeek news digest: DeepSeek returned empty content",
+    "DeepSeek overlay: DeepSeek returned empty content"
   ],
   "topSignals": [
     {
@@ -17380,22 +17342,17 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
+            "date": "2026-07-10",
+            "value": 7575.39,
+            "rawValue": 7575.39
+          },
+          "previous": {
             "date": "2026-07-09",
             "value": 7543.64,
             "rawValue": 7543.64
           },
-          "previous": {
-            "date": "2026-07-08",
-            "value": 7482.71,
-            "rawValue": 7482.71
-          },
-          "change": 60.93,
+          "change": 31.75,
           "history": [
-            {
-              "date": "2026-04-14",
-              "value": 6967.38,
-              "rawValue": 6967.38
-            },
             {
               "date": "2026-04-15",
               "value": 7022.95,
@@ -17690,12 +17647,17 @@
               "date": "2026-07-09",
               "value": 7543.64,
               "rawValue": 7543.64
+            },
+            {
+              "date": "2026-07-10",
+              "value": 7575.39,
+              "rawValue": 7575.39
             }
           ],
-          "valueText": "7,544",
-          "changeText": "+60.93",
+          "valueText": "7,575",
+          "changeText": "+31.75",
           "changeDirection": "up",
-          "asOfText": "2026-07-09",
+          "asOfText": "2026-07-10",
           "isStale": false,
           "statusLabel": "Watch",
           "statusTone": "neutral",
@@ -18426,209 +18388,9 @@
   },
   "feed": [
     {
-      "alertId": "metric-0edfe1e58e45",
-      "fingerprint": "metric-release:retailSales:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Retail Sales YoY 更新",
-      "body": "Retail Sales YoY 发布了新值 6.88 %，当前解读为“Consumer demand remains resilient”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "retailSales",
-        "observationDate": "2026-05-01",
-        "change": 2.09
-      }
-    },
-    {
-      "alertId": "metric-7843797e3569",
-      "fingerprint": "metric-release:nonfarmPayrolls:2026-06-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Nonfarm Payrolls MoM 更新",
-      "body": "Nonfarm Payrolls MoM 发布了新值 57 K jobs，当前解读为“Hiring is weakening”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "nonfarmPayrolls",
-        "observationDate": "2026-06-01",
-        "change": -72
-      }
-    },
-    {
-      "alertId": "metric-d9fa6d8f160e",
-      "fingerprint": "metric-release:unemploymentRate:2026-06-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Unemployment Rate 更新",
-      "body": "Unemployment Rate 发布了新值 4.2 %，当前解读为“Labor market remains tight”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "unemploymentRate",
-        "observationDate": "2026-06-01",
-        "change": -0.1
-      }
-    },
-    {
-      "alertId": "metric-dc008b0d42d4",
-      "fingerprint": "metric-release:initialClaims:2026-07-04",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Initial Jobless Claims 更新",
-      "body": "Initial Jobless Claims 发布了新值 215 K，当前解读为“Layoff pressure remains low”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "initialClaims",
-        "observationDate": "2026-07-04",
-        "change": -2
-      }
-    },
-    {
-      "alertId": "metric-bd68de36c7d9",
-      "fingerprint": "metric-release:joltsOpenings:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "medium",
-      "title": "JOLTS Openings 更新",
-      "body": "JOLTS Openings 发布了新值 7594 K，当前解读为“Monitoring”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "joltsOpenings",
-        "observationDate": "2026-05-01",
-        "change": 9
-      }
-    },
-    {
-      "alertId": "metric-add6651dacc0",
-      "fingerprint": "metric-release:housingStarts:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "medium",
-      "title": "Housing Starts 更新",
-      "body": "Housing Starts 发布了新值 1177 K，当前解读为“Monitoring”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "housingStarts",
-        "observationDate": "2026-05-01",
-        "change": -215
-      }
-    },
-    {
-      "alertId": "metric-02a03bf55833",
-      "fingerprint": "metric-release:existingHomeSales:2026-06-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "medium",
-      "title": "Existing Home Sales 更新",
-      "body": "Existing Home Sales 发布了新值 4.09 M，当前解读为“Monitoring”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "existingHomeSales",
-        "observationDate": "2026-06-01",
-        "change": -0.1
-      }
-    },
-    {
-      "alertId": "metric-dca60b7a6f5e",
-      "fingerprint": "metric-release:ismManufacturing:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Manufacturing Output YoY 更新",
-      "body": "Manufacturing Output YoY 发布了新值 1.43 %，当前解读为“Factory activity is stabilizing”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "ismManufacturing",
-        "observationDate": "2026-05-01",
-        "change": 0.14
-      }
-    },
-    {
-      "alertId": "metric-1b2fa1f26d59",
-      "fingerprint": "metric-release:industrialProduction:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "medium",
-      "title": "Industrial Production YoY 更新",
-      "body": "Industrial Production YoY 发布了新值 1.67 %，当前解读为“Monitoring”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "industrialProduction",
-        "observationDate": "2026-05-01",
-        "change": 0.3
-      }
-    },
-    {
-      "alertId": "metric-cc6dba5de488",
-      "fingerprint": "metric-release:cpi:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Headline CPI YoY 更新",
-      "body": "Headline CPI YoY 发布了新值 4.47 %，当前解读为“Inflation is running hot”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "cpi",
-        "observationDate": "2026-05-01",
-        "change": 0.34
-      }
-    },
-    {
       "alertId": "metric-05eb02f76b8e",
       "fingerprint": "metric-release:coreCpi:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -18648,7 +18410,7 @@
     {
       "alertId": "metric-22cbc4fb6bae",
       "fingerprint": "metric-release:pce:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -18668,7 +18430,7 @@
     {
       "alertId": "metric-c8de9a292fbb",
       "fingerprint": "metric-release:corePce:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -18688,7 +18450,7 @@
     {
       "alertId": "metric-3e2cb0d120c8",
       "fingerprint": "metric-release:shelterCpi:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -18708,7 +18470,7 @@
     {
       "alertId": "metric-926f7b96626e",
       "fingerprint": "metric-release:coreServicesExHousing:2026-05-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -18728,7 +18490,7 @@
     {
       "alertId": "metric-f8f4cbd0d8f0",
       "fingerprint": "metric-release:wageGrowth:2026-06-01",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Average Hourly Earnings YoY 更新",
@@ -18748,7 +18510,7 @@
     {
       "alertId": "metric-e7da32fa6cd7",
       "fingerprint": "metric-release:effectiveFedFunds:2026-07-09",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -18768,7 +18530,7 @@
     {
       "alertId": "metric-5c7d3c7d65a8",
       "fingerprint": "metric-release:dxyBroad:2026-07-02",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
@@ -18788,7 +18550,7 @@
     {
       "alertId": "metric-4ac0ecfbfdbd",
       "fingerprint": "metric-release:creditSpread:2026-07-09",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
@@ -18806,13 +18568,13 @@
       }
     },
     {
-      "alertId": "metric-7e925a78df52",
-      "fingerprint": "metric-release:sp500:2026-07-09",
-      "createdAt": "2026-07-10T23:57:34.586Z",
+      "alertId": "metric-96aeb03f4068",
+      "fingerprint": "metric-release:sp500:2026-07-10",
+      "createdAt": "2026-07-11T23:54:49.537Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
-      "body": "S&P 500 发布了新值 7543.64，当前解读为“Monitoring”。",
+      "body": "S&P 500 发布了新值 7575.39，当前解读为“Monitoring”。",
       "impactedAssets": [
         "估值",
         "美元",
@@ -18821,8 +18583,208 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "sp500",
-        "observationDate": "2026-07-09",
-        "change": 60.93
+        "observationDate": "2026-07-10",
+        "change": 31.75
+      }
+    },
+    {
+      "alertId": "metric-2432ccce0705",
+      "fingerprint": "metric-release:treasury2y:2026-07-10",
+      "createdAt": "2026-07-11T23:54:49.537Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "2Y Treasury 更新",
+      "body": "2Y Treasury 发布了新值 4.21 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury2y",
+        "observationDate": "2026-07-10",
+        "change": 0.05
+      }
+    },
+    {
+      "alertId": "metric-bb3db30ba297",
+      "fingerprint": "metric-release:treasury10y:2026-07-10",
+      "createdAt": "2026-07-11T23:54:49.537Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "10Y Treasury 更新",
+      "body": "10Y Treasury 发布了新值 4.56 %，当前解读为“Long-end valuation pressure is high”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury10y",
+        "observationDate": "2026-07-10",
+        "change": 0.02
+      }
+    },
+    {
+      "alertId": "metric-2e236094f062",
+      "fingerprint": "metric-release:treasury30y:2026-07-10",
+      "createdAt": "2026-07-11T23:54:49.537Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "30Y Treasury 更新",
+      "body": "30Y Treasury 发布了新值 5.06 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury30y",
+        "observationDate": "2026-07-10",
+        "change": 0.01
+      }
+    },
+    {
+      "alertId": "metric-3279782ebce3",
+      "fingerprint": "metric-release:curve2s10s:2026-07-10",
+      "createdAt": "2026-07-11T23:54:49.537Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "2s10s Curve 更新",
+      "body": "2s10s Curve 发布了新值 35 bp，当前解读为“Curve has re-steepened”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "curve2s10s",
+        "observationDate": "2026-07-10",
+        "change": -3
+      }
+    },
+    {
+      "alertId": "metric-eef1058ad109",
+      "fingerprint": "metric-release:real10y:2026-07-10",
+      "createdAt": "2026-07-11T23:54:49.537Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "10Y Real Yield 更新",
+      "body": "10Y Real Yield 发布了新值 2.32 %，当前解读为“Real yields remain restrictive”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "real10y",
+        "observationDate": "2026-07-10",
+        "change": 0.01
+      }
+    },
+    {
+      "alertId": "metric-df2d7f644ef1",
+      "fingerprint": "metric-release:breakeven10y:2026-07-10",
+      "createdAt": "2026-07-11T23:54:49.537Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "10Y Breakeven 更新",
+      "body": "10Y Breakeven 发布了新值 2.24 %，当前解读为“Inflation expectations are stable”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "breakeven10y",
+        "observationDate": "2026-07-10",
+        "change": 0.01
+      }
+    },
+    {
+      "alertId": "metric-0edfe1e58e45",
+      "fingerprint": "metric-release:retailSales:2026-05-01",
+      "createdAt": "2026-07-11T23:54:49.536Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "Retail Sales YoY 更新",
+      "body": "Retail Sales YoY 发布了新值 6.88 %，当前解读为“Consumer demand remains resilient”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "retailSales",
+        "observationDate": "2026-05-01",
+        "change": 2.09
+      }
+    },
+    {
+      "alertId": "metric-7843797e3569",
+      "fingerprint": "metric-release:nonfarmPayrolls:2026-06-01",
+      "createdAt": "2026-07-11T23:54:49.536Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "Nonfarm Payrolls MoM 更新",
+      "body": "Nonfarm Payrolls MoM 发布了新值 57 K jobs，当前解读为“Hiring is weakening”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "nonfarmPayrolls",
+        "observationDate": "2026-06-01",
+        "change": -72
+      }
+    },
+    {
+      "alertId": "metric-d9fa6d8f160e",
+      "fingerprint": "metric-release:unemploymentRate:2026-06-01",
+      "createdAt": "2026-07-11T23:54:49.536Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "Unemployment Rate 更新",
+      "body": "Unemployment Rate 发布了新值 4.2 %，当前解读为“Labor market remains tight”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "unemploymentRate",
+        "observationDate": "2026-06-01",
+        "change": -0.1
+      }
+    },
+    {
+      "alertId": "metric-dc008b0d42d4",
+      "fingerprint": "metric-release:initialClaims:2026-07-04",
+      "createdAt": "2026-07-11T23:54:49.536Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "Initial Jobless Claims 更新",
+      "body": "Initial Jobless Claims 发布了新值 215 K，当前解读为“Layoff pressure remains low”。",
+      "impactedAssets": [
+        "增长",
+        "Fed",
+        "美股"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "initialClaims",
+        "observationDate": "2026-07-04",
+        "change": -2
       }
     }
   ]
