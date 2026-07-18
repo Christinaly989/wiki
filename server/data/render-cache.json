@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T23:53:21.353Z",
-  "generatedAtLocal": "2026/07/18 07:53",
+  "generatedAt": "2026-07-18T23:54:28.664Z",
+  "generatedAtLocal": "2026/07/19 07:54",
   "timeZone": "Asia/Shanghai",
   "headline": {
     "title": "Retail Sales YoY 相比上期变化 0.61 %到6.72% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
@@ -39,8 +39,8 @@
           "source": "Dashboard refresh",
           "title": "Retail Sales YoY 相比上期变化 0.61 %到6.72%",
           "summary": "Retail Sales YoY 相比上期变化 0.61 %到6.72%",
-          "publishedAt": "2026-07-17T23:52:42.740Z",
-          "publishedAtLocal": "2026/07/18 07:52",
+          "publishedAt": "2026-07-18T23:53:39.864Z",
+          "publishedAtLocal": "2026/07/19 07:53",
           "importance": "high",
           "url": null
         },
@@ -49,8 +49,8 @@
           "source": "Dashboard refresh",
           "title": "Nonfarm Payrolls MoM 相比上期变化 72 K jobs到57K jobs",
           "summary": "Nonfarm Payrolls MoM 相比上期变化 72 K jobs到57K jobs",
-          "publishedAt": "2026-07-17T23:52:42.740Z",
-          "publishedAtLocal": "2026/07/18 07:52",
+          "publishedAt": "2026-07-18T23:53:39.864Z",
+          "publishedAtLocal": "2026/07/19 07:53",
           "importance": "high",
           "url": null
         },
@@ -59,8 +59,8 @@
           "source": "Dashboard refresh",
           "title": "Unemployment Rate 相比上期变化 0.1 %到4.2%",
           "summary": "Unemployment Rate 相比上期变化 0.1 %到4.2%",
-          "publishedAt": "2026-07-17T23:52:42.740Z",
-          "publishedAtLocal": "2026/07/18 07:52",
+          "publishedAt": "2026-07-18T23:53:39.864Z",
+          "publishedAtLocal": "2026/07/19 07:53",
           "importance": "high",
           "url": null
         },
@@ -69,8 +69,8 @@
           "source": "Dashboard refresh",
           "title": "Initial Jobless Claims 相比上期变化 8 K到208K",
           "summary": "Initial Jobless Claims 相比上期变化 8 K到208K",
-          "publishedAt": "2026-07-17T23:52:42.740Z",
-          "publishedAtLocal": "2026/07/18 07:52",
+          "publishedAt": "2026-07-18T23:53:39.864Z",
+          "publishedAtLocal": "2026/07/19 07:53",
           "importance": "high",
           "url": null
         }
@@ -134,7 +134,7 @@
           "source": "Monitor",
           "title": "最近 24 小时没有新的数据卡片",
           "summary": "下一次刷新后会自动补入。",
-          "publishedAt": "2026-07-17T23:52:42.743Z",
+          "publishedAt": "2026-07-18T23:53:39.867Z",
           "publishedAtLocal": "",
           "importance": "low",
           "url": null
@@ -202,10 +202,10 @@
     "generatedAtLocal": null,
     "fingerprint": null,
     "sections": null,
-    "error": "Unterminated string in JSON at position 729 (line 15 column 124)"
+    "error": "DeepSeek returned empty content"
   },
   "regimeState": {
-    "asOf": "2026-07-17T23:52:42.719Z",
+    "asOf": "2026-07-18T23:53:39.842Z",
     "regime": "Reflation",
     "confidence": 0.94,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
@@ -243,11 +243,11 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-07-17T23:53:22.539Z",
-    "latestPageId": "3a06df82-2641-8150-8869-db6e927cb04c",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-07-18-Reflation-3a06df82264181508869db6e927cb04c",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-07-18-macro-daily.md",
-    "statusText": "Notion synced at 2026/07/18 07:53"
+    "lastPublishedAt": "2026-07-18T23:54:29.832Z",
+    "latestPageId": "3a16df82-2641-81a1-8737-d376bf5b7235",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-07-19-Reflation-3a16df82264181a18737d376bf5b7235",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-07-19-macro-daily.md",
+    "statusText": "Notion synced at 2026/07/19 07:54"
   },
   "warnings": [
     "HTTP 403 for https://www.bls.gov/schedule/news_release/cpi.htm?lv=true",
@@ -258,7 +258,7 @@
     "JOLTS Openings is stale. Latest observation is 2026-05 (monthly).",
     "Core PCE YoY is stale. Latest observation is 2026-05 (monthly).",
     "Headline PCE YoY is stale. Latest observation is 2026-05 (monthly).",
-    "DeepSeek overlay: Unterminated string in JSON at position 729 (line 15 column 124)"
+    "DeepSeek overlay: DeepSeek returned empty content"
   ],
   "topSignals": [
     {
@@ -17531,22 +17531,17 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
+            "date": "2026-07-17",
+            "value": 7457.69,
+            "rawValue": 7457.69
+          },
+          "previous": {
             "date": "2026-07-16",
             "value": 7533.77,
             "rawValue": 7533.77
           },
-          "previous": {
-            "date": "2026-07-15",
-            "value": 7572.4,
-            "rawValue": 7572.4
-          },
-          "change": -38.63,
+          "change": -76.08,
           "history": [
-            {
-              "date": "2026-04-21",
-              "value": 7064.01,
-              "rawValue": 7064.01
-            },
             {
               "date": "2026-04-22",
               "value": 7137.9,
@@ -17841,12 +17836,17 @@
               "date": "2026-07-16",
               "value": 7533.77,
               "rawValue": 7533.77
+            },
+            {
+              "date": "2026-07-17",
+              "value": 7457.69,
+              "rawValue": 7457.69
             }
           ],
-          "valueText": "7,534",
-          "changeText": "-38.63",
+          "valueText": "7,458",
+          "changeText": "-76.08",
           "changeDirection": "down",
-          "asOfText": "2026-07-16",
+          "asOfText": "2026-07-17",
           "isStale": false,
           "statusLabel": "Watch",
           "statusTone": "neutral",
@@ -18579,7 +18579,7 @@
     {
       "alertId": "metric-310c4bcf0fd7",
       "fingerprint": "metric-release:retailSales:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Retail Sales YoY 更新",
@@ -18599,7 +18599,7 @@
     {
       "alertId": "metric-7843797e3569",
       "fingerprint": "metric-release:nonfarmPayrolls:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Nonfarm Payrolls MoM 更新",
@@ -18619,7 +18619,7 @@
     {
       "alertId": "metric-d9fa6d8f160e",
       "fingerprint": "metric-release:unemploymentRate:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Unemployment Rate 更新",
@@ -18639,7 +18639,7 @@
     {
       "alertId": "metric-ba2191c0054d",
       "fingerprint": "metric-release:initialClaims:2026-07-11",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Initial Jobless Claims 更新",
@@ -18659,7 +18659,7 @@
     {
       "alertId": "metric-bd68de36c7d9",
       "fingerprint": "metric-release:joltsOpenings:2026-05-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "JOLTS Openings 更新",
@@ -18679,7 +18679,7 @@
     {
       "alertId": "metric-ae6bd9a2996b",
       "fingerprint": "metric-release:housingStarts:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Housing Starts 更新",
@@ -18699,7 +18699,7 @@
     {
       "alertId": "metric-02a03bf55833",
       "fingerprint": "metric-release:existingHomeSales:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Existing Home Sales 更新",
@@ -18719,7 +18719,7 @@
     {
       "alertId": "metric-c61f5ca2341c",
       "fingerprint": "metric-release:ismManufacturing:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Manufacturing Output YoY 更新",
@@ -18739,7 +18739,7 @@
     {
       "alertId": "metric-1586c42e4e38",
       "fingerprint": "metric-release:industrialProduction:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Industrial Production YoY 更新",
@@ -18759,7 +18759,7 @@
     {
       "alertId": "metric-42bf5e7e83d1",
       "fingerprint": "metric-release:cpi:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline CPI YoY 更新",
@@ -18779,7 +18779,7 @@
     {
       "alertId": "metric-39661bdcaa41",
       "fingerprint": "metric-release:coreCpi:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -18799,7 +18799,7 @@
     {
       "alertId": "metric-22cbc4fb6bae",
       "fingerprint": "metric-release:pce:2026-05-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -18819,7 +18819,7 @@
     {
       "alertId": "metric-c8de9a292fbb",
       "fingerprint": "metric-release:corePce:2026-05-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -18839,7 +18839,7 @@
     {
       "alertId": "metric-61965beebc0c",
       "fingerprint": "metric-release:shelterCpi:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -18859,7 +18859,7 @@
     {
       "alertId": "metric-747abd14ecca",
       "fingerprint": "metric-release:coreServicesExHousing:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -18879,7 +18879,7 @@
     {
       "alertId": "metric-f8f4cbd0d8f0",
       "fingerprint": "metric-release:wageGrowth:2026-06-01",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Average Hourly Earnings YoY 更新",
@@ -18899,7 +18899,7 @@
     {
       "alertId": "metric-53b83f2becaa",
       "fingerprint": "metric-release:effectiveFedFunds:2026-07-16",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -18919,7 +18919,7 @@
     {
       "alertId": "metric-fa117036018f",
       "fingerprint": "metric-release:dxyBroad:2026-07-10",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
@@ -18939,7 +18939,7 @@
     {
       "alertId": "metric-97c8c03cd802",
       "fingerprint": "metric-release:creditSpread:2026-07-16",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
@@ -18957,13 +18957,13 @@
       }
     },
     {
-      "alertId": "metric-010744a257f7",
-      "fingerprint": "metric-release:sp500:2026-07-16",
-      "createdAt": "2026-07-17T23:52:42.740Z",
+      "alertId": "metric-2e83ec2f3153",
+      "fingerprint": "metric-release:sp500:2026-07-17",
+      "createdAt": "2026-07-18T23:53:39.864Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
-      "body": "S&P 500 发布了新值 7533.77，当前解读为“Monitoring”。",
+      "body": "S&P 500 发布了新值 7457.69，当前解读为“Monitoring”。",
       "impactedAssets": [
         "估值",
         "美元",
@@ -18972,8 +18972,8 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "sp500",
-        "observationDate": "2026-07-16",
-        "change": -38.63
+        "observationDate": "2026-07-17",
+        "change": -76.08
       }
     }
   ]
