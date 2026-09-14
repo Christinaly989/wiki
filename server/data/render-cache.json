@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T00:38:27.671Z",
-  "generatedAtLocal": "2026/09/13 08:38",
+  "generatedAt": "2026-09-14T00:46:31.907Z",
+  "generatedAtLocal": "2026/09/14 08:46",
   "timeZone": "Asia/Shanghai",
   "headline": {
     "title": "Retail Sales YoY 相比上期变化 1.74 %到5.01% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
@@ -39,8 +39,8 @@
           "source": "Dashboard refresh",
           "title": "Retail Sales YoY 相比上期变化 1.74 %到5.01%",
           "summary": "Retail Sales YoY 相比上期变化 1.74 %到5.01%",
-          "publishedAt": "2026-09-13T00:37:59.833Z",
-          "publishedAtLocal": "2026/09/13 08:37",
+          "publishedAt": "2026-09-14T00:46:09.441Z",
+          "publishedAtLocal": "2026/09/14 08:46",
           "importance": "high",
           "url": null
         },
@@ -49,8 +49,8 @@
           "source": "Dashboard refresh",
           "title": "Nonfarm Payrolls MoM 相比上期变化 141 K jobs到162K jobs",
           "summary": "Nonfarm Payrolls MoM 相比上期变化 141 K jobs到162K jobs",
-          "publishedAt": "2026-09-13T00:37:59.833Z",
-          "publishedAtLocal": "2026/09/13 08:37",
+          "publishedAt": "2026-09-14T00:46:09.441Z",
+          "publishedAtLocal": "2026/09/14 08:46",
           "importance": "high",
           "url": null
         },
@@ -59,8 +59,8 @@
           "source": "Dashboard refresh",
           "title": "Unemployment Rate 相比上期变化 0 %到4.1%",
           "summary": "Unemployment Rate 相比上期变化 0 %到4.1%",
-          "publishedAt": "2026-09-13T00:37:59.833Z",
-          "publishedAtLocal": "2026/09/13 08:37",
+          "publishedAt": "2026-09-14T00:46:09.441Z",
+          "publishedAtLocal": "2026/09/14 08:46",
           "importance": "high",
           "url": null
         },
@@ -69,8 +69,8 @@
           "source": "Dashboard refresh",
           "title": "Initial Jobless Claims 相比上期变化 1 K到206K",
           "summary": "Initial Jobless Claims 相比上期变化 1 K到206K",
-          "publishedAt": "2026-09-13T00:37:59.833Z",
-          "publishedAtLocal": "2026/09/13 08:37",
+          "publishedAt": "2026-09-14T00:46:09.441Z",
+          "publishedAtLocal": "2026/09/14 08:46",
           "importance": "high",
           "url": null
         }
@@ -99,30 +99,6 @@
           "url": "https://home.treasury.gov/news/press-releases/sb0628/",
           "category": "news",
           "importance": "medium"
-        },
-        {
-          "id": "U.S. Treasury-9-2026-09-10T23:32:00.000Z",
-          "source": "U.S. Treasury",
-          "region": "us",
-          "title": "U.S. Mint Commemorates 25th Anniversary of September 11 with Half Dollar",
-          "summary": "September 10, 2026 U.S. Mint Commemorates 25th Anniversary of September 11 with Half Dollar",
-          "publishedAt": "2026-09-10T23:32:00.000Z",
-          "publishedAtLocal": "2026/09/11 07:32",
-          "url": "https://home.treasury.gov/news/press-releases/sb0627/",
-          "category": "news",
-          "importance": "high"
-        },
-        {
-          "id": "Federal Reserve-1-2026-09-10T20:00:00.000Z",
-          "source": "Federal Reserve",
-          "region": "us",
-          "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-          "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-          "publishedAt": "2026-09-10T20:00:00.000Z",
-          "publishedAtLocal": "2026/09/11 04:00",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
-          "category": "news",
-          "importance": "medium"
         }
       ]
     },
@@ -134,7 +110,7 @@
           "source": "Monitor",
           "title": "最近 24 小时没有新的数据卡片",
           "summary": "下一次刷新后会自动补入。",
-          "publishedAt": "2026-09-13T00:37:59.836Z",
+          "publishedAt": "2026-09-14T00:46:09.444Z",
           "publishedAtLocal": "",
           "importance": "low",
           "url": null
@@ -202,10 +178,10 @@
     "generatedAtLocal": null,
     "fingerprint": null,
     "sections": null,
-    "error": "Unterminated string in JSON at position 982 (line 21 column 8)"
+    "error": "Unterminated string in JSON at position 1256 (line 28 column 32)"
   },
   "regimeState": {
-    "asOf": "2026-09-13T00:37:59.814Z",
+    "asOf": "2026-09-14T00:46:09.413Z",
     "regime": "Reflation",
     "confidence": 0.95,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
@@ -243,19 +219,19 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-09-13T00:38:28.907Z",
-    "latestPageId": "3da6df82-2641-81a6-b00b-c8c47cf14584",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-09-13-Reflation-3da6df82264181a6b00bc8c47cf14584",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-09-13-macro-daily.md",
-    "statusText": "Notion synced at 2026/09/13 08:38"
+    "lastPublishedAt": "2026-09-14T00:46:34.726Z",
+    "latestPageId": "3db6df82-2641-8183-8853-f5ffbb78b0ce",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-09-14-Reflation-3db6df82264181838853f5ffbb78b0ce",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-09-14-macro-daily.md",
+    "statusText": "Notion synced at 2026/09/14 08:46"
   },
   "warnings": [
     "HTTP 403 for https://www.bls.gov/schedule/news_release/cpi.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/empsit.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/ppi.htm?lv=true",
     "HTTP 403 for https://www.imf.org/en/News",
-    "DeepSeek news digest: DeepSeek returned empty content",
-    "DeepSeek overlay: Unterminated string in JSON at position 982 (line 21 column 8)"
+    "DeepSeek news digest: Unterminated string in JSON at position 735 (line 22 column 17)",
+    "DeepSeek overlay: Unterminated string in JSON at position 1256 (line 28 column 32)"
   ],
   "topSignals": [
     {
@@ -19771,7 +19747,7 @@
     {
       "alertId": "metric-37e9f0576de7",
       "fingerprint": "metric-release:retailSales:2026-07-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Retail Sales YoY 更新",
@@ -19791,7 +19767,7 @@
     {
       "alertId": "metric-64469e611e60",
       "fingerprint": "metric-release:nonfarmPayrolls:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Nonfarm Payrolls MoM 更新",
@@ -19811,7 +19787,7 @@
     {
       "alertId": "metric-03cee50856f3",
       "fingerprint": "metric-release:unemploymentRate:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Unemployment Rate 更新",
@@ -19831,7 +19807,7 @@
     {
       "alertId": "metric-6369a315eeb9",
       "fingerprint": "metric-release:initialClaims:2026-09-05",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Initial Jobless Claims 更新",
@@ -19851,7 +19827,7 @@
     {
       "alertId": "metric-ff2c1e74a2a7",
       "fingerprint": "metric-release:joltsOpenings:2026-07-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "JOLTS Openings 更新",
@@ -19871,7 +19847,7 @@
     {
       "alertId": "metric-f3b302fac2ac",
       "fingerprint": "metric-release:housingStarts:2026-07-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Housing Starts 更新",
@@ -19891,7 +19867,7 @@
     {
       "alertId": "metric-2c5b9aae0f62",
       "fingerprint": "metric-release:existingHomeSales:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Existing Home Sales 更新",
@@ -19911,7 +19887,7 @@
     {
       "alertId": "metric-4835e9ea02eb",
       "fingerprint": "metric-release:ismManufacturing:2026-07-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Manufacturing Output YoY 更新",
@@ -19931,7 +19907,7 @@
     {
       "alertId": "metric-08eecf1051ca",
       "fingerprint": "metric-release:industrialProduction:2026-07-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Industrial Production YoY 更新",
@@ -19951,7 +19927,7 @@
     {
       "alertId": "metric-157c1fea6fc7",
       "fingerprint": "metric-release:cpi:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline CPI YoY 更新",
@@ -19971,7 +19947,7 @@
     {
       "alertId": "metric-c19b0085d552",
       "fingerprint": "metric-release:coreCpi:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -19991,7 +19967,7 @@
     {
       "alertId": "metric-5af284f636bc",
       "fingerprint": "metric-release:pce:2026-07-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -20011,7 +19987,7 @@
     {
       "alertId": "metric-c1f3af29be21",
       "fingerprint": "metric-release:corePce:2026-07-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -20031,7 +20007,7 @@
     {
       "alertId": "metric-38a8a99bf986",
       "fingerprint": "metric-release:shelterCpi:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -20051,7 +20027,7 @@
     {
       "alertId": "metric-b43d1eb2fc1f",
       "fingerprint": "metric-release:coreServicesExHousing:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -20071,7 +20047,7 @@
     {
       "alertId": "metric-6c118e779da0",
       "fingerprint": "metric-release:wageGrowth:2026-08-01",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Average Hourly Earnings YoY 更新",
@@ -20091,7 +20067,7 @@
     {
       "alertId": "metric-74a692f9f00d",
       "fingerprint": "metric-release:effectiveFedFunds:2026-09-10",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -20111,7 +20087,7 @@
     {
       "alertId": "metric-4b8a74cb7ed0",
       "fingerprint": "metric-release:dxyBroad:2026-09-04",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
@@ -20131,7 +20107,7 @@
     {
       "alertId": "metric-c825159ad50d",
       "fingerprint": "metric-release:creditSpread:2026-09-10",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
@@ -20151,7 +20127,7 @@
     {
       "alertId": "metric-60e376645718",
       "fingerprint": "metric-release:sp500:2026-09-11",
-      "createdAt": "2026-09-13T00:37:59.833Z",
+      "createdAt": "2026-09-14T00:46:09.441Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
