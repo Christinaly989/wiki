@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-16T01:08:04.596Z",
-  "generatedAtLocal": "2026/09/16 09:08",
+  "generatedAt": "2026-09-17T01:07:20.011Z",
+  "generatedAtLocal": "2026/09/17 09:07",
   "timeZone": "Asia/Shanghai",
   "headline": {
-    "title": "Retail Sales YoY 相比上期变化 1.74 %到5.01% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
+    "title": "Retail Sales YoY 相比上期变化 0.98 %到6.01% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。 当前更值得盯住的是 24 小时内的新数据与官方表态是否在强化这条主线。"
   },
   "strategy": {
@@ -14,13 +14,13 @@
         "非农月增 162K",
         "失业率 4.1%",
         "初请 206K",
-        "CPI 同比 3.69%",
-        "Growth score 3 / Inflation score 1.5 / Credit score 1.6"
+        "Core PCE 同比 3.34%",
+        "Growth score 3 / Inflation score 1 / Credit score 1.6"
       ]
     },
     "allocationAdvice": {
       "title": "资产与行业分配建议",
-      "summary": "Retail Sales YoY 相比上期变化 1.74 %到5.01% 与 금융통화위원회 의사록(2026년 제16차)(2026.8.27) 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
+      "summary": "Retail Sales YoY 相比上期变化 0.98 %到6.01% 与 資金循環統計（速報）（2026年第2四半期） 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
       "bullets": [
         "债券：久期保持偏短或中性，优先现金、短债、TIPS，谨慎追长端。",
         "权益：偏向 financials、energy、industrials、materials 和具备定价权的 quality cyclicals。",
@@ -35,12 +35,12 @@
       "title": "美国 24h",
       "dataUpdates": [
         {
-          "id": "metric-37e9f0576de7",
+          "id": "metric-9462b7875823",
           "source": "Dashboard refresh",
-          "title": "Retail Sales YoY 相比上期变化 1.74 %到5.01%",
-          "summary": "Retail Sales YoY 相比上期变化 1.74 %到5.01%",
-          "publishedAt": "2026-09-16T01:07:33.471Z",
-          "publishedAtLocal": "2026/09/16 09:07",
+          "title": "Retail Sales YoY 相比上期变化 0.98 %到6.01%",
+          "summary": "Retail Sales YoY 相比上期变化 0.98 %到6.01%",
+          "publishedAt": "2026-09-17T01:06:53.613Z",
+          "publishedAtLocal": "2026/09/17 09:06",
           "importance": "high",
           "url": null
         },
@@ -49,8 +49,8 @@
           "source": "Dashboard refresh",
           "title": "Nonfarm Payrolls MoM 相比上期变化 141 K jobs到162K jobs",
           "summary": "Nonfarm Payrolls MoM 相比上期变化 141 K jobs到162K jobs",
-          "publishedAt": "2026-09-16T01:07:33.471Z",
-          "publishedAtLocal": "2026/09/16 09:07",
+          "publishedAt": "2026-09-17T01:06:53.613Z",
+          "publishedAtLocal": "2026/09/17 09:06",
           "importance": "high",
           "url": null
         },
@@ -59,8 +59,8 @@
           "source": "Dashboard refresh",
           "title": "Unemployment Rate 相比上期变化 0 %到4.1%",
           "summary": "Unemployment Rate 相比上期变化 0 %到4.1%",
-          "publishedAt": "2026-09-16T01:07:33.471Z",
-          "publishedAtLocal": "2026/09/16 09:07",
+          "publishedAt": "2026-09-17T01:06:53.613Z",
+          "publishedAtLocal": "2026/09/17 09:06",
           "importance": "high",
           "url": null
         },
@@ -69,36 +69,48 @@
           "source": "Dashboard refresh",
           "title": "Initial Jobless Claims 相比上期变化 1 K到206K",
           "summary": "Initial Jobless Claims 相比上期变化 1 K到206K",
-          "publishedAt": "2026-09-16T01:07:33.471Z",
-          "publishedAtLocal": "2026/09/16 09:07",
+          "publishedAt": "2026-09-17T01:06:53.613Z",
+          "publishedAtLocal": "2026/09/17 09:06",
           "importance": "high",
           "url": null
         }
       ],
       "news": [
         {
-          "id": "U.S. Treasury-8-2026-09-15T14:30:00.000Z",
+          "id": "U.S. Treasury-8-2026-09-16T20:00:00.000Z",
           "source": "U.S. Treasury",
           "region": "us",
-          "title": "Statements & Remarks",
-          "summary": "September 15, 2026 Statements & RemarksStatement from Secretary of the Treasury Scott Bessent Before the United States House Committee on Financial Services",
-          "publishedAt": "2026-09-15T14:30:00.000Z",
-          "publishedAtLocal": "2026/09/15 22:30",
-          "url": "https://home.treasury.gov/news/press-releases/statements-remarks",
+          "title": "Treasury International Capital Data for July 2026",
+          "summary": "September 16, 2026 Treasury International Capital Data for July 2026",
+          "publishedAt": "2026-09-16T20:00:00.000Z",
+          "publishedAtLocal": "2026/09/17 04:00",
+          "url": "https://home.treasury.gov/news/press-releases/sb0631/",
           "category": "news",
           "importance": "medium"
         },
         {
-          "id": "U.S. Treasury-9-2026-09-15T14:30:00.000Z",
-          "source": "U.S. Treasury",
+          "id": "Federal Reserve-0-2026-09-16T18:00:00.000Z",
+          "source": "Federal Reserve",
           "region": "us",
-          "title": "Statement from Secretary of the Treasury Scott Bessent Before the United States House Committee on Financial Services",
-          "summary": "September 15, 2026 Statements & RemarksStatement from Secretary of the Treasury Scott Bessent Before the United States House Committee on Financial Services",
-          "publishedAt": "2026-09-15T14:30:00.000Z",
-          "publishedAtLocal": "2026/09/15 22:30",
-          "url": "https://home.treasury.gov/news/press-releases/sb0630/",
+          "title": "Federal Reserve issues FOMC statement",
+          "summary": "Federal Reserve issues FOMC statement",
+          "publishedAt": "2026-09-16T18:00:00.000Z",
+          "publishedAtLocal": "2026/09/17 02:00",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
           "category": "news",
-          "importance": "medium"
+          "importance": "high"
+        },
+        {
+          "id": "Federal Reserve-1-2026-09-16T18:00:00.000Z",
+          "source": "Federal Reserve",
+          "region": "us",
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "publishedAt": "2026-09-16T18:00:00.000Z",
+          "publishedAtLocal": "2026/09/17 02:00",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "category": "news",
+          "importance": "high"
         }
       ]
     },
@@ -110,7 +122,7 @@
           "source": "Monitor",
           "title": "最近 24 小时没有新的数据卡片",
           "summary": "下一次刷新后会自动补入。",
-          "publishedAt": "2026-09-16T01:07:33.474Z",
+          "publishedAt": "2026-09-17T01:06:53.617Z",
           "publishedAtLocal": "",
           "importance": "low",
           "url": null
@@ -118,50 +130,38 @@
       ],
       "news": [
         {
-          "id": "BOK-0-2026-09-15T07:00:00.000Z",
-          "source": "BOK",
-          "region": "global",
-          "title": "금융통화위원회 의사록(2026년 제16차)(2026.8.27)",
-          "summary": "- 회의일자: 2026.8.27일",
-          "publishedAt": "2026-09-15T07:00:00.000Z",
-          "publishedAtLocal": "2026/09/15 15:00",
-          "url": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064779&menuNo=200690",
-          "category": "news",
-          "importance": "medium"
-        },
-        {
-          "id": "BOJ-0-2026-09-15T06:00:00.000Z",
+          "id": "BOJ-0-2026-09-16T23:50:00.000Z",
           "source": "BOJ",
           "region": "global",
-          "title": "日・マレーシア間の第三次二国間通貨スワップ契約の署名",
+          "title": "資金循環統計（速報）（2026年第2四半期）",
           "summary": "",
-          "publishedAt": "2026-09-15T06:00:00.000Z",
-          "publishedAtLocal": "2026/09/15 14:00",
-          "url": "http://www.boj.or.jp/intl_finance/cooperate/coop260915a.pdf",
+          "publishedAt": "2026-09-16T23:50:00.000Z",
+          "publishedAtLocal": "2026/09/17 07:50",
+          "url": "http://www.boj.or.jp/statistics/sj/sj.htm",
           "category": "news",
           "importance": "medium"
         },
         {
-          "id": "BOK-1-2026-09-15T05:00:00.000Z",
-          "source": "BOK",
+          "id": "ECB-0-2026-09-16T08:00:00.000Z",
+          "source": "ECB",
           "region": "global",
-          "title": "[보도자료] 2026년 BOK 지역경제 심포지엄 개최",
-          "summary": "* 자세한 내용은 첨부파일을 참조하시기 바랍니다.",
-          "publishedAt": "2026-09-15T05:00:00.000Z",
-          "publishedAtLocal": "2026/09/15 13:00",
-          "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064689&menuNo=200690",
+          "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
+          "summary": "",
+          "publishedAt": "2026-09-16T08:00:00.000Z",
+          "publishedAtLocal": "2026/09/16 16:00",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
           "category": "news",
           "importance": "medium"
         },
         {
-          "id": "BOK-2-2026-09-15T03:00:00.000Z",
-          "source": "BOK",
+          "id": "BOJ-1-2026-09-16T08:00:00.000Z",
+          "source": "BOJ",
           "region": "global",
-          "title": "「2027년 한국은행 신진작가 공모」실시",
-          "summary": "자세한 내용은 첨부파일을 참고하시기 바랍니다.",
-          "publishedAt": "2026-09-15T03:00:00.000Z",
-          "publishedAtLocal": "2026/09/15 11:00",
-          "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064761&menuNo=200690",
+          "title": "業態別の日銀当座預金残高（8月）",
+          "summary": "",
+          "publishedAt": "2026-09-16T08:00:00.000Z",
+          "publishedAtLocal": "2026/09/16 16:00",
+          "url": "http://www.boj.or.jp/statistics/boj/other/cabs/cabs.xlsx",
           "category": "news",
           "importance": "medium"
         }
@@ -171,26 +171,64 @@
   "aiOverlay": {
     "enabled": true,
     "configured": true,
-    "status": "error",
+    "status": "ready",
     "model": "deepseek-v4-pro",
     "reasoningEffort": "max",
-    "generatedAt": null,
-    "generatedAtLocal": null,
-    "fingerprint": null,
-    "sections": null,
-    "error": "Unterminated string in JSON at position 1052 (line 19 column 28)"
+    "generatedAt": "2026-09-17T01:07:20.008Z",
+    "generatedAtLocal": "2026/09/17 09:07",
+    "fingerprint": "db3483611135e9df4fb65e3a8ba8e4d6bcc483ca",
+    "sections": {
+      "regimeJudgment": {
+        "headline": "再通胀主线强化，利率与美元上行风险抬头",
+        "summary": "劳动力市场边际降温但消费数据意外强劲，通胀黏性尚未消退，信用环境依然宽松。最新 FOMC 声明及经济预测落地后，市场或重新定价 higher for longer，长端利率与美元面临上行压力。再通胀交易仍是基准情形，但增长与政策的边际变化需要紧密跟踪。",
+        "bullets": [
+          "8月零售销售同比升至6.01%，非农上修至162K，初请206K，增长动能降温但未失速，消费韧性突出。",
+          "核心PCE同比3.34%、核心服务（除住房）3.16%，通胀黏性显著，FOMC 9月会议后降息预期可能进一步收敛。",
+          "信用利差0.8%仍处极宽松区间，风险偏好未被信用端打断，但高估值资产对利率敏感度上升。",
+          "10Y名义利率5.01%、实际利率2.68%，曲线再陡峭化，名义增长预期改善，但久期风险加大。"
+        ]
+      },
+      "assetAllocation": {
+        "headline": "短久期防御利率风险，权益偏周期价值，美元偏强",
+        "summary": "名义增长偏强叠加通胀黏性，债券久期保持偏短或中性，优先现金、短债与TIPS，谨慎追长端。权益维持较高仓位但需精选周期与价值，信用利差虽窄但基本面未恶化，可适度持有高收益但控制久期。美元在利差与经济韧性支撑下偏强，对新兴市场形成压制。",
+        "bullets": [
+          "债券：减持长久期国债，10Y 5%以上配置价值显现但波动加大；曲线陡峭化下可考虑做陡交易，短端现券与TIPS更具性价比。",
+          "权益：保持中性偏高仓位，聚焦金融、能源、工业、材料及具备定价权的优质周期股，回避高估值长久期成长。",
+          "美元：经济韧性与政策利率优势支撑美元，可做多美元兑低息货币，但需警惕政策意外引发的剧烈波动。",
+          "信用：信用利差0.8%历史低位，绝对回报有限但违约风险低，可配置高收益债但缩短久期，谨防利差走阔。",
+          "大宗：能源与工业金属受益于再通胀，黄金对实际利率高位敏感，暂不重仓；关注供给约束品种。"
+        ]
+      },
+      "sectorAllocation": {
+        "headline": "超配周期价值，低配长久期成长与防御",
+        "summary": "再通胀与利率高位环境下，盈利弹性集中在上游资源、金融和工业；零售数据强劲支持可选消费中商品相关板块，但利率敏感的地产、公用事业和长久期科技承压。风格上偏向Value、Quality与Low Volatility交集，避免高估值无盈利的成长股。",
+        "bullets": [
+          "超配：能源、金融、工业、材料；银行受益于陡峭曲线与净息差扩大，能源受通胀与地缘溢价支撑。",
+          "标配：可选消费（零售数据强劲）、医疗保健（防御且估值合理），但需精选个股。",
+          "低配：公用事业、房地产、长久期成长股；高久期估值对实际利率上行敏感，现金流贴现压力大。",
+          "风格：质量价值（Quality Value）优于纯低估值，关注自由现金流强劲、定价权强的公司。"
+        ]
+      },
+      "keyRisks": [
+        "FOMC后续表态偏鹰或通胀数据超预期，引发长端利率快速上行，冲击风险资产估值。",
+        "消费数据受一次性因素扰动，若零售销售回落叠加就业加速降温，增长预期可能逆转。",
+        "信用利差过窄，若出现信用事件或流动性收紧，高收益债与股市可能同步回撤。",
+        "全球央行政策分化（BOJ资金循环变化、ECB工资上行）可能导致跨境资本流动加剧，美元无序走强。"
+      ]
+    },
+    "error": null
   },
   "regimeState": {
-    "asOf": "2026-09-16T01:07:33.442Z",
+    "asOf": "2026-09-17T01:06:53.592Z",
     "regime": "Reflation",
-    "confidence": 0.95,
+    "confidence": 0.92,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
     "drivers": [
       "非农月增 162K",
       "失业率 4.1%",
       "初请 206K",
-      "CPI 同比 3.69%",
       "Core PCE 同比 3.34%",
+      "服务通胀 3.16%",
       "信用利差 0.8% | 信用非常宽松"
     ],
     "implications": [
@@ -200,16 +238,16 @@
     ],
     "scores": {
       "growth": 3,
-      "inflation": 1.5,
+      "inflation": 1,
       "credit": 1.6
     }
   },
   "sourceStatus": {
-    "fred": "ok",
+    "fred": "partial",
     "treasury": "ok",
     "releases": "partial",
     "news": "partial",
-    "ai": "error"
+    "ai": "ready"
   },
   "configStatus": {
     "fredConfigured": true,
@@ -219,26 +257,27 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-09-16T01:08:05.913Z",
-    "latestPageId": "3dd6df82-2641-8114-8db6-f45b447417cd",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-09-16-Reflation-3dd6df82264181148db6f45b447417cd",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-09-16-macro-daily.md",
-    "statusText": "Notion synced at 2026/09/16 09:08"
+    "lastPublishedAt": "2026-09-17T01:07:21.756Z",
+    "latestPageId": "3de6df82-2641-8141-b74a-ec5734b25c9a",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-09-17-Reflation-3de6df8226418141b74aec5734b25c9a",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-09-17-macro-daily.md",
+    "statusText": "Notion synced at 2026/09/17 09:07"
   },
   "warnings": [
+    "HTTP 502 for https://api.stlouisfed.org/fred/series/observations?series_id=HOUST&api_key=f0e270745fc89d65a3fb4e9c1fa612bf&file_type=json&sort_order=desc&limit=240",
+    "Network fetch failed for https://api.stlouisfed.org/fred/series/observations?series_id=CPIAUCNS&api_key=f0e270745fc89d65a3fb4e9c1fa612bf&file_type=json&sort_order=desc&limit=240: The operation was aborted due to timeout",
+    "Network fetch failed for https://api.stlouisfed.org/fred/series/observations?series_id=CES0500000003&api_key=f0e270745fc89d65a3fb4e9c1fa612bf&file_type=json&sort_order=desc&limit=240: The operation was aborted due to timeout",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/cpi.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/empsit.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/ppi.htm?lv=true",
+    "Network fetch failed for https://www.bok.or.kr/portal/bbs/B0000552/news.rss?menuNo=200690: The operation was aborted due to timeout",
     "HTTP 403 for https://www.imf.org/en/News",
-    "DeepSeek news digest: Unterminated string in JSON at position 422 (line 12 column 52)",
+    "DeepSeek news digest: Unterminated string in JSON at position 574 (line 17 column 27)",
     "Industrial Production YoY is stale. Latest observation is 2026-07 (monthly).",
     "Manufacturing Output YoY is stale. Latest observation is 2026-07 (monthly).",
-    "Housing Starts is stale. Latest observation is 2026-07 (monthly).",
     "JOLTS Openings is stale. Latest observation is 2026-07 (monthly).",
-    "Retail Sales YoY is stale. Latest observation is 2026-07 (monthly).",
     "Core PCE YoY is stale. Latest observation is 2026-07 (monthly).",
-    "Headline PCE YoY is stale. Latest observation is 2026-07 (monthly).",
-    "DeepSeek overlay: Unterminated string in JSON at position 1052 (line 19 column 28)"
+    "Headline PCE YoY is stale. Latest observation is 2026-07 (monthly)."
   ],
   "topSignals": [
     {
@@ -272,14 +311,14 @@
     {
       "key": "retailSales",
       "label": "Retail Sales YoY",
-      "valueText": "5.01%",
+      "valueText": "6.01%",
       "marketSignal": "Consumer demand remains resilient",
-      "date": "2026-07"
+      "date": "2026-08"
     },
     {
-      "key": "wageGrowth",
-      "label": "Average Hourly Earnings YoY",
-      "valueText": "3.09%",
+      "key": "coreServicesExHousing",
+      "label": "Services Less Rent of Shelter YoY",
+      "valueText": "3.16%",
       "marketSignal": "Inflation remains sticky",
       "date": "2026-08"
     }
@@ -1054,340 +1093,6 @@
           "changeDirection": "down",
           "asOfText": "2026-08",
           "isStale": false,
-          "statusLabel": "Watch",
-          "statusTone": "neutral",
-          "brief": "Momentum is softening; housing is still an important swing factor for cyclical growth"
-        },
-        {
-          "key": "housingStarts",
-          "label": "Housing Starts",
-          "category": "地产",
-          "group": "growthLabor",
-          "sourceLabel": "Census via FRED",
-          "definition": "SAAR level",
-          "unit": "K",
-          "frequency": "monthly",
-          "frequencyLabel": "Monthly",
-          "importance": "medium",
-          "marketSignal": "Monitoring",
-          "latest": {
-            "date": "2026-07-01",
-            "value": 1239,
-            "rawValue": 1239
-          },
-          "previous": {
-            "date": "2026-06-01",
-            "value": 1415,
-            "rawValue": 1415
-          },
-          "change": -176,
-          "history": [
-            {
-              "date": "2021-08-01",
-              "value": 1596,
-              "rawValue": 1596
-            },
-            {
-              "date": "2021-09-01",
-              "value": 1576,
-              "rawValue": 1576
-            },
-            {
-              "date": "2021-10-01",
-              "value": 1587,
-              "rawValue": 1587
-            },
-            {
-              "date": "2021-11-01",
-              "value": 1707,
-              "rawValue": 1707
-            },
-            {
-              "date": "2021-12-01",
-              "value": 1711,
-              "rawValue": 1711
-            },
-            {
-              "date": "2022-01-01",
-              "value": 1693,
-              "rawValue": 1693
-            },
-            {
-              "date": "2022-02-01",
-              "value": 1730,
-              "rawValue": 1730
-            },
-            {
-              "date": "2022-03-01",
-              "value": 1700,
-              "rawValue": 1700
-            },
-            {
-              "date": "2022-04-01",
-              "value": 1807,
-              "rawValue": 1807
-            },
-            {
-              "date": "2022-05-01",
-              "value": 1546,
-              "rawValue": 1546
-            },
-            {
-              "date": "2022-06-01",
-              "value": 1556,
-              "rawValue": 1556
-            },
-            {
-              "date": "2022-07-01",
-              "value": 1382,
-              "rawValue": 1382
-            },
-            {
-              "date": "2022-08-01",
-              "value": 1532,
-              "rawValue": 1532
-            },
-            {
-              "date": "2022-09-01",
-              "value": 1481,
-              "rawValue": 1481
-            },
-            {
-              "date": "2022-10-01",
-              "value": 1446,
-              "rawValue": 1446
-            },
-            {
-              "date": "2022-11-01",
-              "value": 1434,
-              "rawValue": 1434
-            },
-            {
-              "date": "2022-12-01",
-              "value": 1296,
-              "rawValue": 1296
-            },
-            {
-              "date": "2023-01-01",
-              "value": 1358,
-              "rawValue": 1358
-            },
-            {
-              "date": "2023-02-01",
-              "value": 1395,
-              "rawValue": 1395
-            },
-            {
-              "date": "2023-03-01",
-              "value": 1366,
-              "rawValue": 1366
-            },
-            {
-              "date": "2023-04-01",
-              "value": 1343,
-              "rawValue": 1343
-            },
-            {
-              "date": "2023-05-01",
-              "value": 1609,
-              "rawValue": 1609
-            },
-            {
-              "date": "2023-06-01",
-              "value": 1420,
-              "rawValue": 1420
-            },
-            {
-              "date": "2023-07-01",
-              "value": 1464,
-              "rawValue": 1464
-            },
-            {
-              "date": "2023-08-01",
-              "value": 1321,
-              "rawValue": 1321
-            },
-            {
-              "date": "2023-09-01",
-              "value": 1369,
-              "rawValue": 1369
-            },
-            {
-              "date": "2023-10-01",
-              "value": 1380,
-              "rawValue": 1380
-            },
-            {
-              "date": "2023-11-01",
-              "value": 1522,
-              "rawValue": 1522
-            },
-            {
-              "date": "2023-12-01",
-              "value": 1504,
-              "rawValue": 1504
-            },
-            {
-              "date": "2024-01-01",
-              "value": 1378,
-              "rawValue": 1378
-            },
-            {
-              "date": "2024-02-01",
-              "value": 1555,
-              "rawValue": 1555
-            },
-            {
-              "date": "2024-03-01",
-              "value": 1297,
-              "rawValue": 1297
-            },
-            {
-              "date": "2024-04-01",
-              "value": 1379,
-              "rawValue": 1379
-            },
-            {
-              "date": "2024-05-01",
-              "value": 1329,
-              "rawValue": 1329
-            },
-            {
-              "date": "2024-06-01",
-              "value": 1318,
-              "rawValue": 1318
-            },
-            {
-              "date": "2024-07-01",
-              "value": 1269,
-              "rawValue": 1269
-            },
-            {
-              "date": "2024-08-01",
-              "value": 1394,
-              "rawValue": 1394
-            },
-            {
-              "date": "2024-09-01",
-              "value": 1357,
-              "rawValue": 1357
-            },
-            {
-              "date": "2024-10-01",
-              "value": 1370,
-              "rawValue": 1370
-            },
-            {
-              "date": "2024-11-01",
-              "value": 1300,
-              "rawValue": 1300
-            },
-            {
-              "date": "2024-12-01",
-              "value": 1494,
-              "rawValue": 1494
-            },
-            {
-              "date": "2025-01-01",
-              "value": 1353,
-              "rawValue": 1353
-            },
-            {
-              "date": "2025-02-01",
-              "value": 1491,
-              "rawValue": 1491
-            },
-            {
-              "date": "2025-03-01",
-              "value": 1346,
-              "rawValue": 1346
-            },
-            {
-              "date": "2025-04-01",
-              "value": 1400,
-              "rawValue": 1400
-            },
-            {
-              "date": "2025-05-01",
-              "value": 1289,
-              "rawValue": 1289
-            },
-            {
-              "date": "2025-06-01",
-              "value": 1379,
-              "rawValue": 1379
-            },
-            {
-              "date": "2025-07-01",
-              "value": 1432,
-              "rawValue": 1432
-            },
-            {
-              "date": "2025-08-01",
-              "value": 1291,
-              "rawValue": 1291
-            },
-            {
-              "date": "2025-09-01",
-              "value": 1319,
-              "rawValue": 1319
-            },
-            {
-              "date": "2025-10-01",
-              "value": 1273,
-              "rawValue": 1273
-            },
-            {
-              "date": "2025-11-01",
-              "value": 1319,
-              "rawValue": 1319
-            },
-            {
-              "date": "2025-12-01",
-              "value": 1378,
-              "rawValue": 1378
-            },
-            {
-              "date": "2026-01-01",
-              "value": 1385,
-              "rawValue": 1385
-            },
-            {
-              "date": "2026-02-01",
-              "value": 1346,
-              "rawValue": 1346
-            },
-            {
-              "date": "2026-03-01",
-              "value": 1522,
-              "rawValue": 1522
-            },
-            {
-              "date": "2026-04-01",
-              "value": 1414,
-              "rawValue": 1414
-            },
-            {
-              "date": "2026-05-01",
-              "value": 1182,
-              "rawValue": 1182
-            },
-            {
-              "date": "2026-06-01",
-              "value": 1415,
-              "rawValue": 1415
-            },
-            {
-              "date": "2026-07-01",
-              "value": 1239,
-              "rawValue": 1239
-            }
-          ],
-          "valueText": "1,239 K",
-          "changeText": "-176 K",
-          "changeDirection": "down",
-          "asOfText": "2026-07",
-          "isStale": true,
           "statusLabel": "Watch",
           "statusTone": "neutral",
           "brief": "Momentum is softening; housing is still an important swing factor for cyclical growth"
@@ -2741,22 +2446,17 @@
           "importance": "high",
           "marketSignal": "Consumer demand remains resilient",
           "latest": {
-            "date": "2026-07-01",
-            "value": 5.01,
-            "rawValue": 763602
+            "date": "2026-08-01",
+            "value": 6.01,
+            "rawValue": 773947
           },
           "previous": {
-            "date": "2026-06-01",
-            "value": 6.75,
-            "rawValue": 768072
+            "date": "2026-07-01",
+            "value": 5.03,
+            "rawValue": 764462
           },
-          "change": -1.74,
+          "change": 0.98,
           "history": [
-            {
-              "date": "2021-08-01",
-              "value": 14.09,
-              "rawValue": 605533
-            },
             {
               "date": "2021-09-01",
               "value": 12.63,
@@ -2989,13 +2689,13 @@
             },
             {
               "date": "2025-07-01",
-              "value": 4.06,
-              "rawValue": 727176
+              "value": 4.15,
+              "rawValue": 727837
             },
             {
               "date": "2025-08-01",
-              "value": 4.97,
-              "rawValue": 731700
+              "value": 4.73,
+              "rawValue": 730037
             },
             {
               "date": "2025-09-01",
@@ -3044,23 +2744,28 @@
             },
             {
               "date": "2026-06-01",
-              "value": 6.75,
-              "rawValue": 768072
+              "value": 6.82,
+              "rawValue": 768587
             },
             {
               "date": "2026-07-01",
-              "value": 5.01,
-              "rawValue": 763602
+              "value": 5.03,
+              "rawValue": 764462
+            },
+            {
+              "date": "2026-08-01",
+              "value": 6.01,
+              "rawValue": 773947
             }
           ],
-          "valueText": "5.01%",
-          "changeText": "-1.74%",
-          "changeDirection": "down",
-          "asOfText": "2026-07",
-          "isStale": true,
+          "valueText": "6.01%",
+          "changeText": "+0.98%",
+          "changeDirection": "up",
+          "asOfText": "2026-08",
+          "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
-          "brief": "Momentum is softening; consumer spending still supports growth"
+          "brief": "Momentum is improving; consumer spending still supports growth"
         }
       ]
     },
@@ -3083,22 +2788,17 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-09-14",
+            "date": "2026-09-15",
             "value": 3.63,
             "rawValue": 3.63
           },
           "previous": {
-            "date": "2026-09-13",
+            "date": "2026-09-14",
             "value": 3.63,
             "rawValue": 3.63
           },
           "change": 0,
           "history": [
-            {
-              "date": "2026-07-17",
-              "value": 3.63,
-              "rawValue": 3.63
-            },
             {
               "date": "2026-07-18",
               "value": 3.63,
@@ -3393,350 +3093,21 @@
               "date": "2026-09-14",
               "value": 3.63,
               "rawValue": 3.63
+            },
+            {
+              "date": "2026-09-15",
+              "value": 3.63,
+              "rawValue": 3.63
             }
           ],
           "valueText": "3.63%",
           "changeText": "0%",
           "changeDirection": "flat",
-          "asOfText": "2026-09-14",
+          "asOfText": "2026-09-15",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
           "brief": "The policy rate changes slowly; what matters most is whether inflation and labor data are making policy more or less restrictive."
-        },
-        {
-          "key": "wageGrowth",
-          "label": "Average Hourly Earnings YoY",
-          "category": "工资",
-          "group": "inflationFed",
-          "sourceLabel": "BLS via FRED",
-          "definition": "YoY %",
-          "unit": "%",
-          "frequency": "monthly",
-          "frequencyLabel": "Monthly",
-          "importance": "high",
-          "marketSignal": "Inflation remains sticky",
-          "latest": {
-            "date": "2026-08-01",
-            "value": 3.09,
-            "rawValue": 37.75
-          },
-          "previous": {
-            "date": "2026-07-01",
-            "value": 3.24,
-            "rawValue": 37.65
-          },
-          "change": -0.15,
-          "history": [
-            {
-              "date": "2021-09-01",
-              "value": 4.98,
-              "rawValue": 30.98
-            },
-            {
-              "date": "2021-10-01",
-              "value": 5.42,
-              "rawValue": 31.14
-            },
-            {
-              "date": "2021-11-01",
-              "value": 5.36,
-              "rawValue": 31.23
-            },
-            {
-              "date": "2021-12-01",
-              "value": 4.95,
-              "rawValue": 31.39
-            },
-            {
-              "date": "2022-01-01",
-              "value": 5.58,
-              "rawValue": 31.6
-            },
-            {
-              "date": "2022-02-01",
-              "value": 5.29,
-              "rawValue": 31.64
-            },
-            {
-              "date": "2022-03-01",
-              "value": 5.89,
-              "rawValue": 31.8
-            },
-            {
-              "date": "2022-04-01",
-              "value": 5.76,
-              "rawValue": 31.96
-            },
-            {
-              "date": "2022-05-01",
-              "value": 5.56,
-              "rawValue": 32.1
-            },
-            {
-              "date": "2022-06-01",
-              "value": 5.4,
-              "rawValue": 32.19
-            },
-            {
-              "date": "2022-07-01",
-              "value": 5.48,
-              "rawValue": 32.34
-            },
-            {
-              "date": "2022-08-01",
-              "value": 5.39,
-              "rawValue": 32.44
-            },
-            {
-              "date": "2022-09-01",
-              "value": 5.13,
-              "rawValue": 32.57
-            },
-            {
-              "date": "2022-10-01",
-              "value": 5.01,
-              "rawValue": 32.7
-            },
-            {
-              "date": "2022-11-01",
-              "value": 5.09,
-              "rawValue": 32.82
-            },
-            {
-              "date": "2022-12-01",
-              "value": 4.94,
-              "rawValue": 32.94
-            },
-            {
-              "date": "2023-01-01",
-              "value": 4.49,
-              "rawValue": 33.02
-            },
-            {
-              "date": "2023-02-01",
-              "value": 4.77,
-              "rawValue": 33.15
-            },
-            {
-              "date": "2023-03-01",
-              "value": 4.62,
-              "rawValue": 33.27
-            },
-            {
-              "date": "2023-04-01",
-              "value": 4.6,
-              "rawValue": 33.43
-            },
-            {
-              "date": "2023-05-01",
-              "value": 4.36,
-              "rawValue": 33.5
-            },
-            {
-              "date": "2023-06-01",
-              "value": 4.66,
-              "rawValue": 33.69
-            },
-            {
-              "date": "2023-07-01",
-              "value": 4.67,
-              "rawValue": 33.85
-            },
-            {
-              "date": "2023-08-01",
-              "value": 4.47,
-              "rawValue": 33.89
-            },
-            {
-              "date": "2023-09-01",
-              "value": 4.42,
-              "rawValue": 34.01
-            },
-            {
-              "date": "2023-10-01",
-              "value": 4.22,
-              "rawValue": 34.08
-            },
-            {
-              "date": "2023-11-01",
-              "value": 4.11,
-              "rawValue": 34.17
-            },
-            {
-              "date": "2023-12-01",
-              "value": 4.1,
-              "rawValue": 34.29
-            },
-            {
-              "date": "2024-01-01",
-              "value": 4.39,
-              "rawValue": 34.47
-            },
-            {
-              "date": "2024-02-01",
-              "value": 4.13,
-              "rawValue": 34.52
-            },
-            {
-              "date": "2024-03-01",
-              "value": 4.15,
-              "rawValue": 34.65
-            },
-            {
-              "date": "2024-04-01",
-              "value": 3.98,
-              "rawValue": 34.76
-            },
-            {
-              "date": "2024-05-01",
-              "value": 4.15,
-              "rawValue": 34.89
-            },
-            {
-              "date": "2024-06-01",
-              "value": 3.92,
-              "rawValue": 35.01
-            },
-            {
-              "date": "2024-07-01",
-              "value": 3.63,
-              "rawValue": 35.08
-            },
-            {
-              "date": "2024-08-01",
-              "value": 3.92,
-              "rawValue": 35.22
-            },
-            {
-              "date": "2024-09-01",
-              "value": 3.91,
-              "rawValue": 35.34
-            },
-            {
-              "date": "2024-10-01",
-              "value": 4.05,
-              "rawValue": 35.46
-            },
-            {
-              "date": "2024-11-01",
-              "value": 4.18,
-              "rawValue": 35.6
-            },
-            {
-              "date": "2024-12-01",
-              "value": 4.08,
-              "rawValue": 35.69
-            },
-            {
-              "date": "2025-01-01",
-              "value": 3.97,
-              "rawValue": 35.84
-            },
-            {
-              "date": "2025-02-01",
-              "value": 4.11,
-              "rawValue": 35.94
-            },
-            {
-              "date": "2025-03-01",
-              "value": 4.21,
-              "rawValue": 36.11
-            },
-            {
-              "date": "2025-04-01",
-              "value": 3.91,
-              "rawValue": 36.12
-            },
-            {
-              "date": "2025-05-01",
-              "value": 3.98,
-              "rawValue": 36.28
-            },
-            {
-              "date": "2025-06-01",
-              "value": 3.86,
-              "rawValue": 36.36
-            },
-            {
-              "date": "2025-07-01",
-              "value": 3.96,
-              "rawValue": 36.47
-            },
-            {
-              "date": "2025-08-01",
-              "value": 3.98,
-              "rawValue": 36.62
-            },
-            {
-              "date": "2025-09-01",
-              "value": 3.85,
-              "rawValue": 36.7
-            },
-            {
-              "date": "2025-10-01",
-              "value": 3.92,
-              "rawValue": 36.85
-            },
-            {
-              "date": "2025-11-01",
-              "value": 3.93,
-              "rawValue": 37
-            },
-            {
-              "date": "2025-12-01",
-              "value": 3.73,
-              "rawValue": 37.02
-            },
-            {
-              "date": "2026-01-01",
-              "value": 3.66,
-              "rawValue": 37.15
-            },
-            {
-              "date": "2026-02-01",
-              "value": 3.7,
-              "rawValue": 37.27
-            },
-            {
-              "date": "2026-03-01",
-              "value": 3.43,
-              "rawValue": 37.35
-            },
-            {
-              "date": "2026-04-01",
-              "value": 3.57,
-              "rawValue": 37.41
-            },
-            {
-              "date": "2026-05-01",
-              "value": 3.34,
-              "rawValue": 37.49
-            },
-            {
-              "date": "2026-06-01",
-              "value": 3.38,
-              "rawValue": 37.59
-            },
-            {
-              "date": "2026-07-01",
-              "value": 3.24,
-              "rawValue": 37.65
-            },
-            {
-              "date": "2026-08-01",
-              "value": 3.09,
-              "rawValue": 37.75
-            }
-          ],
-          "valueText": "3.09%",
-          "changeText": "-0.15%",
-          "changeDirection": "down",
-          "asOfText": "2026-08",
-          "isStale": false,
-          "statusLabel": "Caution",
-          "statusTone": "caution",
-          "brief": "Momentum is softening; wage pressure is easing"
         },
         {
           "key": "coreServicesExHousing",
@@ -5407,340 +4778,6 @@
           "statusLabel": "Caution",
           "statusTone": "caution",
           "brief": "Momentum is improving; higher-for-longer risk is still alive"
-        },
-        {
-          "key": "cpi",
-          "label": "Headline CPI YoY",
-          "category": "通胀",
-          "group": "inflationFed",
-          "sourceLabel": "BLS via FRED",
-          "definition": "YoY %",
-          "unit": "%",
-          "frequency": "monthly",
-          "frequencyLabel": "Monthly",
-          "importance": "high",
-          "marketSignal": "Inflation is running hot",
-          "latest": {
-            "date": "2026-08-01",
-            "value": 3.69,
-            "rawValue": 334.98
-          },
-          "previous": {
-            "date": "2026-07-01",
-            "value": 3.52,
-            "rawValue": 333.918
-          },
-          "change": 0.17,
-          "history": [
-            {
-              "date": "2021-08-01",
-              "value": 5.25,
-              "rawValue": 273.567
-            },
-            {
-              "date": "2021-09-01",
-              "value": 5.39,
-              "rawValue": 274.31
-            },
-            {
-              "date": "2021-10-01",
-              "value": 6.22,
-              "rawValue": 276.589
-            },
-            {
-              "date": "2021-11-01",
-              "value": 6.81,
-              "rawValue": 277.948
-            },
-            {
-              "date": "2021-12-01",
-              "value": 7.04,
-              "rawValue": 278.802
-            },
-            {
-              "date": "2022-01-01",
-              "value": 7.48,
-              "rawValue": 281.148
-            },
-            {
-              "date": "2022-02-01",
-              "value": 7.87,
-              "rawValue": 283.716
-            },
-            {
-              "date": "2022-03-01",
-              "value": 8.54,
-              "rawValue": 287.504
-            },
-            {
-              "date": "2022-04-01",
-              "value": 8.26,
-              "rawValue": 289.109
-            },
-            {
-              "date": "2022-05-01",
-              "value": 8.58,
-              "rawValue": 292.296
-            },
-            {
-              "date": "2022-06-01",
-              "value": 9.06,
-              "rawValue": 296.311
-            },
-            {
-              "date": "2022-07-01",
-              "value": 8.52,
-              "rawValue": 296.276
-            },
-            {
-              "date": "2022-08-01",
-              "value": 8.26,
-              "rawValue": 296.171
-            },
-            {
-              "date": "2022-09-01",
-              "value": 8.2,
-              "rawValue": 296.808
-            },
-            {
-              "date": "2022-10-01",
-              "value": 7.75,
-              "rawValue": 298.012
-            },
-            {
-              "date": "2022-11-01",
-              "value": 7.11,
-              "rawValue": 297.711
-            },
-            {
-              "date": "2022-12-01",
-              "value": 6.45,
-              "rawValue": 296.797
-            },
-            {
-              "date": "2023-01-01",
-              "value": 6.41,
-              "rawValue": 299.17
-            },
-            {
-              "date": "2023-02-01",
-              "value": 6.04,
-              "rawValue": 300.84
-            },
-            {
-              "date": "2023-03-01",
-              "value": 4.98,
-              "rawValue": 301.836
-            },
-            {
-              "date": "2023-04-01",
-              "value": 4.93,
-              "rawValue": 303.363
-            },
-            {
-              "date": "2023-05-01",
-              "value": 4.05,
-              "rawValue": 304.127
-            },
-            {
-              "date": "2023-06-01",
-              "value": 2.97,
-              "rawValue": 305.109
-            },
-            {
-              "date": "2023-07-01",
-              "value": 3.18,
-              "rawValue": 305.691
-            },
-            {
-              "date": "2023-08-01",
-              "value": 3.67,
-              "rawValue": 307.026
-            },
-            {
-              "date": "2023-09-01",
-              "value": 3.7,
-              "rawValue": 307.789
-            },
-            {
-              "date": "2023-10-01",
-              "value": 3.24,
-              "rawValue": 307.671
-            },
-            {
-              "date": "2023-11-01",
-              "value": 3.14,
-              "rawValue": 307.051
-            },
-            {
-              "date": "2023-12-01",
-              "value": 3.35,
-              "rawValue": 306.746
-            },
-            {
-              "date": "2024-01-01",
-              "value": 3.09,
-              "rawValue": 308.417
-            },
-            {
-              "date": "2024-02-01",
-              "value": 3.15,
-              "rawValue": 310.326
-            },
-            {
-              "date": "2024-03-01",
-              "value": 3.48,
-              "rawValue": 312.332
-            },
-            {
-              "date": "2024-04-01",
-              "value": 3.36,
-              "rawValue": 313.548
-            },
-            {
-              "date": "2024-05-01",
-              "value": 3.27,
-              "rawValue": 314.069
-            },
-            {
-              "date": "2024-06-01",
-              "value": 2.97,
-              "rawValue": 314.175
-            },
-            {
-              "date": "2024-07-01",
-              "value": 2.89,
-              "rawValue": 314.54
-            },
-            {
-              "date": "2024-08-01",
-              "value": 2.53,
-              "rawValue": 314.796
-            },
-            {
-              "date": "2024-09-01",
-              "value": 2.44,
-              "rawValue": 315.301
-            },
-            {
-              "date": "2024-10-01",
-              "value": 2.6,
-              "rawValue": 315.664
-            },
-            {
-              "date": "2024-11-01",
-              "value": 2.75,
-              "rawValue": 315.493
-            },
-            {
-              "date": "2024-12-01",
-              "value": 2.89,
-              "rawValue": 315.605
-            },
-            {
-              "date": "2025-01-01",
-              "value": 3,
-              "rawValue": 317.671
-            },
-            {
-              "date": "2025-02-01",
-              "value": 2.82,
-              "rawValue": 319.082
-            },
-            {
-              "date": "2025-03-01",
-              "value": 2.39,
-              "rawValue": 319.799
-            },
-            {
-              "date": "2025-04-01",
-              "value": 2.31,
-              "rawValue": 320.795
-            },
-            {
-              "date": "2025-05-01",
-              "value": 2.35,
-              "rawValue": 321.465
-            },
-            {
-              "date": "2025-06-01",
-              "value": 2.67,
-              "rawValue": 322.561
-            },
-            {
-              "date": "2025-07-01",
-              "value": 2.7,
-              "rawValue": 323.048
-            },
-            {
-              "date": "2025-08-01",
-              "value": 2.92,
-              "rawValue": 323.976
-            },
-            {
-              "date": "2025-09-01",
-              "value": 3.01,
-              "rawValue": 324.8
-            },
-            {
-              "date": "2025-11-01",
-              "value": 2.68,
-              "rawValue": 324.122
-            },
-            {
-              "date": "2025-12-01",
-              "value": 2.71,
-              "rawValue": 324.054
-            },
-            {
-              "date": "2026-01-01",
-              "value": 3.06,
-              "rawValue": 325.252
-            },
-            {
-              "date": "2026-02-01",
-              "value": 2.87,
-              "rawValue": 326.785
-            },
-            {
-              "date": "2026-03-01",
-              "value": 3.49,
-              "rawValue": 330.213
-            },
-            {
-              "date": "2026-04-01",
-              "value": 4.13,
-              "rawValue": 333.02
-            },
-            {
-              "date": "2026-05-01",
-              "value": 4.47,
-              "rawValue": 335.123
-            },
-            {
-              "date": "2026-06-01",
-              "value": 3.88,
-              "rawValue": 333.952
-            },
-            {
-              "date": "2026-07-01",
-              "value": 3.52,
-              "rawValue": 333.918
-            },
-            {
-              "date": "2026-08-01",
-              "value": 3.69,
-              "rawValue": 334.98
-            }
-          ],
-          "valueText": "3.69%",
-          "changeText": "+0.17%",
-          "changeDirection": "up",
-          "asOfText": "2026-08",
-          "isStale": false,
-          "statusLabel": "Stress",
-          "statusTone": "negative",
-          "brief": "Momentum is improving; higher-for-longer risk is still alive"
         }
       ]
     },
@@ -5763,15 +4800,15 @@
           "importance": "medium",
           "marketSignal": "Inflation expectations are stable",
           "latest": {
-            "date": "2026-09-15",
-            "value": 2.38,
-            "rawValue": 2.38
+            "date": "2026-09-16",
+            "value": 2.33,
+            "rawValue": 2.33
           },
           "previous": {
-            "date": "2026-09-14",
-            "value": 2.37
+            "date": "2026-09-15",
+            "value": 2.38
           },
-          "change": 0.01,
+          "change": -0.05,
           "history": [
             {
               "date": "2025-01-02",
@@ -7902,16 +6939,21 @@
               "date": "2026-09-15",
               "value": 2.38,
               "rawValue": 2.38
+            },
+            {
+              "date": "2026-09-16",
+              "value": 2.33,
+              "rawValue": 2.33
             }
           ],
-          "valueText": "2.38%",
-          "changeText": "+0.01%",
-          "changeDirection": "up",
-          "asOfText": "2026-09-15",
+          "valueText": "2.33%",
+          "changeText": "-0.05%",
+          "changeDirection": "down",
+          "asOfText": "2026-09-16",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
-          "brief": "Momentum is improving; Inflation expectations are stable"
+          "brief": "Momentum is softening; Inflation expectations are stable"
         },
         {
           "key": "real10y",
@@ -7926,15 +6968,15 @@
           "importance": "high",
           "marketSignal": "Real yields are restrictive",
           "latest": {
-            "date": "2026-09-15",
-            "value": 2.62,
-            "rawValue": 2.62
+            "date": "2026-09-16",
+            "value": 2.68,
+            "rawValue": 2.68
           },
           "previous": {
-            "date": "2026-09-14",
-            "value": 2.6
+            "date": "2026-09-15",
+            "value": 2.62
           },
-          "change": 0.02,
+          "change": 0.06,
           "history": [
             {
               "date": "2025-01-02",
@@ -10065,12 +9107,17 @@
               "date": "2026-09-15",
               "value": 2.62,
               "rawValue": 2.62
+            },
+            {
+              "date": "2026-09-16",
+              "value": 2.68,
+              "rawValue": 2.68
             }
           ],
-          "valueText": "2.62%",
-          "changeText": "+0.02%",
+          "valueText": "2.68%",
+          "changeText": "+0.06%",
           "changeDirection": "up",
-          "asOfText": "2026-09-15",
+          "asOfText": "2026-09-16",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
@@ -10089,15 +9136,15 @@
           "importance": "high",
           "marketSignal": "Curve has re-steepened",
           "latest": {
-            "date": "2026-09-15",
-            "value": 33,
-            "rawValue": 33
+            "date": "2026-09-16",
+            "value": 27,
+            "rawValue": 27
           },
           "previous": {
-            "date": "2026-09-14",
-            "value": 32
+            "date": "2026-09-15",
+            "value": 33
           },
-          "change": 1,
+          "change": -6,
           "history": [
             {
               "date": "2025-01-02",
@@ -12228,16 +11275,21 @@
               "date": "2026-09-15",
               "value": 33,
               "rawValue": 33
+            },
+            {
+              "date": "2026-09-16",
+              "value": 27,
+              "rawValue": 27
             }
           ],
-          "valueText": "33 bp",
-          "changeText": "+1bp",
-          "changeDirection": "up",
-          "asOfText": "2026-09-15",
+          "valueText": "27 bp",
+          "changeText": "-6bp",
+          "changeDirection": "down",
+          "asOfText": "2026-09-16",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
-          "brief": "Momentum is improving; curve re-steepening fits better with reflation than recession panic"
+          "brief": "Momentum is softening; curve re-steepening fits better with reflation than recession panic"
         },
         {
           "key": "treasury30y",
@@ -12252,15 +11304,15 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-09-15",
-            "value": 5.36,
-            "rawValue": 5.36
+            "date": "2026-09-16",
+            "value": 5.35,
+            "rawValue": 5.35
           },
           "previous": {
-            "date": "2026-09-14",
-            "value": 5.34
+            "date": "2026-09-15",
+            "value": 5.36
           },
-          "change": 0.02,
+          "change": -0.01,
           "history": [
             {
               "date": "2025-01-02",
@@ -14391,16 +13443,21 @@
               "date": "2026-09-15",
               "value": 5.36,
               "rawValue": 5.36
+            },
+            {
+              "date": "2026-09-16",
+              "value": 5.35,
+              "rawValue": 5.35
             }
           ],
-          "valueText": "5.36%",
-          "changeText": "+0.02%",
-          "changeDirection": "up",
-          "asOfText": "2026-09-15",
+          "valueText": "5.35%",
+          "changeText": "-0.01%",
+          "changeDirection": "down",
+          "asOfText": "2026-09-16",
           "isStale": false,
           "statusLabel": "Stress",
           "statusTone": "negative",
-          "brief": "Momentum is improving; Monitoring"
+          "brief": "Momentum is softening; Monitoring"
         },
         {
           "key": "treasury10y",
@@ -14415,15 +13472,15 @@
           "importance": "high",
           "marketSignal": "Long-end yields are pressuring valuation",
           "latest": {
-            "date": "2026-09-15",
-            "value": 5,
-            "rawValue": 5
+            "date": "2026-09-16",
+            "value": 5.01,
+            "rawValue": 5.01
           },
           "previous": {
-            "date": "2026-09-14",
-            "value": 4.97
+            "date": "2026-09-15",
+            "value": 5
           },
-          "change": 0.03,
+          "change": 0.01,
           "history": [
             {
               "date": "2025-01-02",
@@ -16554,12 +15611,17 @@
               "date": "2026-09-15",
               "value": 5,
               "rawValue": 5
+            },
+            {
+              "date": "2026-09-16",
+              "value": 5.01,
+              "rawValue": 5.01
             }
           ],
-          "valueText": "5%",
-          "changeText": "+0.03%",
+          "valueText": "5.01%",
+          "changeText": "+0.01%",
           "changeDirection": "up",
-          "asOfText": "2026-09-15",
+          "asOfText": "2026-09-16",
           "isStale": false,
           "statusLabel": "Stress",
           "statusTone": "negative",
@@ -16578,15 +15640,15 @@
           "importance": "high",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-09-15",
-            "value": 4.67,
-            "rawValue": 4.67
+            "date": "2026-09-16",
+            "value": 4.74,
+            "rawValue": 4.74
           },
           "previous": {
-            "date": "2026-09-14",
-            "value": 4.65
+            "date": "2026-09-15",
+            "value": 4.67
           },
-          "change": 0.02,
+          "change": 0.07,
           "history": [
             {
               "date": "2025-01-02",
@@ -18717,12 +17779,17 @@
               "date": "2026-09-15",
               "value": 4.67,
               "rawValue": 4.67
+            },
+            {
+              "date": "2026-09-16",
+              "value": 4.74,
+              "rawValue": 4.74
             }
           ],
-          "valueText": "4.67%",
-          "changeText": "+0.02%",
+          "valueText": "4.74%",
+          "changeText": "+0.07%",
           "changeDirection": "up",
-          "asOfText": "2026-09-15",
+          "asOfText": "2026-09-16",
           "isStale": false,
           "statusLabel": "Stress",
           "statusTone": "negative",
@@ -18741,22 +17808,17 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
+            "date": "2026-09-16",
+            "value": 7551.81,
+            "rawValue": 7551.81
+          },
+          "previous": {
             "date": "2026-09-15",
             "value": 7585.73,
             "rawValue": 7585.73
           },
-          "previous": {
-            "date": "2026-09-14",
-            "value": 7619.98,
-            "rawValue": 7619.98
-          },
-          "change": -34.25,
+          "change": -33.92,
           "history": [
-            {
-              "date": "2026-06-22",
-              "value": 7472.79,
-              "rawValue": 7472.79
-            },
             {
               "date": "2026-06-23",
               "value": 7365.46,
@@ -19051,12 +18113,17 @@
               "date": "2026-09-15",
               "value": 7585.73,
               "rawValue": 7585.73
+            },
+            {
+              "date": "2026-09-16",
+              "value": 7551.81,
+              "rawValue": 7551.81
             }
           ],
-          "valueText": "7,586",
-          "changeText": "-34.25",
+          "valueText": "7,552",
+          "changeText": "-33.92",
           "changeDirection": "down",
-          "asOfText": "2026-09-15",
+          "asOfText": "2026-09-16",
           "isStale": false,
           "statusLabel": "Watch",
           "statusTone": "neutral",
@@ -19075,22 +18142,17 @@
           "importance": "high",
           "marketSignal": "Credit conditions are easy",
           "latest": {
-            "date": "2026-09-14",
+            "date": "2026-09-15",
             "value": 0.8,
             "rawValue": 0.8
           },
           "previous": {
-            "date": "2026-09-11",
+            "date": "2026-09-14",
             "value": 0.8,
             "rawValue": 0.8
           },
           "change": 0,
           "history": [
-            {
-              "date": "2026-06-23",
-              "value": 0.74,
-              "rawValue": 0.74
-            },
             {
               "date": "2026-06-24",
               "value": 0.75,
@@ -19385,12 +18447,17 @@
               "date": "2026-09-14",
               "value": 0.8,
               "rawValue": 0.8
+            },
+            {
+              "date": "2026-09-15",
+              "value": 0.8,
+              "rawValue": 0.8
             }
           ],
           "valueText": "0.8%",
           "changeText": "0%",
           "changeDirection": "flat",
-          "asOfText": "2026-09-14",
+          "asOfText": "2026-09-15",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
@@ -19734,57 +18801,8 @@
     }
   ],
   "releases": {
-    "sevenDays": [
-      {
-        "eventId": "Fed-fomc-decision-september-2026-09-16",
-        "source": "Fed",
-        "name": "FOMC Decision (September)",
-        "releaseAtUtc": "2026-09-16T18:00:00.000Z",
-        "releaseAtLocal": "2026/09/17 02:00",
-        "importance": "high",
-        "impact": "Fed / Rates / Equities",
-        "tags": [
-          "fomc",
-          "fed"
-        ],
-        "relatedSeries": [
-          "effectiveFedFunds",
-          "treasury2y",
-          "treasury10y",
-          "real10y"
-        ],
-        "notes": "Meeting window September 15-16",
-        "status": "scheduled",
-        "metadata": {
-          "easternTime": "02:00 PM"
-        }
-      }
-    ],
+    "sevenDays": [],
     "thirtyDays": [
-      {
-        "eventId": "Fed-fomc-decision-september-2026-09-16",
-        "source": "Fed",
-        "name": "FOMC Decision (September)",
-        "releaseAtUtc": "2026-09-16T18:00:00.000Z",
-        "releaseAtLocal": "2026/09/17 02:00",
-        "importance": "high",
-        "impact": "Fed / Rates / Equities",
-        "tags": [
-          "fomc",
-          "fed"
-        ],
-        "relatedSeries": [
-          "effectiveFedFunds",
-          "treasury2y",
-          "treasury10y",
-          "real10y"
-        ],
-        "notes": "Meeting window September 15-16",
-        "status": "scheduled",
-        "metadata": {
-          "easternTime": "02:00 PM"
-        }
-      },
       {
         "eventId": "BEA-news-2026-09-30",
         "source": "BEA",
@@ -19812,13 +18830,13 @@
   },
   "feed": [
     {
-      "alertId": "metric-37e9f0576de7",
-      "fingerprint": "metric-release:retailSales:2026-07-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "alertId": "metric-9462b7875823",
+      "fingerprint": "metric-release:retailSales:2026-08-01",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Retail Sales YoY 更新",
-      "body": "Retail Sales YoY 发布了新值 5.01 %，当前解读为“Consumer demand remains resilient”。",
+      "body": "Retail Sales YoY 发布了新值 6.01 %，当前解读为“Consumer demand remains resilient”。",
       "impactedAssets": [
         "增长",
         "Fed",
@@ -19827,14 +18845,14 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "retailSales",
-        "observationDate": "2026-07-01",
-        "change": -1.74
+        "observationDate": "2026-08-01",
+        "change": 0.98
       }
     },
     {
       "alertId": "metric-64469e611e60",
       "fingerprint": "metric-release:nonfarmPayrolls:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Nonfarm Payrolls MoM 更新",
@@ -19854,7 +18872,7 @@
     {
       "alertId": "metric-03cee50856f3",
       "fingerprint": "metric-release:unemploymentRate:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Unemployment Rate 更新",
@@ -19874,7 +18892,7 @@
     {
       "alertId": "metric-6369a315eeb9",
       "fingerprint": "metric-release:initialClaims:2026-09-05",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Initial Jobless Claims 更新",
@@ -19894,7 +18912,7 @@
     {
       "alertId": "metric-ff2c1e74a2a7",
       "fingerprint": "metric-release:joltsOpenings:2026-07-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "JOLTS Openings 更新",
@@ -19912,29 +18930,9 @@
       }
     },
     {
-      "alertId": "metric-f3b302fac2ac",
-      "fingerprint": "metric-release:housingStarts:2026-07-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
-      "alertType": "data_release",
-      "severity": "medium",
-      "title": "Housing Starts 更新",
-      "body": "Housing Starts 发布了新值 1239 K，当前解读为“Monitoring”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "housingStarts",
-        "observationDate": "2026-07-01",
-        "change": -176
-      }
-    },
-    {
       "alertId": "metric-2c5b9aae0f62",
       "fingerprint": "metric-release:existingHomeSales:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Existing Home Sales 更新",
@@ -19954,7 +18952,7 @@
     {
       "alertId": "metric-4835e9ea02eb",
       "fingerprint": "metric-release:ismManufacturing:2026-07-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Manufacturing Output YoY 更新",
@@ -19974,7 +18972,7 @@
     {
       "alertId": "metric-08eecf1051ca",
       "fingerprint": "metric-release:industrialProduction:2026-07-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Industrial Production YoY 更新",
@@ -19992,29 +18990,9 @@
       }
     },
     {
-      "alertId": "metric-157c1fea6fc7",
-      "fingerprint": "metric-release:cpi:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Headline CPI YoY 更新",
-      "body": "Headline CPI YoY 发布了新值 3.69 %，当前解读为“Inflation is running hot”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "cpi",
-        "observationDate": "2026-08-01",
-        "change": 0.17
-      }
-    },
-    {
       "alertId": "metric-c19b0085d552",
       "fingerprint": "metric-release:coreCpi:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -20034,7 +19012,7 @@
     {
       "alertId": "metric-5af284f636bc",
       "fingerprint": "metric-release:pce:2026-07-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -20054,7 +19032,7 @@
     {
       "alertId": "metric-c1f3af29be21",
       "fingerprint": "metric-release:corePce:2026-07-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -20074,7 +19052,7 @@
     {
       "alertId": "metric-38a8a99bf986",
       "fingerprint": "metric-release:shelterCpi:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -20094,7 +19072,7 @@
     {
       "alertId": "metric-b43d1eb2fc1f",
       "fingerprint": "metric-release:coreServicesExHousing:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -20112,29 +19090,9 @@
       }
     },
     {
-      "alertId": "metric-6c118e779da0",
-      "fingerprint": "metric-release:wageGrowth:2026-08-01",
-      "createdAt": "2026-09-16T01:07:33.471Z",
-      "alertType": "data_release",
-      "severity": "high",
-      "title": "Average Hourly Earnings YoY 更新",
-      "body": "Average Hourly Earnings YoY 发布了新值 3.09 %，当前解读为“Inflation remains sticky”。",
-      "impactedAssets": [
-        "增长",
-        "Fed",
-        "美股"
-      ],
-      "emailSentAt": null,
-      "metadata": {
-        "metricKey": "wageGrowth",
-        "observationDate": "2026-08-01",
-        "change": -0.15
-      }
-    },
-    {
-      "alertId": "metric-ced73873e178",
-      "fingerprint": "metric-release:effectiveFedFunds:2026-09-14",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "alertId": "metric-52c53393f932",
+      "fingerprint": "metric-release:effectiveFedFunds:2026-09-15",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -20147,14 +19105,14 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "effectiveFedFunds",
-        "observationDate": "2026-09-14",
+        "observationDate": "2026-09-15",
         "change": 0
       }
     },
     {
       "alertId": "metric-beea006a4059",
       "fingerprint": "metric-release:dxyBroad:2026-09-11",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
@@ -20172,9 +19130,9 @@
       }
     },
     {
-      "alertId": "metric-ea83bf381ac2",
-      "fingerprint": "metric-release:creditSpread:2026-09-14",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "alertId": "metric-0d6bf23ddc1a",
+      "fingerprint": "metric-release:creditSpread:2026-09-15",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
@@ -20187,18 +19145,18 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "creditSpread",
-        "observationDate": "2026-09-14",
+        "observationDate": "2026-09-15",
         "change": 0
       }
     },
     {
-      "alertId": "metric-284cc1d2a825",
-      "fingerprint": "metric-release:sp500:2026-09-15",
-      "createdAt": "2026-09-16T01:07:33.471Z",
+      "alertId": "metric-92f1109aefce",
+      "fingerprint": "metric-release:sp500:2026-09-16",
+      "createdAt": "2026-09-17T01:06:53.613Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
-      "body": "S&P 500 发布了新值 7585.73，当前解读为“Monitoring”。",
+      "body": "S&P 500 发布了新值 7551.81，当前解读为“Monitoring”。",
       "impactedAssets": [
         "估值",
         "美元",
@@ -20207,8 +19165,68 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "sp500",
-        "observationDate": "2026-09-15",
-        "change": -34.25
+        "observationDate": "2026-09-16",
+        "change": -33.92
+      }
+    },
+    {
+      "alertId": "metric-4d49c192dfd3",
+      "fingerprint": "metric-release:treasury2y:2026-09-16",
+      "createdAt": "2026-09-17T01:06:53.613Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "2Y Treasury 更新",
+      "body": "2Y Treasury 发布了新值 4.74 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury2y",
+        "observationDate": "2026-09-16",
+        "change": 0.07
+      }
+    },
+    {
+      "alertId": "metric-ed2a4c5062cf",
+      "fingerprint": "metric-release:treasury10y:2026-09-16",
+      "createdAt": "2026-09-17T01:06:53.613Z",
+      "alertType": "data_release",
+      "severity": "high",
+      "title": "10Y Treasury 更新",
+      "body": "10Y Treasury 发布了新值 5.01 %，当前解读为“Long-end valuation pressure is high”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury10y",
+        "observationDate": "2026-09-16",
+        "change": 0.01
+      }
+    },
+    {
+      "alertId": "metric-9e1fa4a81268",
+      "fingerprint": "metric-release:treasury30y:2026-09-16",
+      "createdAt": "2026-09-17T01:06:53.613Z",
+      "alertType": "data_release",
+      "severity": "medium",
+      "title": "30Y Treasury 更新",
+      "body": "30Y Treasury 发布了新值 5.35 %，当前解读为“Monitoring”。",
+      "impactedAssets": [
+        "估值",
+        "美元",
+        "风格"
+      ],
+      "emailSentAt": null,
+      "metadata": {
+        "metricKey": "treasury30y",
+        "observationDate": "2026-09-16",
+        "change": -0.01
       }
     }
   ]
