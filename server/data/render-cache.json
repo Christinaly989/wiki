@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T00:40:45.596Z",
-  "generatedAtLocal": "2026/10/18 08:40",
+  "generatedAt": "2026-10-19T00:51:01.047Z",
+  "generatedAtLocal": "2026/10/19 08:51",
   "timeZone": "Asia/Shanghai",
   "headline": {
     "title": "Retail Sales YoY 相比上期变化 0.73 %到6.29% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
@@ -39,8 +39,8 @@
           "source": "Dashboard refresh",
           "title": "Retail Sales YoY 相比上期变化 0.73 %到6.29%",
           "summary": "Retail Sales YoY 相比上期变化 0.73 %到6.29%",
-          "publishedAt": "2026-10-18T00:40:28.590Z",
-          "publishedAtLocal": "2026/10/18 08:40",
+          "publishedAt": "2026-10-19T00:50:38.672Z",
+          "publishedAtLocal": "2026/10/19 08:50",
           "importance": "high",
           "url": null
         },
@@ -49,8 +49,8 @@
           "source": "Dashboard refresh",
           "title": "Nonfarm Payrolls MoM 相比上期变化 104 K jobs到29K jobs",
           "summary": "Nonfarm Payrolls MoM 相比上期变化 104 K jobs到29K jobs",
-          "publishedAt": "2026-10-18T00:40:28.590Z",
-          "publishedAtLocal": "2026/10/18 08:40",
+          "publishedAt": "2026-10-19T00:50:38.672Z",
+          "publishedAtLocal": "2026/10/19 08:50",
           "importance": "high",
           "url": null
         },
@@ -59,8 +59,8 @@
           "source": "Dashboard refresh",
           "title": "Unemployment Rate 相比上期变化 0.1 %到4.2%",
           "summary": "Unemployment Rate 相比上期变化 0.1 %到4.2%",
-          "publishedAt": "2026-10-18T00:40:28.590Z",
-          "publishedAtLocal": "2026/10/18 08:40",
+          "publishedAt": "2026-10-19T00:50:38.672Z",
+          "publishedAtLocal": "2026/10/19 08:50",
           "importance": "high",
           "url": null
         },
@@ -69,8 +69,8 @@
           "source": "Dashboard refresh",
           "title": "Initial Jobless Claims 相比上期变化 1 K到199K",
           "summary": "Initial Jobless Claims 相比上期变化 1 K到199K",
-          "publishedAt": "2026-10-18T00:40:28.590Z",
-          "publishedAtLocal": "2026/10/18 08:40",
+          "publishedAt": "2026-10-19T00:50:38.672Z",
+          "publishedAtLocal": "2026/10/19 08:50",
           "importance": "high",
           "url": null
         }
@@ -99,30 +99,6 @@
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
           "category": "news",
           "importance": "medium"
-        },
-        {
-          "id": "U.S. Treasury-9-2026-10-15T17:00:00.000Z",
-          "source": "U.S. Treasury",
-          "region": "us",
-          "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
-          "summary": "October 15, 2026 Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
-          "publishedAt": "2026-10-15T17:00:00.000Z",
-          "publishedAtLocal": "2026/10/16 01:00",
-          "url": "https://home.treasury.gov/news/press-releases/sb0661/",
-          "category": "news",
-          "importance": "medium"
-        },
-        {
-          "id": "U.S. Treasury-10-2026-10-15T17:00:00.000Z",
-          "source": "U.S. Treasury",
-          "region": "us",
-          "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
-          "summary": "October 15, 2026 Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
-          "publishedAt": "2026-10-15T17:00:00.000Z",
-          "publishedAtLocal": "2026/10/16 01:00",
-          "url": "https://home.treasury.gov/news/press-releases/sb0660/",
-          "category": "news",
-          "importance": "medium"
         }
       ]
     },
@@ -134,7 +110,7 @@
           "source": "Monitor",
           "title": "最近 24 小时没有新的数据卡片",
           "summary": "下一次刷新后会自动补入。",
-          "publishedAt": "2026-10-18T00:40:28.591Z",
+          "publishedAt": "2026-10-19T00:50:38.674Z",
           "publishedAtLocal": "",
           "importance": "low",
           "url": null
@@ -195,57 +171,17 @@
   "aiOverlay": {
     "enabled": true,
     "configured": true,
-    "status": "ready",
+    "status": "error",
     "model": "deepseek-v4-pro",
     "reasoningEffort": "max",
-    "generatedAt": "2026-10-18T00:40:45.595Z",
-    "generatedAtLocal": "2026/10/18 08:40",
-    "fingerprint": "f583c04526a147f22236379d561760dcd892c204",
-    "sections": {
-      "regimeJudgment": {
-        "headline": "非农降温与零售韧性并存：再通胀主线未变，但需防增长预期下修",
-        "summary": "规则模型判断 Reflation 高置信度。最新数据中非农仅增 29K 且较上期大幅回落，就业边际走弱；但失业率 4.2%、初请 199K 显示劳动力市场仍紧，零售销售同比 6.29% 环比增 0.73% 表明消费韧性超预期。通胀仍高（CPI 4%，核心 PCE 3.01%），信用利差 0.84% 极窄，风险偏好未被信用端破坏。综合看，名义增长仍强但动能分化，higher for longer 风险存在，需警惕就业进一步走弱引发滞胀交易。",
-        "bullets": [
-          "非农 29K 异常弱，但初请 199K 和失业率 4.2% 表明劳动力市场只是降温，尚未恶化。",
-          "零售销售同比 6.29% 且环比改善，消费者需求仍具韧性，支撑实际增长。",
-          "CPI 同比 4%、核心 PCE 3.01%，通胀粘性未除，10Y 实际利率 2.74% 仍具限制性。",
-          "信用利差 0.84% 极窄，金融条件宽松，暂时未看到信用端主动收缩风险。",
-          "增长放缓+通胀粘性组合下，需防范“滞胀”尾部，而非简单视为过热扩张。"
-        ]
-      },
-      "assetAllocation": {
-        "headline": "短久期、低估值、抗通胀：现金为王但不必重仓长债",
-        "summary": "再通胀环境下，长端利率有上行压力，10Y 5.09%、30Y 5.43% 已高，久期应保持偏短或中性，优先 TIPS、短债、现金。权益维持中性偏高，偏向价值/周期和质量，但对利率敏感的长久期成长股保持谨慎。美元因利差和避险可能偏强，信用利差极窄缺乏安全边际，不追低评级信用。",
-        "bullets": [
-          "债券：久期 0-3 年为主，加配 TIPS 对冲通胀，长端 10Y/30Y 暂不追多。",
-          "权益：标普 500 估值不便宜（7659 点），但盈利仍有支撑，维持标准配置，结构性偏好价值。",
-          "美元：Broad Dollar 121.6 偏强，利差和避险支持，逢回调做多美元，对新兴市场货币谨慎。",
-          "信用：OAS 0.84% 极窄，风险补偿不足，高收益债性价比低，仅保留高质量短久期。",
-          "商品：再通胀下受益，可配置能源、工业金属，黄金可对冲滞胀风险。"
-        ]
-      },
-      "sectorAllocation": {
-        "headline": "周期价值领跑，长存续成长承压",
-        "summary": "再通胀+利率高位环境下，金融（受益陡峭曲线和息差）、能源（油价与通胀）、工业、材料相对占优。零售数据强劲利好可选消费但需精选。低配长久期成长如科技高估值部分、公用事业、房地产（对利率敏感）。小盘价值相对大盘成长优势可能扩大。",
-        "bullets": [
-          "超配：金融（银行、保险）、能源、工业、材料、具有定价权的必需消费。",
-          "标配：医疗保健（防御但估值合理）、通信服务。",
-          "低配：长久期科技成长、公用事业、房地产投资信托。",
-          "风格上价值>成长，小盘>大盘可能阶段性占优。",
-          "关注现金充裕、低杠杆的周期股，避免高估值无盈利科技。"
-        ]
-      },
-      "keyRisks": [
-        "非农数据进一步恶化，增长预期下修，市场交易转向衰退或滞胀。",
-        "通胀数据超预期（CPI 4% 可能持续），迫使美联储维持高利率甚至加息，股债双杀。",
-        "地缘政治或金融事件引发信用利差快速走阔，从当前极窄水平冲击风险资产（关注伊制裁相关动态）。",
-        "全球央行政策分化或美元急速升值引发新兴市场资金流出和金融压力。"
-      ]
-    },
-    "error": null
+    "generatedAt": null,
+    "generatedAtLocal": null,
+    "fingerprint": null,
+    "sections": null,
+    "error": "Unterminated string in JSON at position 1384 (line 26 column 24)"
   },
   "regimeState": {
-    "asOf": "2026-10-18T00:40:28.576Z",
+    "asOf": "2026-10-19T00:50:38.657Z",
     "regime": "Reflation",
     "confidence": 0.82,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
@@ -273,7 +209,7 @@
     "treasury": "ok",
     "releases": "partial",
     "news": "partial",
-    "ai": "ready"
+    "ai": "error"
   },
   "configStatus": {
     "fredConfigured": true,
@@ -283,22 +219,23 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-10-18T00:40:46.891Z",
-    "latestPageId": "3fd6df82-2641-818f-90cb-e39fb996ce55",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-10-18-Reflation-3fd6df822641818f90cbe39fb996ce55",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-10-18-macro-daily.md",
-    "statusText": "Notion synced at 2026/10/18 08:40"
+    "lastPublishedAt": "2026-10-19T00:51:02.151Z",
+    "latestPageId": "3fe6df82-2641-81e1-b73d-cae74105cc65",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-10-19-Reflation-3fe6df82264181e1b73dcae74105cc65",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-10-19-macro-daily.md",
+    "statusText": "Notion synced at 2026/10/19 08:51"
   },
   "warnings": [
     "HTTP 403 for https://www.bls.gov/schedule/news_release/cpi.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/empsit.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/ppi.htm?lv=true",
     "HTTP 403 for https://www.imf.org/en/News",
-    "DeepSeek news digest: Expected double-quoted property name in JSON at position 488 (line 13 column 1)",
+    "DeepSeek news digest: DeepSeek returned empty content",
     "Housing Starts is stale. Latest observation is 2026-08 (monthly).",
     "JOLTS Openings is stale. Latest observation is 2026-08 (monthly).",
     "Core PCE YoY is stale. Latest observation is 2026-08 (monthly).",
-    "Headline PCE YoY is stale. Latest observation is 2026-08 (monthly)."
+    "Headline PCE YoY is stale. Latest observation is 2026-08 (monthly).",
+    "DeepSeek overlay: Unterminated string in JSON at position 1384 (line 26 column 24)"
   ],
   "topSignals": [
     {
@@ -20509,7 +20446,7 @@
     {
       "alertId": "metric-fa18d0db4415",
       "fingerprint": "metric-release:retailSales:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Retail Sales YoY 更新",
@@ -20529,7 +20466,7 @@
     {
       "alertId": "metric-867fd4549a52",
       "fingerprint": "metric-release:nonfarmPayrolls:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Nonfarm Payrolls MoM 更新",
@@ -20549,7 +20486,7 @@
     {
       "alertId": "metric-3ed128e8d3ab",
       "fingerprint": "metric-release:unemploymentRate:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Unemployment Rate 更新",
@@ -20569,7 +20506,7 @@
     {
       "alertId": "metric-720bc36d8cae",
       "fingerprint": "metric-release:initialClaims:2026-10-10",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Initial Jobless Claims 更新",
@@ -20589,7 +20526,7 @@
     {
       "alertId": "metric-e78611af0e39",
       "fingerprint": "metric-release:joltsOpenings:2026-08-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "JOLTS Openings 更新",
@@ -20609,7 +20546,7 @@
     {
       "alertId": "metric-768f41491d48",
       "fingerprint": "metric-release:housingStarts:2026-08-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Housing Starts 更新",
@@ -20629,7 +20566,7 @@
     {
       "alertId": "metric-c81cac5f19a2",
       "fingerprint": "metric-release:existingHomeSales:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Existing Home Sales 更新",
@@ -20649,7 +20586,7 @@
     {
       "alertId": "metric-a5d337ad05e2",
       "fingerprint": "metric-release:ismManufacturing:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Manufacturing Output YoY 更新",
@@ -20669,7 +20606,7 @@
     {
       "alertId": "metric-7e4674de54f7",
       "fingerprint": "metric-release:industrialProduction:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Industrial Production YoY 更新",
@@ -20689,7 +20626,7 @@
     {
       "alertId": "metric-eeada13ab90f",
       "fingerprint": "metric-release:cpi:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline CPI YoY 更新",
@@ -20709,7 +20646,7 @@
     {
       "alertId": "metric-e2ef2cc74cb1",
       "fingerprint": "metric-release:coreCpi:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -20729,7 +20666,7 @@
     {
       "alertId": "metric-6fefa2c11e3a",
       "fingerprint": "metric-release:pce:2026-08-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -20749,7 +20686,7 @@
     {
       "alertId": "metric-e4d032937700",
       "fingerprint": "metric-release:corePce:2026-08-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -20769,7 +20706,7 @@
     {
       "alertId": "metric-7462c69ff623",
       "fingerprint": "metric-release:shelterCpi:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -20789,7 +20726,7 @@
     {
       "alertId": "metric-e183b08e0179",
       "fingerprint": "metric-release:coreServicesExHousing:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -20809,7 +20746,7 @@
     {
       "alertId": "metric-b5a21ec42b3c",
       "fingerprint": "metric-release:wageGrowth:2026-09-01",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Average Hourly Earnings YoY 更新",
@@ -20829,7 +20766,7 @@
     {
       "alertId": "metric-30c2235687f8",
       "fingerprint": "metric-release:effectiveFedFunds:2026-10-15",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -20849,7 +20786,7 @@
     {
       "alertId": "metric-eb6e9aec4dc9",
       "fingerprint": "metric-release:dxyBroad:2026-10-09",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
@@ -20869,7 +20806,7 @@
     {
       "alertId": "metric-ec11546524d9",
       "fingerprint": "metric-release:creditSpread:2026-10-15",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
@@ -20889,7 +20826,7 @@
     {
       "alertId": "metric-f99cdf4c0093",
       "fingerprint": "metric-release:sp500:2026-10-16",
-      "createdAt": "2026-10-18T00:40:28.590Z",
+      "createdAt": "2026-10-19T00:50:38.672Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
