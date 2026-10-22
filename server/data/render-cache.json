@@ -273,6 +273,7 @@
     "statusText": "Notion synced at 2026/10/21 09:19"
   },
   "warnings": [
+    "Live refresh failed before rebuilding local state. Showing repository cache instead: FRED refresh did not produce growth/inflation coverage. First FRED warning: Unexpected token '<', \"<!doctype \"... is not valid JSON",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/cpi.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/empsit.htm?lv=true",
     "HTTP 403 for https://www.bls.gov/schedule/news_release/ppi.htm?lv=true",
