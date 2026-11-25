@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T06:48:24.113Z",
-  "generatedAtLocal": "2026/11/24 14:48",
+  "generatedAt": "2026-11-25T05:16:01.336Z",
+  "generatedAtLocal": "2026/11/25 13:16",
   "timeZone": "Asia/Shanghai",
   "headline": {
     "title": "Retail Sales YoY 相比上期变化 0.25 %到6.82% 后，增长正在降温但尚未失速，通胀黏性还没有真正退去，信用环境仍偏宽松",
@@ -15,12 +15,12 @@
         "失业率 4.1%",
         "初请 203K",
         "CPI 同比 3.91%",
-        "Growth score 4.1 / Inflation score 1.9 / Credit score 0.8"
+        "Growth score 3.4 / Inflation score 1.9 / Credit score 0.8"
       ]
     },
     "allocationAdvice": {
       "title": "资产与行业分配建议",
-      "summary": "Retail Sales YoY 相比上期变化 0.25 %到6.82% 与 令和8年11月20日からの大雪に係る災害等に対する金融上の措置について（福島県） 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
+      "summary": "Retail Sales YoY 相比上期变化 0.25 %到6.82% 与 消費者物価のコア指標 共同作用下，当前更适合沿着 Reflation 的主线来配置。",
       "bullets": [
         "债券：久期保持偏短或中性，优先现金、短债、TIPS，谨慎追长端。",
         "权益：偏向 financials、energy、industrials、materials 和具备定价权的 quality cyclicals。",
@@ -39,8 +39,8 @@
           "source": "Dashboard refresh",
           "title": "Retail Sales YoY 相比上期变化 0.25 %到6.82%",
           "summary": "Retail Sales YoY 相比上期变化 0.25 %到6.82%",
-          "publishedAt": "2026-11-24T06:47:23.751Z",
-          "publishedAtLocal": "2026/11/24 14:47",
+          "publishedAt": "2026-11-25T05:15:22.155Z",
+          "publishedAtLocal": "2026/11/25 13:15",
           "importance": "high",
           "url": null
         },
@@ -49,8 +49,8 @@
           "source": "Dashboard refresh",
           "title": "Nonfarm Payrolls MoM 相比上期变化 105 K jobs到165K jobs",
           "summary": "Nonfarm Payrolls MoM 相比上期变化 105 K jobs到165K jobs",
-          "publishedAt": "2026-11-24T06:47:23.751Z",
-          "publishedAtLocal": "2026/11/24 14:47",
+          "publishedAt": "2026-11-25T05:15:22.155Z",
+          "publishedAtLocal": "2026/11/25 13:15",
           "importance": "high",
           "url": null
         },
@@ -59,8 +59,8 @@
           "source": "Dashboard refresh",
           "title": "Unemployment Rate 相比上期变化 0.1 %到4.1%",
           "summary": "Unemployment Rate 相比上期变化 0.1 %到4.1%",
-          "publishedAt": "2026-11-24T06:47:23.751Z",
-          "publishedAtLocal": "2026/11/24 14:47",
+          "publishedAt": "2026-11-25T05:15:22.155Z",
+          "publishedAtLocal": "2026/11/25 13:15",
           "importance": "high",
           "url": null
         },
@@ -69,36 +69,24 @@
           "source": "Dashboard refresh",
           "title": "Initial Jobless Claims 相比上期变化 1 K到203K",
           "summary": "Initial Jobless Claims 相比上期变化 1 K到203K",
-          "publishedAt": "2026-11-24T06:47:23.751Z",
-          "publishedAtLocal": "2026/11/24 14:47",
+          "publishedAt": "2026-11-25T05:15:22.155Z",
+          "publishedAtLocal": "2026/11/25 13:15",
           "importance": "high",
           "url": null
         }
       ],
       "news": [
         {
-          "id": "U.S. Treasury-8-2026-11-23T18:00:00.000Z",
-          "source": "U.S. Treasury",
+          "id": "Federal Reserve-0-2026-11-24T19:00:00.000Z",
+          "source": "Federal Reserve",
           "region": "us",
-          "title": "Operation Economic Outcast Disrupts Iran’s Global Shadow Banking Networks",
-          "summary": "November 23, 2026 Operation Economic Outcast Disrupts Iran’s Global Shadow Banking Networks",
-          "publishedAt": "2026-11-23T18:00:00.000Z",
-          "publishedAtLocal": "2026/11/24 02:00",
-          "url": "https://home.treasury.gov/news/press-releases/sb0699/",
+          "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+          "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+          "publishedAt": "2026-11-24T19:00:00.000Z",
+          "publishedAtLocal": "2026/11/25 03:00",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
           "category": "news",
-          "importance": "medium"
-        },
-        {
-          "id": "U.S. Treasury-9-2026-11-23T18:00:00.000Z",
-          "source": "U.S. Treasury",
-          "region": "us",
-          "title": "Treasury Identifies Nearly $15 Billion in Potential Iranian Shadow Banking",
-          "summary": "November 23, 2026 Treasury Identifies Nearly $15 Billion in Potential Iranian Shadow Banking",
-          "publishedAt": "2026-11-23T18:00:00.000Z",
-          "publishedAtLocal": "2026/11/24 02:00",
-          "url": "https://home.treasury.gov/news/press-releases/sb0698/",
-          "category": "news",
-          "importance": "medium"
+          "importance": "high"
         }
       ]
     },
@@ -110,7 +98,7 @@
           "source": "Monitor",
           "title": "最近 24 小时没有新的数据卡片",
           "summary": "下一次刷新后会自动补入。",
-          "publishedAt": "2026-11-24T06:47:23.753Z",
+          "publishedAt": "2026-11-25T05:15:22.158Z",
           "publishedAtLocal": "",
           "importance": "low",
           "url": null
@@ -118,52 +106,52 @@
       ],
       "news": [
         {
-          "id": "BOJ-0-2026-11-24T04:30:00.000Z",
+          "id": "BOJ-0-2026-11-25T05:00:00.000Z",
           "source": "BOJ",
           "region": "global",
-          "title": "令和8年11月20日からの大雪に係る災害等に対する金融上の措置について（福島県）",
+          "title": "消費者物価のコア指標",
           "summary": "",
-          "publishedAt": "2026-11-24T04:30:00.000Z",
-          "publishedAtLocal": "2026/11/24 12:30",
-          "url": "http://www.boj.or.jp/about/bcp/fso/fso261124a.pdf",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "publishedAtLocal": "2026/11/25 13:00",
+          "url": "http://www.boj.or.jp/research/research_data/cpi/index.htm",
           "category": "news",
           "importance": "medium"
         },
         {
-          "id": "BOJ-1-2026-11-23T23:50:00.000Z",
-          "source": "BOJ",
-          "region": "global",
-          "title": "FSBレポ統計の日本分集計結果",
-          "summary": "",
-          "publishedAt": "2026-11-23T23:50:00.000Z",
-          "publishedAtLocal": "2026/11/24 07:50",
-          "url": "http://www.boj.or.jp/statistics/bis/repo/index.htm",
-          "category": "news",
-          "importance": "medium"
-        },
-        {
-          "id": "BOK-0-2026-11-23T21:00:00.000Z",
+          "id": "BOK-0-2026-11-25T03:00:00.000Z",
           "source": "BOK",
           "region": "global",
-          "title": "2026년 11월 소비자동향조사 결과",
-          "summary": "소비자들 의 경제상황에 대한 심리를 종합적으로 나타내는 소비자심리지수(CCSI)는 11월 중 103.1 로 전월 대비 2.3 p 하락 &nbsp;* 자세한 내용은 첨부파일을 참조해주시기 바랍니다.",
-          "publishedAt": "2026-11-23T21:00:00.000Z",
-          "publishedAtLocal": "2026/11/24 05:00",
-          "url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11066918&menuNo=200690",
+          "title": "2026년 10월 금융기관 가중평균금리",
+          "summary": "□ 2026년 10월중 예금은행의 신규취급액 기준 저축성수신금리는 연 3.62%로 전월대비 0.17%p 상승하였으며, 대출금리는 연 4.64%로 전월대비 0.07%p 상승 &nbsp; &nbsp;― 2026년 10월말 잔액 기준 총수신금리는 연 2.36%로 전월말대비 0.09%p 상승하였으며, 총대출금리는 연 4.56%로 전월말대비 0.08%p 상승 □ 자세한 내용은 &lt;붙임&gt; 참조",
+          "publishedAt": "2026-11-25T03:00:00.000Z",
+          "publishedAtLocal": "2026/11/25 11:00",
+          "url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11066953&menuNo=200690",
           "category": "news",
           "importance": "medium"
         },
         {
-          "id": "ECB-0-2026-11-23T14:30:00.000Z",
-          "source": "ECB",
+          "id": "BOJ-1-2026-11-25T01:00:00.000Z",
+          "source": "BOJ",
           "region": "global",
-          "title": "Philip R. Lane: Climate change and monetary policy",
+          "title": "営業毎旬報告（11月20日現在）",
           "summary": "",
-          "publishedAt": "2026-11-23T14:30:00.000Z",
-          "publishedAtLocal": "2026/11/23 22:30",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+          "publishedAt": "2026-11-25T01:00:00.000Z",
+          "publishedAtLocal": "2026/11/25 09:00",
+          "url": "http://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261120.htm",
           "category": "news",
-          "importance": "high"
+          "importance": "medium"
+        },
+        {
+          "id": "BOJ-2-2026-11-24T23:50:00.000Z",
+          "source": "BOJ",
+          "region": "global",
+          "title": "貸出約定平均金利（9月）",
+          "summary": "",
+          "publishedAt": "2026-11-24T23:50:00.000Z",
+          "publishedAtLocal": "2026/11/25 07:50",
+          "url": "http://www.boj.or.jp/statistics/dl/loan/yaku/yaku2609.pdf",
+          "category": "news",
+          "importance": "medium"
         }
       ]
     }
@@ -178,10 +166,10 @@
     "generatedAtLocal": null,
     "fingerprint": null,
     "sections": null,
-    "error": "DeepSeek returned empty content"
+    "error": "Unterminated string in JSON at position 756 (line 14 column 23)"
   },
   "regimeState": {
-    "asOf": "2026-11-24T06:47:23.737Z",
+    "asOf": "2026-11-25T05:15:22.132Z",
     "regime": "Reflation",
     "confidence": 0.95,
     "summary": "增长韧性与通胀黏性并存，higher for longer 风险抬头。",
@@ -191,7 +179,7 @@
       "初请 203K",
       "CPI 同比 3.91%",
       "Core PCE 同比 3.12%",
-      "信用利差 0.98% | 信用仍偏宽松"
+      "信用利差 0.97% | 信用仍偏宽松"
     ],
     "implications": [
       "名义增长偏强，但长端利率和美元可能抬升。",
@@ -199,7 +187,7 @@
       "高估值长久期资产更容易承压。"
     ],
     "scores": {
-      "growth": 4.1,
+      "growth": 3.4,
       "inflation": 1.9,
       "credit": 0.8
     }
@@ -219,11 +207,11 @@
   "publishing": {
     "mode": "notion",
     "notionConfigured": true,
-    "lastPublishedAt": "2026-11-24T06:48:25.206Z",
-    "latestPageId": "4226df82-2641-8126-b845-eb13c67d51e0",
-    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-11-24-Reflation-4226df8226418126b845eb13c67d51e0",
-    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-11-24-macro-daily.md",
-    "statusText": "Notion synced at 2026/11/24 14:48"
+    "lastPublishedAt": "2026-11-25T05:16:02.388Z",
+    "latestPageId": "4236df82-2641-81a6-b3a3-f1b6833b6d59",
+    "latestPageUrl": "https://app.notion.com/p/US-Macro-Daily-2026-11-25-Reflation-4236df82264181a6b3a3f1b6833b6d59",
+    "latestBriefPath": "/home/runner/work/wiki/wiki/server/logs/notion/2026-11-25-macro-daily.md",
+    "statusText": "Notion synced at 2026/11/25 13:16"
   },
   "warnings": [
     "HTTP 403 for https://www.bls.gov/schedule/news_release/cpi.htm?lv=true",
@@ -231,18 +219,18 @@
     "HTTP 403 for https://www.bls.gov/schedule/news_release/ppi.htm?lv=true",
     "Fed release calendar: Invalid time value",
     "HTTP 403 for https://www.imf.org/en/News",
-    "DeepSeek news digest: DeepSeek returned empty content",
+    "DeepSeek news digest: Expected double-quoted property name in JSON at position 886 (line 25 column 1)",
     "JOLTS Openings is stale. Latest observation is 2026-09 (monthly).",
     "Core PCE YoY is stale. Latest observation is 2026-09 (monthly).",
     "Headline PCE YoY is stale. Latest observation is 2026-09 (monthly).",
-    "DeepSeek overlay: DeepSeek returned empty content"
+    "DeepSeek overlay: Unterminated string in JSON at position 756 (line 14 column 23)"
   ],
   "topSignals": [
     {
       "key": "ismManufacturing",
       "label": "Manufacturing Output YoY",
-      "valueText": "2.58%",
-      "marketSignal": "Factory activity is expanding",
+      "valueText": "1.97%",
+      "marketSignal": "Factory activity is stabilizing",
       "date": "2026-10"
     },
     {
@@ -302,325 +290,325 @@
           "marketSignal": "Monitoring",
           "latest": {
             "date": "2026-10-01",
-            "value": 2.15,
-            "rawValue": 103.3954
+            "value": 1.66,
+            "rawValue": 102.2421
           },
           "previous": {
             "date": "2026-09-01",
-            "value": 2.14,
-            "rawValue": 103.8458
+            "value": 1.67,
+            "rawValue": 102.6785
           },
-          "change": 0.01,
+          "change": -0.01,
           "history": [
             {
               "date": "2021-11-01",
-              "value": 3.9,
-              "rawValue": 100.8654
+              "value": 4,
+              "rawValue": 99.885
             },
             {
               "date": "2021-12-01",
-              "value": 2.25,
-              "rawValue": 100.5726
+              "value": 2.33,
+              "rawValue": 99.5412
             },
             {
               "date": "2022-01-01",
-              "value": 1.32,
-              "rawValue": 100.1856
+              "value": 1.4,
+              "rawValue": 99.3527
             },
             {
               "date": "2022-02-01",
-              "value": 5.43,
-              "rawValue": 100.8064
+              "value": 5.54,
+              "rawValue": 99.8332
             },
             {
               "date": "2022-03-01",
-              "value": 3.05,
-              "rawValue": 101.3907
+              "value": 3.13,
+              "rawValue": 100.446
             },
             {
               "date": "2022-04-01",
-              "value": 2.92,
-              "rawValue": 101.44
+              "value": 3.09,
+              "rawValue": 100.4987
             },
             {
               "date": "2022-05-01",
-              "value": 1.91,
-              "rawValue": 101.3335
+              "value": 2.1,
+              "rawValue": 100.3495
             },
             {
               "date": "2022-06-01",
-              "value": 1.22,
-              "rawValue": 101.018
+              "value": 1.38,
+              "rawValue": 100.0593
             },
             {
               "date": "2022-07-01",
-              "value": 0.97,
-              "rawValue": 101.223
+              "value": 1.02,
+              "rawValue": 100.288
             },
             {
               "date": "2022-08-01",
-              "value": 1.05,
-              "rawValue": 101.0963
+              "value": 1.07,
+              "rawValue": 100.1079
             },
             {
               "date": "2022-09-01",
-              "value": 2.46,
-              "rawValue": 101.2918
+              "value": 2.45,
+              "rawValue": 100.2232
             },
             {
               "date": "2022-10-01",
-              "value": 1.06,
-              "rawValue": 101.2529
+              "value": 1.05,
+              "rawValue": 100.2358
             },
             {
               "date": "2022-11-01",
-              "value": 0.09,
-              "rawValue": 100.9552
+              "value": 0.08,
+              "rawValue": 99.9636
             },
             {
               "date": "2022-12-01",
-              "value": -0.8,
-              "rawValue": 99.7664
+              "value": -0.9,
+              "rawValue": 98.6422
             },
             {
               "date": "2023-01-01",
-              "value": 0.32,
-              "rawValue": 100.505
+              "value": 0.26,
+              "rawValue": 99.6143
             },
             {
               "date": "2023-02-01",
-              "value": -0.16,
-              "rawValue": 100.6416
+              "value": -0.37,
+              "rawValue": 99.4685
             },
             {
               "date": "2023-03-01",
-              "value": -0.37,
-              "rawValue": 101.0205
+              "value": -0.45,
+              "rawValue": 99.9966
             },
             {
               "date": "2023-04-01",
-              "value": -0.18,
-              "rawValue": 101.253
+              "value": -0.25,
+              "rawValue": 100.2466
             },
             {
               "date": "2023-05-01",
-              "value": -0.4,
-              "rawValue": 100.9286
+              "value": -0.49,
+              "rawValue": 99.8582
             },
             {
               "date": "2023-06-01",
-              "value": -0.89,
-              "rawValue": 100.1196
+              "value": -0.96,
+              "rawValue": 99.1015
             },
             {
               "date": "2023-07-01",
-              "value": -0.31,
-              "rawValue": 100.9067
+              "value": -0.23,
+              "rawValue": 100.0559
             },
             {
               "date": "2023-08-01",
-              "value": -0.25,
-              "rawValue": 100.8393
+              "value": -0.08,
+              "rawValue": 100.0263
             },
             {
               "date": "2023-09-01",
-              "value": -0.27,
-              "rawValue": 101.0211
-            },
-            {
-              "date": "2023-10-01",
-              "value": -0.77,
-              "rawValue": 100.4689
-            },
-            {
-              "date": "2023-11-01",
-              "value": -0.09,
-              "rawValue": 100.8639
-            },
-            {
-              "date": "2023-12-01",
-              "value": 0.84,
-              "rawValue": 100.6031
-            },
-            {
-              "date": "2024-01-01",
-              "value": -1.28,
-              "rawValue": 99.2223
-            },
-            {
-              "date": "2024-02-01",
-              "value": -0.35,
+              "value": 0.06,
               "rawValue": 100.285
             },
             {
+              "date": "2023-10-01",
+              "value": -0.34,
+              "rawValue": 99.8911
+            },
+            {
+              "date": "2023-11-01",
+              "value": 0.54,
+              "rawValue": 100.5026
+            },
+            {
+              "date": "2023-12-01",
+              "value": 1.6,
+              "rawValue": 100.2232
+            },
+            {
+              "date": "2024-01-01",
+              "value": -0.48,
+              "rawValue": 99.1395
+            },
+            {
+              "date": "2024-02-01",
+              "value": 0.49,
+              "rawValue": 99.9593
+            },
+            {
               "date": "2024-03-01",
-              "value": -0.56,
-              "rawValue": 100.4575
+              "value": 0.3,
+              "rawValue": 100.3004
             },
             {
               "date": "2024-04-01",
-              "value": -1,
-              "rawValue": 100.2434
+              "value": -0.18,
+              "rawValue": 100.0667
             },
             {
               "date": "2024-05-01",
-              "value": -0.06,
-              "rawValue": 100.863
+              "value": 0.76,
+              "rawValue": 100.6152
             },
             {
               "date": "2024-06-01",
-              "value": 0.77,
-              "rawValue": 100.894
+              "value": 1.67,
+              "rawValue": 100.7524
             },
             {
               "date": "2024-07-01",
-              "value": -0.92,
-              "rawValue": 99.9757
+              "value": -0.25,
+              "rawValue": 99.8015
             },
             {
               "date": "2024-08-01",
-              "value": -0.41,
-              "rawValue": 100.4309
+              "value": 0.18,
+              "rawValue": 100.2101
             },
             {
               "date": "2024-09-01",
-              "value": -1.2,
-              "rawValue": 99.8084
+              "value": -0.65,
+              "rawValue": 99.6301
             },
             {
               "date": "2024-10-01",
-              "value": -0.99,
-              "rawValue": 99.4695
+              "value": -0.56,
+              "rawValue": 99.3356
             },
             {
               "date": "2024-11-01",
-              "value": -1.56,
-              "rawValue": 99.2925
+              "value": -1.15,
+              "rawValue": 99.3425
             },
             {
               "date": "2024-12-01",
-              "value": -0.27,
-              "rawValue": 100.3273
+              "value": -0.05,
+              "rawValue": 100.1684
             },
             {
               "date": "2025-01-01",
-              "value": 0.85,
-              "rawValue": 100.0647
+              "value": 1.17,
+              "rawValue": 100.3001
             },
             {
               "date": "2025-02-01",
-              "value": 0.81,
-              "rawValue": 101.0993
+              "value": 0.93,
+              "rawValue": 100.8885
             },
             {
               "date": "2025-03-01",
-              "value": 0.58,
-              "rawValue": 101.0404
+              "value": 0.62,
+              "rawValue": 100.9221
             },
             {
               "date": "2025-04-01",
-              "value": 0.88,
-              "rawValue": 101.1279
+              "value": 0.74,
+              "rawValue": 100.8063
             },
             {
               "date": "2025-05-01",
-              "value": 0.1,
-              "rawValue": 100.9655
+              "value": -0.05,
+              "rawValue": 100.5608
             },
             {
               "date": "2025-06-01",
-              "value": 0.58,
-              "rawValue": 101.4785
+              "value": 0.28,
+              "rawValue": 101.0358
             },
             {
               "date": "2025-07-01",
-              "value": 1.92,
-              "rawValue": 101.894
+              "value": 1.48,
+              "rawValue": 101.2766
             },
             {
               "date": "2025-08-01",
-              "value": 1.19,
-              "rawValue": 101.6247
+              "value": 0.7,
+              "rawValue": 100.9114
             },
             {
               "date": "2025-09-01",
-              "value": 1.86,
-              "rawValue": 101.668
+              "value": 1.36,
+              "rawValue": 100.9893
             },
             {
               "date": "2025-10-01",
-              "value": 1.76,
-              "rawValue": 101.2195
+              "value": 1.25,
+              "rawValue": 100.5732
             },
             {
               "date": "2025-11-01",
-              "value": 1.75,
-              "rawValue": 101.0344
+              "value": 1.11,
+              "rawValue": 100.4411
             },
             {
               "date": "2025-12-01",
-              "value": 1.16,
-              "rawValue": 101.4941
+              "value": 0.54,
+              "rawValue": 100.7055
             },
             {
               "date": "2026-01-01",
-              "value": 0.97,
-              "rawValue": 101.0388
+              "value": 0.03,
+              "rawValue": 100.3329
             },
             {
               "date": "2026-02-01",
-              "value": 0.8,
-              "rawValue": 101.9053
+              "value": 0.13,
+              "rawValue": 101.0208
             },
             {
               "date": "2026-03-01",
-              "value": 0.69,
-              "rawValue": 101.7336
+              "value": 0.24,
+              "rawValue": 101.1593
             },
             {
               "date": "2026-04-01",
-              "value": 1.43,
-              "rawValue": 102.5768
+              "value": 0.83,
+              "rawValue": 101.6393
             },
             {
               "date": "2026-05-01",
-              "value": 1.71,
-              "rawValue": 102.6925
+              "value": 1.21,
+              "rawValue": 101.7781
             },
             {
               "date": "2026-06-01",
-              "value": 1.47,
-              "rawValue": 102.9673
+              "value": 0.94,
+              "rawValue": 101.9827
             },
             {
               "date": "2026-07-01",
-              "value": 1.25,
-              "rawValue": 103.1675
+              "value": 0.92,
+              "rawValue": 102.2082
             },
             {
               "date": "2026-08-01",
-              "value": 1.45,
-              "rawValue": 103.0954
+              "value": 1.14,
+              "rawValue": 102.0644
             },
             {
               "date": "2026-09-01",
-              "value": 2.14,
-              "rawValue": 103.8458
+              "value": 1.67,
+              "rawValue": 102.6785
             },
             {
               "date": "2026-10-01",
-              "value": 2.15,
-              "rawValue": 103.3954
+              "value": 1.66,
+              "rawValue": 102.2421
             }
           ],
-          "valueText": "2.15%",
-          "changeText": "+0.01%",
-          "changeDirection": "up",
+          "valueText": "1.66%",
+          "changeText": "-0.01%",
+          "changeDirection": "down",
           "asOfText": "2026-10",
           "isStale": false,
           "statusLabel": "Watch",
           "statusTone": "neutral",
-          "brief": "Momentum is improving; Monitoring"
+          "brief": "Momentum is softening; Monitoring"
         },
         {
           "key": "ismManufacturing",
@@ -633,328 +621,328 @@
           "frequency": "monthly",
           "frequencyLabel": "Monthly",
           "importance": "high",
-          "marketSignal": "Factory activity is expanding",
+          "marketSignal": "Factory activity is stabilizing",
           "latest": {
             "date": "2026-10-01",
-            "value": 2.58,
-            "rawValue": 99.7246
+            "value": 1.97,
+            "rawValue": 101.7173
           },
           "previous": {
             "date": "2026-09-01",
-            "value": 1.43,
-            "rawValue": 99.4528
+            "value": 0.98,
+            "rawValue": 101.4384
           },
-          "change": 1.15,
+          "change": 0.99,
           "history": [
             {
               "date": "2021-11-01",
-              "value": 3.04,
-              "rawValue": 99.0146
+              "value": 3.15,
+              "rawValue": 100.9682
             },
             {
               "date": "2021-12-01",
-              "value": 2.11,
-              "rawValue": 98.897
+              "value": 2.19,
+              "rawValue": 100.8849
             },
             {
               "date": "2022-01-01",
-              "value": 0.16,
-              "rawValue": 97.9535
+              "value": 0.21,
+              "rawValue": 99.9923
             },
             {
               "date": "2022-02-01",
-              "value": 5.1,
-              "rawValue": 98.5223
+              "value": 5.19,
+              "rawValue": 100.528
             },
             {
               "date": "2022-03-01",
-              "value": 2.37,
-              "rawValue": 98.9704
+              "value": 2.42,
+              "rawValue": 100.9726
             },
             {
               "date": "2022-04-01",
-              "value": 2.09,
-              "rawValue": 98.9204
+              "value": 2.27,
+              "rawValue": 100.9442
             },
             {
               "date": "2022-05-01",
-              "value": 0.54,
-              "rawValue": 98.4799
+              "value": 0.74,
+              "rawValue": 100.4502
             },
             {
               "date": "2022-06-01",
-              "value": -0.03,
-              "rawValue": 97.9383
+              "value": 0.13,
+              "rawValue": 99.9327
             },
             {
               "date": "2022-07-01",
-              "value": -0.84,
-              "rawValue": 98.0214
+              "value": -0.79,
+              "rawValue": 100.0333
             },
             {
               "date": "2022-08-01",
-              "value": -0.27,
-              "rawValue": 98.0019
+              "value": -0.26,
+              "rawValue": 99.9409
             },
             {
               "date": "2022-09-01",
               "value": 0.96,
-              "rawValue": 97.9936
+              "rawValue": 99.8791
             },
             {
               "date": "2022-10-01",
-              "value": -0.2,
-              "rawValue": 98.239
+              "value": -0.16,
+              "rawValue": 100.2408
             },
             {
               "date": "2022-11-01",
-              "value": -1.57,
-              "rawValue": 97.4555
+              "value": -1.54,
+              "rawValue": 99.4102
             },
             {
               "date": "2022-12-01",
               "value": -3.18,
-              "rawValue": 95.7545
+              "rawValue": 97.6756
             },
             {
               "date": "2023-01-01",
-              "value": -0.53,
-              "rawValue": 97.4332
+              "value": -0.48,
+              "rawValue": 99.5104
             },
             {
               "date": "2023-02-01",
-              "value": -1.06,
-              "rawValue": 97.4821
+              "value": -1.14,
+              "rawValue": 99.3844
             },
             {
               "date": "2023-03-01",
-              "value": -2.14,
-              "rawValue": 96.8552
+              "value": -2.15,
+              "rawValue": 98.8038
             },
             {
               "date": "2023-04-01",
-              "value": -1.16,
-              "rawValue": 97.7738
+              "value": -1.05,
+              "rawValue": 99.8796
             },
             {
               "date": "2023-05-01",
-              "value": -0.9,
-              "rawValue": 97.5956
+              "value": -0.8,
+              "rawValue": 99.6425
             },
             {
               "date": "2023-06-01",
-              "value": -1.04,
-              "rawValue": 96.9217
+              "value": -0.9,
+              "rawValue": 99.0341
             },
             {
               "date": "2023-07-01",
-              "value": -0.73,
-              "rawValue": 97.3075
+              "value": -0.38,
+              "rawValue": 99.6558
             },
             {
               "date": "2023-08-01",
-              "value": -0.75,
-              "rawValue": 97.2654
+              "value": -0.28,
+              "rawValue": 99.6636
             },
             {
               "date": "2023-09-01",
-              "value": -0.7,
-              "rawValue": 97.3037
+              "value": -0.09,
+              "rawValue": 99.7902
             },
             {
               "date": "2023-10-01",
-              "value": -1.48,
-              "rawValue": 96.786
+              "value": -0.76,
+              "rawValue": 99.4825
             },
             {
               "date": "2023-11-01",
-              "value": -0.21,
-              "rawValue": 97.2483
+              "value": 0.73,
+              "rawValue": 100.1328
             },
             {
               "date": "2023-12-01",
-              "value": 1.56,
-              "rawValue": 97.2445
+              "value": 2.7,
+              "rawValue": 100.3155
             },
             {
               "date": "2024-01-01",
-              "value": -1.73,
-              "rawValue": 95.7457
+              "value": -0.62,
+              "rawValue": 98.8971
             },
             {
               "date": "2024-02-01",
-              "value": -0.54,
-              "rawValue": 96.9553
+              "value": 0.64,
+              "rawValue": 100.024
             },
             {
               "date": "2024-03-01",
-              "value": 0.24,
-              "rawValue": 97.0896
+              "value": 1.46,
+              "rawValue": 100.2421
             },
             {
               "date": "2024-04-01",
-              "value": -1.24,
-              "rawValue": 96.564
+              "value": -0.13,
+              "rawValue": 99.7501
             },
             {
               "date": "2024-05-01",
-              "value": -0.5,
-              "rawValue": 97.1046
+              "value": 0.6,
+              "rawValue": 100.2412
             },
             {
               "date": "2024-06-01",
-              "value": 0,
-              "rawValue": 96.9264
+              "value": 1.18,
+              "rawValue": 100.2061
             },
             {
               "date": "2024-07-01",
-              "value": -1.17,
-              "rawValue": 96.1663
+              "value": -0.35,
+              "rawValue": 99.311
             },
             {
               "date": "2024-08-01",
-              "value": -0.66,
-              "rawValue": 96.6244
+              "value": 0.04,
+              "rawValue": 99.7014
             },
             {
               "date": "2024-09-01",
-              "value": -1.25,
-              "rawValue": 96.0864
+              "value": -0.64,
+              "rawValue": 99.148
             },
             {
               "date": "2024-10-01",
-              "value": -1.39,
-              "rawValue": 95.4449
+              "value": -0.82,
+              "rawValue": 98.6659
             },
             {
               "date": "2024-11-01",
-              "value": -1.57,
-              "rawValue": 95.7246
+              "value": -1.16,
+              "rawValue": 98.9731
             },
             {
               "date": "2024-12-01",
-              "value": -1.12,
-              "rawValue": 96.1524
+              "value": -0.95,
+              "rawValue": 99.3578
             },
             {
               "date": "2025-01-01",
-              "value": 0.02,
-              "rawValue": 95.7673
+              "value": 0.25,
+              "rawValue": 99.148
             },
             {
               "date": "2025-02-01",
-              "value": 0,
-              "rawValue": 96.9554
+              "value": -0.03,
+              "rawValue": 99.9962
             },
             {
               "date": "2025-03-01",
-              "value": 0.31,
-              "rawValue": 97.3898
+              "value": 0.08,
+              "rawValue": 100.3187
             },
             {
               "date": "2025-04-01",
-              "value": 0.79,
-              "rawValue": 97.3314
+              "value": 0.41,
+              "rawValue": 100.1607
             },
             {
               "date": "2025-05-01",
-              "value": 0.15,
-              "rawValue": 97.2482
+              "value": -0.27,
+              "rawValue": 99.9663
             },
             {
               "date": "2025-06-01",
-              "value": 0.67,
-              "rawValue": 97.5794
+              "value": 0.11,
+              "rawValue": 100.3129
             },
             {
               "date": "2025-07-01",
-              "value": 1.98,
-              "rawValue": 98.0693
+              "value": 1.38,
+              "rawValue": 100.6831
             },
             {
               "date": "2025-08-01",
-              "value": 1.51,
-              "rawValue": 98.084
+              "value": 0.81,
+              "rawValue": 100.5112
             },
             {
               "date": "2025-09-01",
-              "value": 2.04,
-              "rawValue": 98.0473
+              "value": 1.31,
+              "rawValue": 100.4494
             },
             {
               "date": "2025-10-01",
-              "value": 1.85,
-              "rawValue": 97.2128
+              "value": 1.1,
+              "rawValue": 99.7554
             },
             {
               "date": "2025-11-01",
-              "value": 1.47,
-              "rawValue": 97.1299
+              "value": 0.58,
+              "rawValue": 99.5519
             },
             {
               "date": "2025-12-01",
-              "value": 0.87,
-              "rawValue": 96.9857
+              "value": 0.16,
+              "rawValue": 99.5167
             },
             {
               "date": "2026-01-01",
-              "value": 1.37,
-              "rawValue": 97.0786
+              "value": 0.46,
+              "rawValue": 99.6
             },
             {
               "date": "2026-02-01",
-              "value": 0.8,
-              "rawValue": 97.733
+              "value": 0.12,
+              "rawValue": 100.116
             },
             {
               "date": "2026-03-01",
-              "value": 0.72,
-              "rawValue": 98.0924
+              "value": 0.12,
+              "rawValue": 100.4376
             },
             {
               "date": "2026-04-01",
-              "value": 1.55,
-              "rawValue": 98.8383
+              "value": 0.93,
+              "rawValue": 101.09
             },
             {
               "date": "2026-05-01",
-              "value": 1.75,
-              "rawValue": 98.9457
+              "value": 1.24,
+              "rawValue": 101.2051
             },
             {
               "date": "2026-06-01",
-              "value": 1.76,
-              "rawValue": 99.2934
+              "value": 1.16,
+              "rawValue": 101.4781
             },
             {
               "date": "2026-07-01",
-              "value": 1.4,
-              "rawValue": 99.4409
+              "value": 0.87,
+              "rawValue": 101.5611
             },
             {
               "date": "2026-08-01",
-              "value": 1.13,
-              "rawValue": 99.1965
+              "value": 0.69,
+              "rawValue": 101.2025
             },
             {
               "date": "2026-09-01",
-              "value": 1.43,
-              "rawValue": 99.4528
+              "value": 0.98,
+              "rawValue": 101.4384
             },
             {
               "date": "2026-10-01",
-              "value": 2.58,
-              "rawValue": 99.7246
+              "value": 1.97,
+              "rawValue": 101.7173
             }
           ],
-          "valueText": "2.58%",
-          "changeText": "+1.15%",
+          "valueText": "1.97%",
+          "changeText": "+0.99%",
           "changeDirection": "up",
           "asOfText": "2026-10",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
-          "brief": "Momentum is improving; Factory activity is expanding"
+          "brief": "Momentum is improving; Factory activity is stabilizing"
         },
         {
           "key": "existingHomeSales",
@@ -3080,32 +3068,17 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-11-20",
+            "date": "2026-11-23",
             "value": 3.88,
             "rawValue": 3.88
           },
           "previous": {
-            "date": "2026-11-19",
+            "date": "2026-11-22",
             "value": 3.88,
             "rawValue": 3.88
           },
           "change": 0,
           "history": [
-            {
-              "date": "2026-09-22",
-              "value": 3.88,
-              "rawValue": 3.88
-            },
-            {
-              "date": "2026-09-23",
-              "value": 3.88,
-              "rawValue": 3.88
-            },
-            {
-              "date": "2026-09-24",
-              "value": 3.88,
-              "rawValue": 3.88
-            },
             {
               "date": "2026-09-25",
               "value": 3.88,
@@ -3390,12 +3363,27 @@
               "date": "2026-11-20",
               "value": 3.88,
               "rawValue": 3.88
+            },
+            {
+              "date": "2026-11-21",
+              "value": 3.88,
+              "rawValue": 3.88
+            },
+            {
+              "date": "2026-11-22",
+              "value": 3.88,
+              "rawValue": 3.88
+            },
+            {
+              "date": "2026-11-23",
+              "value": 3.88,
+              "rawValue": 3.88
             }
           ],
           "valueText": "3.88%",
           "changeText": "0%",
           "changeDirection": "flat",
-          "asOfText": "2026-11-20",
+          "asOfText": "2026-11-23",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
@@ -5760,15 +5748,15 @@
           "importance": "medium",
           "marketSignal": "Inflation expectations are stable",
           "latest": {
-            "date": "2026-11-23",
-            "value": 2.13,
-            "rawValue": 2.13
+            "date": "2026-11-24",
+            "value": 2.12,
+            "rawValue": 2.12
           },
           "previous": {
-            "date": "2026-11-20",
-            "value": 2.15
+            "date": "2026-11-23",
+            "value": 2.13
           },
-          "change": -0.02,
+          "change": -0.01,
           "history": [
             {
               "date": "2025-01-02",
@@ -8134,12 +8122,17 @@
               "date": "2026-11-23",
               "value": 2.13,
               "rawValue": 2.13
+            },
+            {
+              "date": "2026-11-24",
+              "value": 2.12,
+              "rawValue": 2.12
             }
           ],
-          "valueText": "2.13%",
-          "changeText": "-0.02%",
+          "valueText": "2.12%",
+          "changeText": "-0.01%",
           "changeDirection": "down",
-          "asOfText": "2026-11-23",
+          "asOfText": "2026-11-24",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
@@ -8158,15 +8151,15 @@
           "importance": "high",
           "marketSignal": "Real yields are restrictive",
           "latest": {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "value": 2.79,
             "rawValue": 2.79
           },
           "previous": {
-            "date": "2026-11-20",
-            "value": 2.77
+            "date": "2026-11-23",
+            "value": 2.79
           },
-          "change": 0.02,
+          "change": 0,
           "history": [
             {
               "date": "2025-01-02",
@@ -10532,16 +10525,21 @@
               "date": "2026-11-23",
               "value": 2.79,
               "rawValue": 2.79
+            },
+            {
+              "date": "2026-11-24",
+              "value": 2.79,
+              "rawValue": 2.79
             }
           ],
           "valueText": "2.79%",
-          "changeText": "+0.02%",
-          "changeDirection": "up",
-          "asOfText": "2026-11-23",
+          "changeText": "0%",
+          "changeDirection": "flat",
+          "asOfText": "2026-11-24",
           "isStale": false,
           "statusLabel": "Caution",
           "statusTone": "caution",
-          "brief": "Momentum is improving; real-rate pressure is unfriendly for long-duration assets"
+          "brief": "Momentum is unchanged; real-rate pressure is unfriendly for long-duration assets"
         },
         {
           "key": "curve2s10s",
@@ -10556,15 +10554,15 @@
           "importance": "high",
           "marketSignal": "Curve has re-steepened",
           "latest": {
-            "date": "2026-11-23",
-            "value": 29,
-            "rawValue": 29
+            "date": "2026-11-24",
+            "value": 28,
+            "rawValue": 28
           },
           "previous": {
-            "date": "2026-11-20",
+            "date": "2026-11-23",
             "value": 29
           },
-          "change": 0,
+          "change": -1,
           "history": [
             {
               "date": "2025-01-02",
@@ -12930,16 +12928,21 @@
               "date": "2026-11-23",
               "value": 29,
               "rawValue": 29
+            },
+            {
+              "date": "2026-11-24",
+              "value": 28,
+              "rawValue": 28
             }
           ],
-          "valueText": "29 bp",
-          "changeText": "0bp",
-          "changeDirection": "flat",
-          "asOfText": "2026-11-23",
+          "valueText": "28 bp",
+          "changeText": "-1bp",
+          "changeDirection": "down",
+          "asOfText": "2026-11-24",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
-          "brief": "Momentum is unchanged; curve re-steepening fits better with reflation than recession panic"
+          "brief": "Momentum is softening; curve re-steepening fits better with reflation than recession panic"
         },
         {
           "key": "treasury30y",
@@ -12954,15 +12957,15 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-11-23",
-            "value": 5.29,
-            "rawValue": 5.29
+            "date": "2026-11-24",
+            "value": 5.3,
+            "rawValue": 5.3
           },
           "previous": {
-            "date": "2026-11-20",
-            "value": 5.31
+            "date": "2026-11-23",
+            "value": 5.29
           },
-          "change": -0.02,
+          "change": 0.01,
           "history": [
             {
               "date": "2025-01-02",
@@ -15328,16 +15331,21 @@
               "date": "2026-11-23",
               "value": 5.29,
               "rawValue": 5.29
+            },
+            {
+              "date": "2026-11-24",
+              "value": 5.3,
+              "rawValue": 5.3
             }
           ],
-          "valueText": "5.29%",
-          "changeText": "-0.02%",
-          "changeDirection": "down",
-          "asOfText": "2026-11-23",
+          "valueText": "5.3%",
+          "changeText": "+0.01%",
+          "changeDirection": "up",
+          "asOfText": "2026-11-24",
           "isStale": false,
           "statusLabel": "Stress",
           "statusTone": "negative",
-          "brief": "Momentum is softening; Monitoring"
+          "brief": "Momentum is improving; Monitoring"
         },
         {
           "key": "treasury10y",
@@ -15352,15 +15360,15 @@
           "importance": "high",
           "marketSignal": "Long-end yields are pressuring valuation",
           "latest": {
-            "date": "2026-11-23",
-            "value": 4.92,
-            "rawValue": 4.92
+            "date": "2026-11-24",
+            "value": 4.91,
+            "rawValue": 4.91
           },
           "previous": {
-            "date": "2026-11-20",
+            "date": "2026-11-23",
             "value": 4.92
           },
-          "change": 0,
+          "change": -0.01,
           "history": [
             {
               "date": "2025-01-02",
@@ -17726,16 +17734,21 @@
               "date": "2026-11-23",
               "value": 4.92,
               "rawValue": 4.92
+            },
+            {
+              "date": "2026-11-24",
+              "value": 4.91,
+              "rawValue": 4.91
             }
           ],
-          "valueText": "4.92%",
-          "changeText": "0%",
-          "changeDirection": "flat",
-          "asOfText": "2026-11-23",
+          "valueText": "4.91%",
+          "changeText": "-0.01%",
+          "changeDirection": "down",
+          "asOfText": "2026-11-24",
           "isStale": false,
           "statusLabel": "Stress",
           "statusTone": "negative",
-          "brief": "Momentum is unchanged; discount-rate pressure on equities remains high"
+          "brief": "Momentum is softening; discount-rate pressure on equities remains high"
         },
         {
           "key": "treasury2y",
@@ -17750,12 +17763,12 @@
           "importance": "high",
           "marketSignal": "Monitoring",
           "latest": {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "value": 4.63,
             "rawValue": 4.63
           },
           "previous": {
-            "date": "2026-11-20",
+            "date": "2026-11-23",
             "value": 4.63
           },
           "change": 0,
@@ -20124,12 +20137,17 @@
               "date": "2026-11-23",
               "value": 4.63,
               "rawValue": 4.63
+            },
+            {
+              "date": "2026-11-24",
+              "value": 4.63,
+              "rawValue": 4.63
             }
           ],
           "valueText": "4.63%",
           "changeText": "0%",
           "changeDirection": "flat",
-          "asOfText": "2026-11-23",
+          "asOfText": "2026-11-24",
           "isStale": false,
           "statusLabel": "Stress",
           "statusTone": "negative",
@@ -20148,22 +20166,17 @@
           "importance": "medium",
           "marketSignal": "Monitoring",
           "latest": {
+            "date": "2026-11-23",
+            "value": 7237.17,
+            "rawValue": 7237.17
+          },
+          "previous": {
             "date": "2026-11-20",
             "value": 6910.39,
             "rawValue": 6910.39
           },
-          "previous": {
-            "date": "2026-11-19",
-            "value": 7175.83,
-            "rawValue": 7175.83
-          },
-          "change": -265.44,
+          "change": 326.78,
           "history": [
-            {
-              "date": "2026-08-28",
-              "value": 7711.76,
-              "rawValue": 7711.76
-            },
             {
               "date": "2026-08-31",
               "value": 7686.14,
@@ -20458,16 +20471,21 @@
               "date": "2026-11-20",
               "value": 6910.39,
               "rawValue": 6910.39
+            },
+            {
+              "date": "2026-11-23",
+              "value": 7237.17,
+              "rawValue": 7237.17
             }
           ],
-          "valueText": "6,910",
-          "changeText": "-265.44",
-          "changeDirection": "down",
-          "asOfText": "2026-11-20",
+          "valueText": "7,237",
+          "changeText": "+326.78",
+          "changeDirection": "up",
+          "asOfText": "2026-11-23",
           "isStale": false,
           "statusLabel": "Watch",
           "statusTone": "neutral",
-          "brief": "Momentum is softening; Monitoring"
+          "brief": "Momentum is improving; Monitoring"
         },
         {
           "key": "creditSpread",
@@ -20482,22 +20500,17 @@
           "importance": "high",
           "marketSignal": "Credit conditions are easy",
           "latest": {
+            "date": "2026-11-23",
+            "value": 0.97,
+            "rawValue": 0.97
+          },
+          "previous": {
             "date": "2026-11-20",
             "value": 0.98,
             "rawValue": 0.98
           },
-          "previous": {
-            "date": "2026-11-19",
-            "value": 0.94,
-            "rawValue": 0.94
-          },
-          "change": 0.04,
+          "change": -0.01,
           "history": [
-            {
-              "date": "2026-08-31",
-              "value": 0.8,
-              "rawValue": 0.8
-            },
             {
               "date": "2026-09-01",
               "value": 0.81,
@@ -20792,16 +20805,21 @@
               "date": "2026-11-20",
               "value": 0.98,
               "rawValue": 0.98
+            },
+            {
+              "date": "2026-11-23",
+              "value": 0.97,
+              "rawValue": 0.97
             }
           ],
-          "valueText": "0.98%",
-          "changeText": "+0.04%",
-          "changeDirection": "up",
-          "asOfText": "2026-11-20",
+          "valueText": "0.97%",
+          "changeText": "-0.01%",
+          "changeDirection": "down",
+          "asOfText": "2026-11-23",
           "isStale": false,
           "statusLabel": "Healthy",
           "statusTone": "positive",
-          "brief": "Momentum is improving; credit still supports risk appetite"
+          "brief": "Momentum is softening; credit still supports risk appetite"
         },
         {
           "key": "dxyBroad",
@@ -21219,7 +21237,7 @@
     {
       "alertId": "metric-cf4c06d3eea1",
       "fingerprint": "metric-release:retailSales:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Retail Sales YoY 更新",
@@ -21239,7 +21257,7 @@
     {
       "alertId": "metric-5f8146b2e190",
       "fingerprint": "metric-release:nonfarmPayrolls:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Nonfarm Payrolls MoM 更新",
@@ -21259,7 +21277,7 @@
     {
       "alertId": "metric-a1e895364c27",
       "fingerprint": "metric-release:unemploymentRate:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Unemployment Rate 更新",
@@ -21279,7 +21297,7 @@
     {
       "alertId": "metric-bd6024dba767",
       "fingerprint": "metric-release:initialClaims:2026-11-14",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Initial Jobless Claims 更新",
@@ -21299,7 +21317,7 @@
     {
       "alertId": "metric-1f6d89569d82",
       "fingerprint": "metric-release:joltsOpenings:2026-09-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "JOLTS Openings 更新",
@@ -21319,7 +21337,7 @@
     {
       "alertId": "metric-04dc6eede315",
       "fingerprint": "metric-release:housingStarts:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Housing Starts 更新",
@@ -21339,7 +21357,7 @@
     {
       "alertId": "metric-9458e93c09f0",
       "fingerprint": "metric-release:existingHomeSales:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Existing Home Sales 更新",
@@ -21359,11 +21377,11 @@
     {
       "alertId": "metric-9e882695b1ca",
       "fingerprint": "metric-release:ismManufacturing:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Manufacturing Output YoY 更新",
-      "body": "Manufacturing Output YoY 发布了新值 2.58 %，当前解读为“Factory activity is expanding”。",
+      "body": "Manufacturing Output YoY 发布了新值 1.97 %，当前解读为“Factory activity is stabilizing”。",
       "impactedAssets": [
         "增长",
         "Fed",
@@ -21373,17 +21391,17 @@
       "metadata": {
         "metricKey": "ismManufacturing",
         "observationDate": "2026-10-01",
-        "change": 1.15
+        "change": 0.99
       }
     },
     {
       "alertId": "metric-b3ff64a4ac51",
       "fingerprint": "metric-release:industrialProduction:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Industrial Production YoY 更新",
-      "body": "Industrial Production YoY 发布了新值 2.15 %，当前解读为“Monitoring”。",
+      "body": "Industrial Production YoY 发布了新值 1.66 %，当前解读为“Monitoring”。",
       "impactedAssets": [
         "增长",
         "Fed",
@@ -21393,13 +21411,13 @@
       "metadata": {
         "metricKey": "industrialProduction",
         "observationDate": "2026-10-01",
-        "change": 0.01
+        "change": -0.01
       }
     },
     {
       "alertId": "metric-aaccbc2d06c4",
       "fingerprint": "metric-release:cpi:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline CPI YoY 更新",
@@ -21419,7 +21437,7 @@
     {
       "alertId": "metric-b665643af364",
       "fingerprint": "metric-release:coreCpi:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core CPI YoY 更新",
@@ -21439,7 +21457,7 @@
     {
       "alertId": "metric-3713f5cf415e",
       "fingerprint": "metric-release:pce:2026-09-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Headline PCE YoY 更新",
@@ -21459,7 +21477,7 @@
     {
       "alertId": "metric-4ca0acfdf766",
       "fingerprint": "metric-release:corePce:2026-09-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Core PCE YoY 更新",
@@ -21479,7 +21497,7 @@
     {
       "alertId": "metric-4193d860df16",
       "fingerprint": "metric-release:shelterCpi:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Shelter CPI YoY 更新",
@@ -21499,7 +21517,7 @@
     {
       "alertId": "metric-62f090574e65",
       "fingerprint": "metric-release:coreServicesExHousing:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Services Less Rent of Shelter YoY 更新",
@@ -21519,7 +21537,7 @@
     {
       "alertId": "metric-4cf462b6a7c4",
       "fingerprint": "metric-release:wageGrowth:2026-10-01",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "Average Hourly Earnings YoY 更新",
@@ -21537,9 +21555,9 @@
       }
     },
     {
-      "alertId": "metric-0bbabd3d109d",
-      "fingerprint": "metric-release:effectiveFedFunds:2026-11-20",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "alertId": "metric-9b2bb5ab67aa",
+      "fingerprint": "metric-release:effectiveFedFunds:2026-11-23",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Effective Fed Funds 更新",
@@ -21552,14 +21570,14 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "effectiveFedFunds",
-        "observationDate": "2026-11-20",
+        "observationDate": "2026-11-23",
         "change": 0
       }
     },
     {
       "alertId": "metric-ff4ba3b95b0a",
       "fingerprint": "metric-release:dxyBroad:2026-11-20",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "Broad Dollar Index 更新",
@@ -21577,13 +21595,13 @@
       }
     },
     {
-      "alertId": "metric-9e820ec09dbd",
-      "fingerprint": "metric-release:creditSpread:2026-11-20",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "alertId": "metric-b19be40b9a63",
+      "fingerprint": "metric-release:creditSpread:2026-11-23",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "high",
       "title": "US Corporate OAS 更新",
-      "body": "US Corporate OAS 发布了新值 0.98 %，当前解读为“Credit conditions are easy”。",
+      "body": "US Corporate OAS 发布了新值 0.97 %，当前解读为“Credit conditions are easy”。",
       "impactedAssets": [
         "估值",
         "美元",
@@ -21592,18 +21610,18 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "creditSpread",
-        "observationDate": "2026-11-20",
-        "change": 0.04
+        "observationDate": "2026-11-23",
+        "change": -0.01
       }
     },
     {
-      "alertId": "metric-df539acb05d4",
-      "fingerprint": "metric-release:sp500:2026-11-20",
-      "createdAt": "2026-11-24T06:47:23.751Z",
+      "alertId": "metric-b4086b8b8ea5",
+      "fingerprint": "metric-release:sp500:2026-11-23",
+      "createdAt": "2026-11-25T05:15:22.155Z",
       "alertType": "data_release",
       "severity": "medium",
       "title": "S&P 500 更新",
-      "body": "S&P 500 发布了新值 6910.39，当前解读为“Monitoring”。",
+      "body": "S&P 500 发布了新值 7237.17，当前解读为“Monitoring”。",
       "impactedAssets": [
         "估值",
         "美元",
@@ -21612,8 +21630,8 @@
       "emailSentAt": null,
       "metadata": {
         "metricKey": "sp500",
-        "observationDate": "2026-11-20",
-        "change": -265.44
+        "observationDate": "2026-11-23",
+        "change": 326.78
       }
     }
   ]
